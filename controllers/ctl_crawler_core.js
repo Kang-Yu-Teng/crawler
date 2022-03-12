@@ -10,9 +10,21 @@ import axios, * as others from 'axios';
 import createError from 'http-errors';
 
 import crawlerRuleModel from '../models/mod_crawler_rule.js';
-import { copyFileSync } from 'fs';
+import { copyFileSync, utimes } from 'fs';
 
 import url from 'url';
+import xpath, { select } from 'xpath';
+import { DOMParser } from 'xmldom';
+import fs from 'fs';
+import path from 'path';
+var __dirname = path.resolve();
+import htmlParser from 'html-parser';
+
+var xmlFile = fs.readFileSync(__dirname+'/data/20210914-DILA-PersonAuthority-DocuXml.xml', 'utf8');
+var xmlFileSmall = fs.readFileSync(__dirname+'/data/small.xml', 'utf8');
+const xml = Cheerio.load(xmlFile);
+//var doc = new DOMParser().parseFromString(xmlFileSmall);
+
 
 function wrapUrl(target,href,title){
     var result = {};
@@ -21,6 +33,15 @@ function wrapUrl(target,href,title){
     result["title"] = title;
     return result;
 }
+
+function wrapString(target,href,title){
+    var result = {};
+    result['obj'] = target;
+    result['href'] = href;
+    result['title'] = title;
+    return result;
+}
+
 
 
 async function defaultSolver(target,rule){
@@ -36,6 +57,7 @@ async function bookStackShelvesSolver(target,rule){
     result['child'] = [];
     result['name'] = "unknown";
     try {
+        //target = encodeURI(target);
         const response = await axios.get(target);
         const html = response.data;
         const $ = Cheerio.load(html);
@@ -68,6 +90,7 @@ async function bookStackShelfSolver(target,rule){
     result['child'] = [];
     result['name'] = "unknown";
     try {
+        //target = encodeURI(target);
         const response = await axios.get(target);
         const html = response.data;
         const $ = Cheerio.load(html);
@@ -103,6 +126,7 @@ async function bookStackBookSolver(target,rule){
     result['child'] = [];
     result['name'] = "unknown";
     try {
+        //target = encodeURI(target);
         const response = await axios.get(target);
         const html = response.data;
         const $ = Cheerio.load(html);
@@ -149,6 +173,7 @@ async function bookStackChapterSolver(target,rule){
     result['child'] = [];
     result['name'] = "unknown";
     try {
+        //target = encodeURI(target);
         const response = await axios.get(target);
         const html = response.data;
         const $ = Cheerio.load(html);
@@ -184,6 +209,7 @@ async function bookStackPageSolver(target,rule){
     result['child'] = [];
     result['name'] = "unknown";
     try {
+        //target = encodeURI(target);
         const response = await axios.get(target);
         const html = response.data;
         const $ = Cheerio.load(html);
@@ -208,7 +234,7 @@ async function bookStackPageSolver(target,rule){
         //console.log("resolver: ",$(this).attr("href"));
         return result;
     } catch (error) {
-        console.log(error);
+        //console.log(error);
         return result;
     }
 }
@@ -217,7 +243,9 @@ async function wikipediaSolver(target,rule){
     var result = {};
     result['child'] = [];
     result['name'] = "unknown";
+
     try {
+        //target = encodeURI(target);
         const response = await axios.get(target);
         const html = response.data;
         const $ = Cheerio.load(html);
@@ -275,7 +303,9 @@ async function wikipediaSolver(target,rule){
         //console.log("resolver: ",$(this).attr("href"));
         return result;
     } catch (error) {
-        console.log(error);
+        //console.log(error);
+        const url = new URL(target);
+        //result['name'] = decodeURI(url.pathname);
         return result;
     }
 }
@@ -284,62 +314,73 @@ async function normalSolver(target,rule){
     var result = {};
     result['child'] = [];
     result['name'] = "unknown";
+
     try {
-        const response = await axios.get(target);
-        const html = response.data;
-        const $ = Cheerio.load(html);
-        const current_url = new URL(target);
-        //console.log("current url:", current_url);
-        var page = $("div[id='content']").html();
+        var $=xml;
+        var page = $('PersonName:contains("'+target+'")').filter(function(){ return $(this).text() === target;}).first().parent().parent().parent().html();
         if(page != null){
             var content=Cheerio.load(page);
-            console.log("wiki name: ",content("h1[id='firstHeading']").text());
-            result['name'] = content("h1[id='firstHeading']").text();
-        }else{
-            console.log("resolver null: ", target);
-        }
-        page = $("div[id='content'] > div[id='bodyContent'] > div[id='mw-content-text'] > div[class='mw-parser-output'] > p").each(
-            function(index){
-                $(this).find("a[title]").each(
-                    function(){
-                        /* 如果沒有在黑名單才會加入 */
-                        if(rule.nodeBanlist[$(this).attr("href")] == undefined){
-                            var full_url = new URL($(this).attr("href"),current_url.origin);
-                            var full_title = $(this).attr("title");
-                            result['child'].push(wrapUrl($(this),full_url,full_title));
-                        }
-                    }
-                );
-                
-            }
-        );
-        page = $("div[id='content'] > div[id='bodyContent'] > div[id='mw-content-text'] > div[class='mw-parser-output']").each(
-            function(index){
-                $(this).find("a[title]").each(
-                    function(){
-                        /* 如果沒有在黑名單才會加入 */
-                        if(rule.nodeBanlist[$(this).attr("href")] == undefined){
-                            var full_url = new URL($(this).attr("href"),current_url.origin);
-                            var full_title = $(this).attr("title");
-                            result['child'].push(wrapUrl($(this),full_url,full_title));
-                        }
-                    }
-                );
-                
-            }
-        );
-        /*
-        page = $("div[id='content'] > div[id='bodyContent'] > div[id='mw-content-text'] > div[class='mw-parser-output'] p").html();
-        if(page != null){
-          var content=Cheerio.load(page);
-          content("a[title]").each(
-          );
+            console.log("name: ",content("author").html());
+            result['name'] = content("author").html();
+            /*
+            BUG: selector還是會選出一些奇怪的東西
+            */
+            /* 年代 */
+            content('*').find('time_dynasty').each(function (index, element) {
+                var item = $(element);
+                console.log("年代： ",item.html());
+                if(rule.nodeBanlist[item.text()] == undefined && item.html()!=null){
+                    result['child'].push(wrapString(item,item.text(),"年代"));
+                } 
+              });    
+
+            /* 籍貫 */
+            content('doc_content > Paragraph[Key="BasicInfo"]').find('Udef_JiGuan').each(function (index, element) {
+                var item = $(element);
+                console.log("籍貫： ",item.html());
+                if(rule.nodeBanlist[item.text()] == undefined && item.html()!=null){
+                    result['child'].push(wrapString(item,item.text(),"籍貫"));
+                } 
+              });        
+
+            /* 老師 */
+            content('doc_content > Paragraph[Key="BasicInfo"]').find('Udef_Association[RelCode*="teacher"]').each(function (index, element) {
+                var item = $(element);
+                console.log("老師： ",item.html());
+                if(rule.nodeBanlist[item.text()] == undefined && item.html()!=null){
+                    result['child'].push(wrapString(item,item.text(),"老師"));
+                } 
+              });
+
+            /* 學生 */
+            content('doc_content > Paragraph[Key="BasicInfo"]').find('Udef_Association[RelCode*="student"]').each(function (index, element) {
+                var item = $(element);
+                console.log("學生： ",item.html());
+                if(rule.nodeBanlist[item.text()] == undefined && item.html()!=null){
+                    result['child'].push(wrapString(item,item.text(),"學生"));
+                } 
+                });
 
         }else{
             console.log("resolver null: ", target);
+            //console.log("https://zh.wikipedia.org/wiki/"+target);
+            var et = encodeURI("https://zh.wikipedia.org/wiki/"+target);
+
+            //console.log(et);
+            return await wikipediaSolver(et,rule);
         }
+        /*
+        page = $("time_dynasty").each(
+            function(index){
+                console.log($(this).html());
+                if(rule.nodeBanlist[$(this).text()] == undefined){
+                    var full_url = $(this).text();
+                    var full_title = "年代";
+                    result['child'].push(wrapUrl($(this),full_url,full_title));
+                }               
+            }
+        );
         */
-        //console.log("resolver: ",$(this).attr("href"));
         return result;
     } catch (error) {
         console.log(error);
@@ -378,6 +419,7 @@ const  crawlerControllerCore = {
                 break;
             case 'normal_pattern':
                 console.log("normal string");
+                result = await normalSolver(target,rule);
                 /* todo */
                 break;
             default:

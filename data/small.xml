@@ -1,0 +1,107 @@
+<ThdlPrototypeExport>
+<documents>
+<document filename="dila_A000001">
+<corpus>DILA_人名規範庫</corpus>
+<title>金總持 (A000001)</title>
+<author>金總持</author>
+<time_dynasty>北宋</time_dynasty><doc_content>
+<Paragraph Key="BasicInfo">
+<b>是否歷史人物</b>: <Udef_HistOrNot>歷史人物</Udef_HistOrNot><br/>
+<b>姓名</b>: <PersonName Aux="zho-Hant">金總持</PersonName><br/>
+<b>別名</b>: <PersonName Aux="zho-Hant">金揔持</PersonName>, <PersonName Aux="zho-Hant">寶輪大師</PersonName>, <PersonName Aux="zho-Hant">明因妙善普濟法師</PersonName><br/>
+<b>別名數量</b>: <Udef_AltNameCount>03</Udef_AltNameCount><br/>
+<b>性別</b>: <Udef_Gender>男</Udef_Gender><br/>
+<b>朝代</b>: <Udef_Dynasty>北宋</Udef_Dynasty><br/>
+<b>籍貫</b>: <Udef_JiGuan PlaceRefId="dila_PL000000055425">西天竺</Udef_JiGuan>
+<Events Name="PersonRefRelationship"><NodeMapping><FromNode Type="PersonName">金總持</FromNode><ToNode Type="DilaBiogPerson">金總持</ToNode></NodeMapping><Event Name="-"><BinRel Type="譯"><RelSource Type="PersonName">金總持</RelSource><RelTarget Type="Book">佛說大乘僧伽吒法義經</RelTarget></BinRel></Event>
+<Event Name="-"><BinRel Type="譯"><RelSource Type="PersonName">金總持</RelSource><RelTarget Type="Book">佛說法乘義決定經</RelTarget></BinRel></Event>
+<Event Name="-"><BinRel Type="譯"><RelSource Type="PersonName">金總持</RelSource><RelTarget Type="Book">文殊所說最勝名義經</RelTarget></BinRel></Event>
+<Event Name="-"><BinRel Type="史傳"><RelSource Type="Book">佛祖統紀</RelSource><RelTarget Type="PersonName">金總持</RelTarget></BinRel></Event>
+<Event Name="-"><BinRel Type="史傳"><RelSource Type="Book">新續高僧傳四集</RelSource><RelTarget Type="PersonName">金總持</RelTarget></BinRel></Event></Events>
+</Paragraph>
+<Paragraph Key="NoteInfo">
+<b>簡短註解</b>: 北宋譯經僧。西天竺人。皇祐五年（1053）與智吉祥同行達於汴京，共事翻譯。賜號「寶輪大師」，後加號「明因妙善普濟法師」。政和二年，嘉州奏風雷折古樹，中有定僧，爪髮被體，詔輿至禁中。金總持令擊金磬以覺之。三年同譯語仁義，筆受宗正，南遊江浙。（《佛祖統紀》卷46；《新續高僧傳四集》卷1）<p />
+<b>著述</b>:<br/><ul><li>譯《佛說大乘僧伽吒法義經》（《中華藏》冊76）</li><li>譯《佛說法乘義決定經》三卷（《大正藏》T17）</li><li>譯《文殊所說最勝名義經》二卷（《大正藏》T17）</li></ul><p />
+<b>史傳</b>:<br/><ul><li>《佛祖統紀》卷46</li><li>《新續高僧傳四集》卷1</li></ul>
+</Paragraph>
+</doc_content>
+</document>
+<document filename="dila_A000002">
+<corpus>DILA_人名規範庫</corpus>
+<title>𧧌震 (A000002)</title>
+<author>𧧌震</author>
+<time_dynasty>清</time_dynasty><doc_content>
+<Paragraph Key="BasicInfo">
+<b>是否歷史人物</b>: <Udef_HistOrNot>歷史人物</Udef_HistOrNot><br/>
+<b>姓名</b>: <PersonName Aux="zho-Hant">𧧌震</PersonName><br/>
+<b>別名</b>: <PersonName Aux="zho-Hant">仁山𧧌震</PersonName>, <PersonName Aux="zho-Hant">仁山大師</PersonName>, <PersonName Aux="zho-Hant">寂震</PersonName>, <PersonName Aux="zho-Hant">華頂震</PersonName>, <PersonName Aux="zho-Hant">仁叟</PersonName><br/>
+<b>別名數量</b>: <Udef_AltNameCount>05</Udef_AltNameCount><br/>
+<b>性別</b>: <Udef_Gender>男</Udef_Gender><br/>
+<b>朝代</b>: <Udef_Dynasty>清</Udef_Dynasty><br/>
+<p/><b>師徒關係</b>:<br/><b>老師</b>:<br/><ol><li><Udef_Association PersonRefId="dila_A000242" RelType="TeacherStudent" RelCode="teacher" RelAux="teacher">弘璧</Udef_Association>&#160;<Udef_AssoSource Url="http://cbetaonline.dila.edu.tw/X82n1571_p0455b03">《五燈全書(第34卷-第120卷)》卷83：「天台華頂仁叟震禪師……(剖石璧嗣)。」</Udef_AssoSource></li></ol>
+<Events Name="PersonRefRelationship"><NodeMapping><FromNode Type="PersonName">𧧌震</FromNode><ToNode Type="DilaBiogPerson">𧧌震</ToNode></NodeMapping><Event Name="-"><BinRel Type="著述"><RelSource Type="PersonName">𧧌震</RelSource><RelTarget Type="Book">金剛三昧經通宗記</RelTarget></BinRel></Event>
+<Event Name="-"><BinRel Type="史傳"><RelSource Type="Book">鄧尉山聖恩寺志</RelSource><RelTarget Type="PersonName">𧧌震</RelTarget></BinRel></Event></Events>
+
+<Events Name="TeacherStudentRelationship"><NodeMapping><FromNode Type="PersonName">𧧌震</FromNode><ToNode Type="DilaBiogPerson">𧧌震</ToNode></NodeMapping><Event Name="-"><BinRel Type="老師是 Y" Meta="弘璧 《五燈全書(第34卷-第120卷)》卷83：「天台華頂仁叟震禪師……(剖石璧嗣)。」"><RelSource Type="PersonName">𧧌震</RelSource><RelTarget Type="PersonName">弘璧</RelTarget></BinRel></Event></Events>
+</Paragraph>
+<Paragraph Key="NoteInfo">
+<b>簡短註解</b>: 生卒年不詳。於康熙三十年始為鄧尉山聖恩寺上堂。著有《金剛三昧經通宗記》十二卷，堪忍學人魏學渠為其作序。（《鄧尉山聖恩寺志》卷9；〈金剛三昧經通宗記序〉）<p />
+<b>著述</b>:<br/><ul><li>《金剛三昧經通宗記》十二卷（《卍續藏》X35）</li></ul><p />
+<b>史傳</b>:<br/><ul><li>《鄧尉山聖恩寺志》卷 9</li></ul>
+</Paragraph>
+</doc_content>
+</document>
+
+<document filename="dila_A044124">
+<corpus>DILA_人名規範庫</corpus>
+<title>魚巖老人 (A044124)</title>
+<author>魚巖老人</author>
+<time_dynasty>元</time_dynasty><doc_content>
+<Paragraph Key="BasicInfo">
+<b>是否歷史人物</b>: <Udef_HistOrNot>歷史人物</Udef_HistOrNot><br/>
+<b>姓名</b>: <PersonName Aux="zho-Hant">魚巖老人</PersonName><br/>
+<b>別名</b>: <PersonName Aux="zho-Hant">魚嚴老人</PersonName>, <PersonName Aux="zho-Hant">祥公</PersonName><br/>
+<b>別名數量</b>: <Udef_AltNameCount>02</Udef_AltNameCount><br/>
+<b>性別</b>: <Udef_Gender>男</Udef_Gender><br/>
+<b>朝代</b>: <Udef_Dynasty>元</Udef_Dynasty><br/>
+<p/><b>師徒關係</b>:<br/><b>弟子</b>:<br/><ol><li><Udef_Association PersonRefId="dila_A000079" RelType="TeacherStudent" RelCode="student" RelAux="student">子成</Udef_Association>&#160;<Udef_AssoSource Url="http://cbetaonline.dila.edu.tw/B27n0151_p0446b15">《新續高僧傳》卷61：「遇魚嚴老人祥公處得法」</Udef_AssoSource></li></ol>
+<Events Name="TeacherStudentRelationship"><NodeMapping><FromNode Type="PersonName">魚巖老人</FromNode><ToNode Type="DilaBiogPerson">魚巖老人</ToNode></NodeMapping><Event Name="-"><BinRel Type="徒弟是 Y" Meta="子成 《新續高僧傳》卷61：「遇魚嚴老人祥公處得法」"><RelSource Type="PersonName">魚巖老人</RelSource><RelTarget Type="PersonName">子成</RelTarget></BinRel></Event></Events>
+</Paragraph>
+<Paragraph Key="NoteInfo">
+<b>簡短註解</b>: 有弟子彥美子成。（B27n0151_p0446b15）
+</Paragraph>
+</doc_content>
+</document>
+
+<document filename="dila_A001583">
+<corpus>DILA_人名規範庫</corpus>
+<title>鳩摩羅什 (A001583)</title>
+<author>鳩摩羅什</author>
+<time_dynasty>後秦</time_dynasty><doc_content>
+<Paragraph Key="BasicInfo">
+<b>是否歷史人物</b>: <Udef_HistOrNot>歷史人物</Udef_HistOrNot><br/>
+<b>姓名</b>: <PersonName Aux="zho-Hant">鳩摩羅什</PersonName> (<PersonName Aux="san-Latn">Kumārajīva</PersonName>)<br/>
+<b>別名</b>: <PersonName Aux="zho-Hant">什</PersonName>, <PersonName Aux="zho-Hant">童壽</PersonName>, <PersonName Aux="zho-Hant">什師</PersonName>, <PersonName Aux="zho-Hant">什公</PersonName>, <PersonName Aux="zho-Hant">羅什</PersonName>, <PersonName Aux="zho-Hant">鳩摩羅耆婆</PersonName>, <PersonName Aux="zho-Hant">究摩羅什</PersonName>, <PersonName Aux="zho-Hant">鳩摩羅什婆</PersonName>, <PersonName Aux="zho-Hant">拘摩羅耆婆</PersonName>, <PersonName Aux="zho-Hant">究摩羅耆婆</PersonName>, <PersonName Aux="zho-Hant">鳩摩羅伏</PersonName>, <PersonName Aux="zho-Hant">童受</PersonName><br/>
+<b>別名數量</b>: <Udef_AltNameCount>12</Udef_AltNameCount><br/>
+<b>性別</b>: <Udef_Gender>男</Udef_Gender><br/>
+<b>生年</b>: <Udef_BirthYear Term="+0344">+0344-01-01 ~ +0344-12-31</Udef_BirthYear><span class="note">依記錄推算。</span><br/>
+<b>卒年</b>: <Udef_DeathYear Aux="+0413">+0413-05-29</Udef_DeathYear><span class="note">癸丑之年。年七十。四月十三日薨于大寺。（T52n2103_p0264c18）</span><br/>
+<b>高僧傳分科</b>: <Udef_Occupation>譯經</Udef_Occupation><br/>
+<b>朝代</b>: <Udef_Dynasty>後秦</Udef_Dynasty><br/>
+<b>籍貫</b>: <Udef_JiGuan PlaceRefId="dila_PL000000047823">龜茲</Udef_JiGuan><br/>
+<b>圓寂地</b>: <Udef_BurialPlace Url="http://authority.dila.edu.tw/place/">草堂寺</Udef_BurialPlace> 〔鳩摩羅什舍利塔位於陝西省西安市西南三十餘公里戶縣的草堂寺內。（http://baike.baidu.com/view/1271250.htm，2010.12.09）〕<br/>
+<p/><b>師徒關係</b>:<br/><b>老師</b>:<br/><ol><li><Udef_Association PersonRefId="dila_A002547" RelType="TeacherStudent" RelCode="teacher" RelAux="teacher">須利耶蘇摩</Udef_Association>&#160;<Udef_AssoSource Url="http://cbetaonline.dila.edu.tw/T50n2059_p0330c15">《高僧傳》卷2：「其兄及諸學者，皆共師焉，什亦宗而奉之。」</Udef_AssoSource></li></ol><b>弟子</b>:<br/><ol><li><Udef_Association PersonRefId="dila_A019525" RelType="TeacherStudent" RelCode="student" RelAux="student">道融</Udef_Association>&#160;<Udef_AssoSource Url="http://cbetaonline.dila.edu.tw/T50n2059_p0363b26">《高僧傳》卷6：「聞羅什在關故往諮稟。」</Udef_AssoSource></li></ol><br/>
+<b>參考其他權威庫</b>:<br/><ul><li>Wikidata: <Udef_ExtAuthRef Url="https://www.wikidata.org/wiki/Q335293">Q335293</Udef_ExtAuthRef></li></ul>
+<Events Name="TeacherStudentRelationship"><NodeMapping><FromNode Type="PersonName">鳩摩羅什</FromNode><ToNode Type="DilaBiogPerson">鳩摩羅什</ToNode></NodeMapping><Event Name="-"><BinRel Type="老師是 Y" Meta="須利耶蘇摩 《高僧傳》卷2：「其兄及諸學者，皆共師焉，什亦宗而奉之。」"><RelSource Type="PersonName">鳩摩羅什</RelSource><RelTarget Type="PersonName">須利耶蘇摩</RelTarget></BinRel></Event>
+<Event Name="-"><BinRel Type="徒弟是 Y" Meta="道融 《高僧傳》卷6：「聞羅什在關故往諮稟。」"><RelSource Type="PersonName">鳩摩羅什</RelSource><RelTarget Type="PersonName">道融</RelTarget></BinRel></Event></Events>
+</Paragraph>
+<Paragraph Key="NoteInfo">
+<b>簡短註解</b>: 中國佛教史上四大譯師之一，三論宗之祖。七歲從母入道，初習《阿毗達磨大毗婆沙論》，復轉學大乘佛教，精通中觀。後因呂光、姚興之脅迫，淫、酒雙戒俱捨。後秦弘始三年（401）抵長安，於西明閣、逍遙園開始譯經，一生所譯經論七十四部，有《金剛經》、《阿彌陀經》、《法華經》、《大智度論》等。弟子有僧肇、道生、道融等。（佛光：5709；佛百：4928.2；<Udef_RefWithLink Url="http://zh.wikipedia.org/zh-tw/%E9%B8%A0%E6%91%A9%E7%BD%97%E4%BB%80">http://zh.wikipedia.org/zh-tw/%E9%B8%A0%E6%91%A9%E7%BD%97%E4%BB%80</Udef_RefWithLink>，2011.12.05）<p />
+<b>延伸說明</b>: （344-413 或 350-409）東晉龜茲國（新疆疏勒）人。四大譯經家之一。七歲從母入道，遊學天竺，徧參名宿，博聞強記，譽滿五天竺。呂光、姚興先後師奉之。自後秦弘始五年（403）四月，羅什先後譯出中論……等經論，門下有僧肇、道生、道融、僧叡、曇影、僧導等。主要譯作有《大品般若經》、《小品般若經》、《金剛般若經》、《阿彌陀經》、《法華經》、《維摩經》、《彌勒上生經》、《思益經》、《雜譬喻經》、《梵網經》、《華手經》、《十住經》、《中論》、《百論》、《十二門論》、《大智度論》、《十住毘婆沙論》、《成實論》、《十誦律》、《龍樹菩薩傳》、《馬鳴菩薩傳》、《提婆菩薩傳》等。（佛光：5709；佛百：4928；疑年錄：7；インド仏教：264）
+</Paragraph>
+</doc_content>
+</document>
+
+
+</documents>
+</ThdlPrototypeExport>

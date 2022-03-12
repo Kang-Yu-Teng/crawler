@@ -9,6 +9,7 @@ import {renderDot} from 'render-dot'
 import crawlerController from '../controllers/ctl_crawler.js';
 import graphController from '../controllers/ctl_graph.js';
 import missionModel from '../models/mod_mission.js';
+import crawlerRuleModel from '../models/mod_crawler_rule.js';
 
 //var missionlist = [];
 var missionlist = {};
@@ -158,7 +159,11 @@ function(req, res, next) {
     //var id = Object.keys(missionlist).length;
     var item = req.body.item.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
     //missionlist.push(item);
-    missionlist[id_counter] = item;
+    if(crawlerRuleModel.get(item)=="normal_pattern"){
+      missionlist[id_counter] = item;
+    }else{
+      missionlist[id_counter] = encodeURI(item);
+    }
     id_counter = id_counter + 1;
     //console.log("missionlist add: " + missionlist + " id: " + id);
     res.redirect('/');

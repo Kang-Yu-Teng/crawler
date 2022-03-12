@@ -98,8 +98,19 @@ const bfsController = {
                         }
                     }
                     child_limit_record[mission['url']] = maxValue;
-                }
 
+                }
+                if(mission['rule'].solverType == 'wikipedia_pattern' && crawlerRuleModel.get(mission['parent_url']) != 'wikipedia_pattern' ){
+                            
+                    let maxValue = 1;
+                    for(const [key, value] of Object.entries(child_limit_record)) {
+                        if(value > maxValue) {
+                            maxValue = value;
+                        }
+                    }
+                    child_limit_record[mission['url']] = maxValue/10;
+                    
+                }
                 /* 子點處理 */
                 result['child'].forEach(
                     (value)=>{
@@ -137,7 +148,7 @@ const bfsController = {
                                     return;
                                 }
                             }
-                            console.log("rate: ",confirm_child_record[mission['url']],"/",child_limit_record[mission['url']],"/",mission['url']);
+                            console.log("rate: ",confirm_child_record[mission['url']],"/",child_limit_record[mission['url']],"/",mission['url'],"/",new_mission['url']);
                             nodes.push(child_node);
                             edges.push(child_edge);
                             missionQueue.push(new_mission);
