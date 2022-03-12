@@ -1,0 +1,11 @@
+digraph "Missions" {
+  newrank = true;
+  overlap = false;
+  splines = true;
+  nodesep = 0.5;
+  subgraph {
+  }
+  subgraph "top" {
+    rank = "same";
+  }
+}

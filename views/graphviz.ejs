@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<body>
+<script src="https://d3js.org/d3.v7.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@hpcc-js/wasm/dist/index.min.js" type="javascript/worker"></script>
+<script src="https://unpkg.com/d3-graphviz@4.0.0/build/d3-graphviz.js"></script>
+<div id="graph" style="width: 95vw; height: 95vh; margin:auto; border: 1px solid black"></div>
+<script>
+
+var dotSrc = <%-  JSON.stringify(dot || null) %>;
+var dotSrcLines;
+
+var graphviz = d3.select("#graph");
+const width = graphviz.node().clientWidth;
+const height = graphviz.node().clientHeight;
+//    <tr><td><img src="http://yuanqingfei.me/images/sparrow2.jpeg" width="50" height="60"/></td></tr>
+//graphviz.addImage("http://yuanqingfei.me/images/sparrow2.jpeg", 50, 60);
+
+function render() {
+    dotSrcLines = dotSrc.split('\n');
+    
+    try { // statements to try
+        graphviz.graphviz()
+            .tweenPaths(false)
+            .tweenShapes(false)
+            .engine("dot")
+            .width(width)
+            .height(height)
+            .zoomScaleExtent([0.01, 100])
+            .fit(true)
+            .renderDot(dotSrc)
+            .on("end", interactive);
+    }
+    catch (e) {
+        console.log(e);
+    }
+}
+function set_edges(target,new_color,rate){
+    d3.select(target).select("path").attr("stroke", new_color); 
+    var n = d3.select(target).select("path").style("stroke-width");
+    n = parseFloat(n);
+    n = n * rate;
+    d3.select(target).select("path").style("stroke-width",n);
+    d3.select(target).select("polygon").attr("stroke", new_color); 
+    d3.select(target).select("polygon").attr("fill", new_color);
+    d3.select(target).select('text').attr("style", "fill:"+new_color); 
+}
+function interactive() {
+    //return;
+    edges = d3.selectAll(".edge");
+    edges.each(
+        function(){
+            set_edges(this,"black",4);
+        }
+    );
+    edges.on("click", function () {
+                if(d3.select(this).select("path").attr("stroke")!="red"){
+                    set_edges(this,"red",2);
+                }else{
+                    set_edges(this,"black",1/2);
+                }
+            }
+        );
+
+    
+}
+
+render(dotSrc);
+
+</script>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <style>
+    .loader {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid blue;
+        border-bottom: 16px solid blue;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+    }
+    
+    @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+    }
+      
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    </style>
+</head>
+
+<script src="https://d3js.org/d3.v7.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@hpcc-js/wasm/dist/index.min.js" type="javascript/worker"></script>
+<script src="https://unpkg.com/d3-graphviz@4.0.0/build/d3-graphviz.js"></script>
+<body>
+    <div class="loader"></div>
+</body>

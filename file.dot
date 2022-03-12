@@ -1,0 +1,3248 @@
+digraph "Missions" {
+  newrank = true;
+  overlap = false;
+  splines = true;
+  nodesep = 0.5;
+  subgraph "cluster_1" {
+    label = "任務:1";
+    "94ca28100fd0b4c7e9992776e317532d" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E7%B1%B3%E5%93%88%E4%BC%8A%E5%B0%94%C2%B7%E7%B1%B3%E5%93%88%E4%BC%8A%E6%B4%9B%E7%BB%B4%E5%A5%87%C2%B7%E5%8D%A1%E8%A5%BF%E4%BA%9A%E8%AF%BA%E5%A4%AB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7C73;&#x54C8;&#x4F0A;&#x5C14;&#xB7;&#x7C73;&#x54C8;&#x4F0A;&#x6D1B;&#x7EF4;&#x5947;&#xB7;&#x5361;&#x897F;&#x4E9A;&#x8BFA;&#x592B;</td></tr></table>>,
+    ];
+    "0ca891ee80410c428b4c952e7dc3899a" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%BC%97%E6%8B%89%E5%9F%BA%E7%B1%B3%E5%B0%94%C2%B7%E5%BC%97%E6%8B%89%E5%9F%BA%E7%B1%B3%E7%BD%97%E7%BB%B4%E5%A5%87%C2%B7%E6%99%AE%E4%BA%AC" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5F17;&#x62C9;&#x57FA;&#x7C73;&#x5C14;&#xB7;&#x666E;&#x4EAC;</td></tr></table>>,
+    ];
+    "9397682cfc4143f53baf4a64b30e42b0" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E7%BB%B4%E5%85%8B%E6%89%98%C2%B7%E9%B2%8D%E9%87%8C%E7%B4%A2%E7%BB%B4%E5%A5%87%C2%B7%E8%B5%AB%E9%87%8C%E6%96%AF%E5%9D%9A%E7%A7%91" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7EF4;&#x514B;&#x6258;&#xB7;&#x9C8D;&#x91CC;&#x7D22;&#x7EF4;&#x5947;&#xB7;&#x8D6B;&#x91CC;&#x65AF;&#x575A;&#x79D1;</td></tr></table>>,
+    ];
+    "6704fc4c842aa2bf2c972fb52548e360" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%8B%8F%E8%81%94" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x82CF;&#x8054;</td></tr></table>>,
+    ];
+    "ef4c5cc1e445b052e3905ef6bdf51f28" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%8E%AB%E6%96%AF%E7%A7%91%E5%B7%9E" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x83AB;&#x65AF;&#x79D1;&#x5DDE;</td></tr></table>>,
+    ];
+    "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BD%97%E6%96%AF" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x7F57;&#x65AF;</td></tr></table>>,
+    ];
+    "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BD%97%E6%96%AF%E6%80%BB%E7%90%86" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x7F57;&#x65AF;&#x603B;&#x7406;</td></tr></table>>,
+    ];
+    "f5bf089c0f7cb2eb79f7cf16c37f4568" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BD%97%E6%96%AF%E6%97%8F" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x7F85;&#x65AF;&#x4EBA;</td></tr></table>>,
+    ];
+    "b112425f055d78302cc9bf2250b49643" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%98%87%E8%81%AF%E5%9C%8B%E5%AE%B6%E8%A8%88%E5%8A%83%E5%A7%94%E5%93%A1%E6%9C%83" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x8607;&#x806F;&#x570B;&#x5BB6;&#x8A08;&#x5283;&#x59D4;&#x54E1;&#x6703;</td></tr></table>>,
+    ];
+    "3d7cdc86def1c2ab66e6b761ee8769eb" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E8%AE%A1%E5%A7%94" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x570B;&#x5BB6;&#x8A08;&#x5283;&#x59D4;&#x54E1;&#x6703;</td></tr></table>>,
+    ];
+    "cbf1d72bd251cb58239500d8830f252c" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BF%84%E7%99%BD%E8%81%94%E7%9B%9F" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x767D;&#x8054;&#x76DF;&#x56FD;</td></tr></table>>,
+    ];
+    "60d073f23f2887e27e4f0d5704558ee1" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%BC%97%E6%8B%89%E5%9F%BA%E7%B1%B3%E5%B0%94%C2%B7%E6%99%AE%E4%BA%AC" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5F17;&#x62C9;&#x57FA;&#x7C73;&#x5C14;&#xB7;&#x666E;&#x4EAC;</td></tr></table>>,
+    ];
+    "d72faa92e66c3369d30300dc28c937b1" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E7%BB%B4%E5%85%8B%E6%89%98%C2%B7%E8%B5%AB%E9%87%8C%E6%96%AF%E5%9D%9A%E7%A7%91" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7EF4;&#x514B;&#x6258;&#xB7;&#x9C8D;&#x91CC;&#x7D22;&#x7EF4;&#x5947;&#xB7;&#x8D6B;&#x91CC;&#x65AF;&#x575A;&#x79D1;</td></tr></table>>,
+    ];
+    "f9d1262ae443faedde781e08a2a1fc80" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/Template:%E4%BF%84%E7%BD%97%E6%96%AF%E6%94%BF%E5%BA%9C%E9%A6%96%E8%84%91" border="0" cellspacing="10" cellpadding="10" style="rounded">Template:&#x4FC4;&#x7F57;&#x65AF;&#x653F;&#x5E9C;&#x9996;&#x8111;</td></tr></table>>,
+    ];
+    "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/Template_talk:%E4%BF%84%E7%BD%97%E6%96%AF%E6%94%BF%E5%BA%9C%E9%A6%96%E8%84%91" border="0" cellspacing="10" cellpadding="10" style="rounded">Template talk:&#x4FC4;&#x7F57;&#x65AF;&#x653F;&#x5E9C;&#x9996;&#x8111;</td></tr></table>>,
+    ];
+    "dd1089d4c86fb9927ac3671b51624f83" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BD%97%E6%96%AF%E6%94%BF%E5%BA%9C%E9%A6%96%E8%84%91%E5%88%97%E8%A1%A8" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x7F57;&#x65AF;&#x653F;&#x5E9C;&#x9996;&#x8111;&#x5217;&#x8868;</td></tr></table>>,
+    ];
+    "e49a96757be0ce14508fd2133ca64db5" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BD%97%E6%96%AF%E5%B8%9D%E5%9B%BD" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x7F57;&#x65AF;&#x5E1D;&#x56FD;</td></tr></table>>,
+    ];
+    "e431cdc3a3722ab156f0f7023824cba6" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%B0%A2%E5%B0%94%E7%9B%96%C2%B7%E7%BB%B4%E7%89%B9" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x8C22;&#x5C14;&#x76D6;&#xB7;&#x7EF4;&#x7279;</td></tr></table>>,
+    ];
+    "d38f32dc57069b2b6654937372f39f4b" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BC%8A%E4%B8%87%C2%B7%E6%B4%9B%E5%90%89%E8%AF%BA%E7%BB%B4%E5%A5%87%C2%B7%E6%88%88%E5%88%97%E6%A2%85%E9%87%91" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4F0A;&#x4E07;&#xB7;&#x6D1B;&#x5409;&#x8BFA;&#x7EF4;&#x5947;&#xB7;&#x6208;&#x5217;&#x6885;&#x91D1;</td></tr></table>>,
+    ];
+    "d385744b0aeb50c4144f4e33e831681a" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%BD%BC%E5%BE%97%C2%B7%E9%98%BF%E5%B0%94%E5%8D%A1%E5%AD%A3%E8%80%B6%E7%BB%B4%E5%A5%87%C2%B7%E6%96%AF%E6%89%98%E9%9B%B7%E5%B9%B3" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5F7C;&#x5F97;&#xB7;&#x963F;&#x5C14;&#x5361;&#x5B63;&#x8036;&#x7EF4;&#x5947;&#xB7;&#x65AF;&#x6258;&#x96F7;&#x5E73;</td></tr></table>>,
+    ];
+    "8601fc8b8204dc09bbd416850d57e11b" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%BC%97%E6%8B%89%E5%9F%BA%E7%B1%B3%E5%B0%94%C2%B7%E5%B0%BC%E5%8F%A4%E6%8B%89%E8%80%B6%E7%BB%B4%E5%A5%87%C2%B7%E7%A7%91%E7%A7%91%E5%A4%AB%E4%BD%90%E5%A4%AB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5F17;&#x62C9;&#x57FA;&#x7C73;&#x5C14;&#xB7;&#x5C3C;&#x53E4;&#x62C9;&#x8036;&#x7EF4;&#x5947;&#xB7;&#x79D1;&#x79D1;&#x592B;&#x4F50;&#x592B;</td></tr></table>>,
+    ];
+    "1b3f5eaf1e726fd647b8075b04e42d14" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E9%B2%8D%E9%87%8C%E6%96%AF%C2%B7%E5%BC%97%E6%8B%89%E5%9F%BA%E7%B1%B3%E7%BD%97%E7%BB%B4%E5%A5%87%C2%B7%E6%96%BD%E8%92%82%E9%BB%98%E5%B0%94" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x9C8D;&#x91CC;&#x65AF;&#xB7;&#x5F17;&#x62C9;&#x57FA;&#x7C73;&#x7F57;&#x7EF4;&#x5947;&#xB7;&#x65BD;&#x8482;&#x9ED8;&#x5C14;</td></tr></table>>,
+    ];
+    "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7%C2%B7%E8%B4%B9%E5%A5%A5%E5%A4%9A%E7%BD%97%E7%BB%B4%E5%A5%87%C2%B7%E7%89%B9%E5%88%97%E6%B3%A2%E5%A4%AB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E9A;&#x5386;&#x5C71;&#x5927;&#xB7;&#x8D39;&#x5965;&#x591A;&#x7F57;&#x7EF4;&#x5947;&#xB7;&#x7279;&#x5217;&#x6CE2;&#x592B;</td></tr></table>>,
+    ];
+    "1fbe67698c31a5c898a9f08ce73fe772" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/w/index.php?title=%E5%B0%BC%E5%8F%A4%E6%8B%89%C2%B7%E5%BE%B7%E7%B1%B3%E7%89%B9%E9%87%8C%E8%80%B6%E7%BB%B4%E5%A5%87%C2%B7%E6%88%88%E5%88%A9%E5%B2%91&#x26;action=edit&#x26;redlink=1" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6B63;&#x5728;&#x521B;&#x5EFA;&#x5C3C;&#x53E4;&#x62C9;&#xB7;&#x5FB7;&#x7C73;&#x7279;&#x91CC;&#x8036;&#x7EF4;&#x5947;&#xB7;&#x6208;&#x5229;&#x5C91;</td></tr></table>>,
+    ];
+    "ca3471f545f7864c31c89cd0f38d5b0f" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://en.wikipedia.org/wiki/Nikolai_Golitsyn" border="0" cellspacing="10" cellpadding="10" style="rounded">en:Nikolai Golitsyn</td></tr></table>>,
+    ];
+    "8022a013bc6bfa83c2eda2f7e7aa9c6f" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/File:Coat_of_Arms_of_Russian_Empire.svg" border="0" cellspacing="10" cellpadding="10" style="rounded">File:Coat of Arms of Russian Empire.svg</td></tr></table>>,
+    ];
+    "1dee75683792d348a377fe7e9dc0984a" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/File:Russian_coa_1917_vrem.png" border="0" cellspacing="10" cellpadding="10" style="rounded">File:Russian coa 1917 vrem.png</td></tr></table>>,
+    ];
+    "36e9704e09a3d12e95bf205bef082772" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/File:Coat_of_arms_of_the_Russian_Soviet_Federative_Socialist_Republic.svg" border="0" cellspacing="10" cellpadding="10" style="rounded">File:Coat of arms of the Russian Soviet Federative Socialist Republic.svg</td></tr></table>>,
+    ];
+    "83aa11c17ef044cd2dcd5d1faf9f4b22" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/File:Coat_of_Arms_of_the_Russian_Federation.svg" border="0" cellspacing="10" cellpadding="10" style="rounded">File:Coat of Arms of the Russian Federation.svg</td></tr></table>>,
+    ];
+    "0263b3b4a208121d7d1f1fce30f6009c" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BD%97%E6%96%AF%E4%B8%B4%E6%97%B6%E6%94%BF%E5%BA%9C" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x7F57;&#x65AF;&#x4E34;&#x65F6;&#x653F;&#x5E9C;</td></tr></table>>,
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E6%A0%BC%E5%A5%A5%E5%B0%94%E5%9F%BA%C2%B7%E5%8F%B6%E5%A4%AB%E6%A0%B9%E8%80%B6%E7%BB%B4%E5%A5%87%C2%B7%E6%9D%8E%E6%B2%83%E5%A4%AB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x683C;&#x5965;&#x5C14;&#x57FA;&#xB7;&#x53F6;&#x592B;&#x6839;&#x8036;&#x7EF4;&#x5947;&#xB7;&#x674E;&#x6C83;&#x592B;</td></tr></table>>,
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7%C2%B7%E8%B4%B9%E5%A5%A5%E5%A4%9A%E7%BD%97%E7%BB%B4%E5%A5%87%C2%B7%E5%85%8B%E4%BC%A6%E6%96%AF%E5%9F%BA" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E9A;&#x5386;&#x5C71;&#x5927;&#xB7;&#x514B;&#x4F26;&#x65AF;&#x57FA;</td></tr></table>>,
+    ];
+    "44cb3baf078fdb2d02ed840f62f18ae9" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BD%97%E6%96%AF%E8%8B%8F%E7%BB%B4%E5%9F%83%E8%81%94%E9%82%A6%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E5%85%B1%E5%92%8C%E5%9B%BD" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x7F57;&#x65AF;&#x82CF;&#x7EF4;&#x57C3;&#x8054;&#x90A6;&#x793E;&#x4F1A;&#x4E3B;&#x4E49;&#x5171;&#x548C;&#x56FD;</td></tr></table>>,
+    ];
+    "d49627bc1aafa85bded26ab6004a2f81" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BD%97%E6%96%AF%E8%8B%8F%E7%BB%B4%E5%9F%83%E8%81%94%E9%82%A6%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E5%85%B1%E5%92%8C%E5%9B%BD%E4%BA%BA%E6%B0%91%E5%A7%94%E5%91%98%E4%BC%9A" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x7F57;&#x65AF;&#x82CF;&#x7EF4;&#x57C3;&#x8054;&#x90A6;&#x793E;&#x4F1A;&#x4E3B;&#x4E49;&#x5171;&#x548C;&#x56FD;&#x4EBA;&#x6C11;&#x59D4;&#x5458;&#x4F1A;</td></tr></table>>,
+    ];
+    "42e28859b0c48d7dd86f28d47bb6aaa3" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BD%97%E6%96%AF%E8%8B%8F%E7%BB%B4%E5%9F%83%E8%81%94%E9%82%A6%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E5%85%B1%E5%92%8C%E5%9B%BD%E9%83%A8%E9%95%BF%E4%BC%9A%E8%AE%AE" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x7F57;&#x65AF;&#x82CF;&#x7EF4;&#x57C3;&#x8054;&#x90A6;&#x793E;&#x4F1A;&#x4E3B;&#x4E49;&#x5171;&#x548C;&#x56FD;&#x90E8;&#x957F;&#x4F1A;&#x8BAE;</td></tr></table>>,
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%BC%97%E6%8B%89%E5%9F%BA%E7%B1%B3%E5%B0%94%C2%B7%E4%BC%8A%E9%87%8C%E5%A5%87%C2%B7%E5%88%97%E5%AE%81" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5F17;&#x62C9;&#x57FA;&#x7C73;&#x5C14;&#xB7;&#x5217;&#x5B81;</td></tr></table>>,
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E9%98%BF%E5%88%97%E5%85%8B%E8%B0%A2%C2%B7%E4%BC%8A%E4%B8%87%E8%AF%BA%E7%BB%B4%E5%A5%87%C2%B7%E6%9D%8E%E5%8F%AF%E5%A4%AB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x963F;&#x5217;&#x514B;&#x8C22;&#xB7;&#x674E;&#x53EF;&#x592B;</td></tr></table>>,
+    ];
+    "4b1b532814f786386a81268f7de7bffa" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%B0%A2%E5%B0%94%E7%9B%96%C2%B7%E4%BC%8A%E4%B8%87%E8%AF%BA%E7%BB%B4%E5%A5%87%C2%B7%E5%A1%9E%E5%B0%94%E4%BD%90%E5%A4%AB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x8C22;&#x5C14;&#x76D6;&#xB7;&#x4F0A;&#x4E07;&#x8BFA;&#x7EF4;&#x5947;&#xB7;&#x585E;&#x5C14;&#x4F50;&#x592B;</td></tr></table>>,
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%B8%B9%E5%B0%BC%E5%B0%94%C2%B7%E5%8F%B6%E6%88%88%E7%BD%97%E7%BB%B4%E5%A5%87%C2%B7%E8%8B%8F%E5%88%A9%E8%8E%AB%E5%A4%AB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E39;&#x5C3C;&#x5C14;&#xB7;&#x53F6;&#x6208;&#x7F57;&#x7EF4;&#x5947;&#xB7;&#x82CF;&#x5229;&#x83AB;&#x592B;</td></tr></table>>,
+    ];
+    "b262883a448f63b9b605f861489c16c6" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%8F%A4%E6%8B%89%C2%B7%E4%BA%9E%E6%AD%B7%E5%B1%B1%E5%BE%B7%E7%BE%85%E7%B6%AD%E5%A5%87%C2%B7%E5%B8%83%E7%88%BE%E5%8A%A0%E5%AF%A7" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5C3C;&#x53E4;&#x62C9;&#xB7;&#x4E9E;&#x6B77;&#x5C71;&#x5FB7;&#x7F85;&#x7DAD;&#x5947;&#xB7;&#x5E03;&#x723E;&#x52A0;&#x5BE7;</td></tr></table>>,
+    ];
+    "e0735e79eed1fe3fbbc7e0a51500da55" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/w/index.php?title=%E7%93%A6%E8%A5%BF%E9%87%8C%C2%B7%E7%93%A6%E8%A5%BF%E9%87%8C%E8%80%B6%E7%BB%B4%E5%A5%87%C2%B7%E7%93%A6%E8%B5%AB%E9%B2%81%E8%88%8D%E5%A4%AB&#x26;action=edit&#x26;redlink=1" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6B63;&#x5728;&#x521B;&#x5EFA;&#x74E6;&#x897F;&#x91CC;&#xB7;&#x74E6;&#x897F;&#x91CC;&#x8036;&#x7EF4;&#x5947;&#xB7;&#x74E6;&#x8D6B;&#x9C81;&#x820D;&#x592B;</td></tr></table>>,
+    ];
+    "834539ad37db40d43dbdea2844ff3022" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://en.wikipedia.org/wiki/Vasily_Vakhrushev" border="0" cellspacing="10" cellpadding="10" style="rounded">en:Vasily Vakhrushev</td></tr></table>>,
+    ];
+    "60af74f52a27bd7b4509b1e96f564292" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/w/index.php?title=%E4%BC%8A%E4%B8%87%C2%B7%E8%B0%A2%E5%B0%94%E7%9B%96%E8%80%B6%E7%BB%B4%E5%A5%87%C2%B7%E9%9C%8D%E8%B5%AB%E6%B4%9B%E5%A4%AB&#x26;action=edit&#x26;redlink=1" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6B63;&#x5728;&#x521B;&#x5EFA;&#x4F0A;&#x4E07;&#xB7;&#x8C22;&#x5C14;&#x76D6;&#x8036;&#x7EF4;&#x5947;&#xB7;&#x970D;&#x8D6B;&#x6D1B;&#x592B;</td></tr></table>>,
+    ];
+    "93f89fd43cf00f89e3a815964d8d9675" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://en.wikipedia.org/wiki/Ivan_Khokhlov" border="0" cellspacing="10" cellpadding="10" style="rounded">en:Ivan Khokhlov</td></tr></table>>,
+    ];
+    "ad55774fb10861ed79a0e3117ff77254" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E9%98%BF%E5%88%97%E5%85%8B%E8%B0%A2%C2%B7%E5%B0%BC%E5%8F%A4%E6%8B%89%E8%80%B6%E7%BB%B4%E5%A5%87%C2%B7%E6%9F%AF%E8%A5%BF%E9%87%91" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x963F;&#x5217;&#x514B;&#x8C22;&#xB7;&#x67EF;&#x897F;&#x91D1;</td></tr></table>>,
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E7%B1%B3%E5%93%88%E4%BC%8A%E5%B0%94%C2%B7%E4%BC%8A%E4%B8%87%E8%AF%BA%E7%BB%B4%E5%A5%87%C2%B7%E7%BD%97%E5%AD%A3%E6%98%82%E8%AF%BA%E5%A4%AB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7C73;&#x54C8;&#x4F0A;&#x5C14;&#xB7;&#x4F0A;&#x4E07;&#x8BFA;&#x7EF4;&#x5947;&#xB7;&#x7F57;&#x5B63;&#x6602;&#x8BFA;&#x592B;</td></tr></table>>,
+    ];
+    "4107f123df83a49c0032175dd42f291e" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E9%B2%8D%E9%87%8C%E6%96%AF%C2%B7%E5%B0%BC%E5%8F%A4%E6%8B%89%E8%80%B6%E7%BB%B4%E5%A5%87%C2%B7%E5%88%87%E5%B0%94%E8%AF%BA%E4%B9%8C%E7%B4%A2%E5%A4%AB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x9C8D;&#x91CC;&#x65AF;&#xB7;&#x5C3C;&#x53E4;&#x62C9;&#x8036;&#x7EF4;&#x5947;&#xB7;&#x5207;&#x5C14;&#x8BFA;&#x4E4C;&#x7D22;&#x592B;</td></tr></table>>,
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7%C2%B7%E7%B1%B3%E5%93%88%E4%BC%8A%E6%B4%9B%E7%BB%B4%E5%A5%87%C2%B7%E6%99%AE%E6%89%8E%E8%AF%BA%E5%A4%AB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E9A;&#x5386;&#x5C71;&#x5927;&#xB7;&#x7C73;&#x54C8;&#x4F0A;&#x6D1B;&#x7EF4;&#x5947;&#xB7;&#x666E;&#x624E;&#x8BFA;&#x592B;</td></tr></table>>,
+    ];
+    "b5a884fb956235ffbc35160187766d6c" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/w/index.php?title=%E7%B1%B3%E5%93%88%E4%BC%8A%E5%B0%94%C2%B7%E9%98%BF%E5%88%97%E5%85%8B%E8%B0%A2%E8%80%B6%E7%BB%B4%E5%A5%87%C2%B7%E4%BA%9A%E6%96%AF%E8%AF%BA%E5%A4%AB&#x26;action=edit&#x26;redlink=1" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6B63;&#x5728;&#x521B;&#x5EFA;&#x7C73;&#x54C8;&#x4F0A;&#x5C14;&#xB7;&#x963F;&#x5217;&#x514B;&#x8C22;&#x8036;&#x7EF4;&#x5947;&#xB7;&#x4E9A;&#x65AF;&#x8BFA;&#x592B;</td></tr></table>>,
+    ];
+    "25b6785145f78c87673b534009b8a384" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://en.wikipedia.org/wiki/Mikhail_Yasnov" border="0" cellspacing="10" cellpadding="10" style="rounded">en:Mikhail Yasnov</td></tr></table>>,
+    ];
+    "6583dfcf84e68e462120e7d258613429" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%BC%97%E7%BD%97%E5%B0%94%C2%B7%E7%BD%97%E6%9B%BC%E8%AF%BA%E7%BB%B4%E5%A5%87%C2%B7%E7%A7%91%E5%85%B9%E6%B4%9B%E5%A4%AB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5F17;&#x7F57;&#x5C14;&#xB7;&#x7F57;&#x66FC;&#x8BFA;&#x7EF4;&#x5947;&#xB7;&#x79D1;&#x5179;&#x6D1B;&#x592B;</td></tr></table>>,
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%BE%B7%E7%B1%B3%E7%89%B9%E9%87%8C%C2%B7%E6%96%AF%E6%8D%B7%E6%BD%98%E8%AF%BA%E7%BB%B4%E5%A5%87%C2%B7%E6%B3%A2%E5%88%A9%E6%89%AC%E6%96%AF%E5%9F%BA" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5FB7;&#x7C73;&#x7279;&#x91CC;&#xB7;&#x65AF;&#x6377;&#x6F58;&#x8BFA;&#x7EF4;&#x5947;&#xB7;&#x6CE2;&#x5229;&#x626C;&#x65AF;&#x57FA;</td></tr></table>>,
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E6%A0%B9%E7%BA%B3%E5%AD%A3%C2%B7%E4%BC%8A%E4%B8%87%E8%AF%BA%E7%BB%B4%E5%A5%87%C2%B7%E6%B2%83%E7%BD%97%E8%AF%BA%E5%A4%AB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6839;&#x7EB3;&#x5B63;&#xB7;&#x4F0A;&#x4E07;&#x8BFA;&#x7EF4;&#x5947;&#xB7;&#x6C83;&#x7F57;&#x8BFA;&#x592B;</td></tr></table>>,
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E7%B1%B3%E5%93%88%E4%BC%8A%E5%B0%94%C2%B7%E8%B0%A2%E5%B0%94%E7%9B%96%E8%80%B6%E7%BB%B4%E5%A5%87%C2%B7%E7%B4%A2%E6%B4%9B%E7%BC%85%E9%87%87%E5%A4%AB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7C73;&#x54C8;&#x4F0A;&#x5C14;&#xB7;&#x8C22;&#x5C14;&#x76D6;&#x8036;&#x7EF4;&#x5947;&#xB7;&#x7D22;&#x6D1B;&#x7F05;&#x91C7;&#x592B;</td></tr></table>>,
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E7%BB%B4%E5%A1%94%E5%88%A9%C2%B7%E4%BC%8A%E4%B8%87%E8%AF%BA%E7%BB%B4%E5%A5%87%C2%B7%E6%B2%83%E7%BD%97%E7%89%B9%E5%B0%BC%E7%A7%91%E5%A4%AB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7EF4;&#x5854;&#x5229;&#xB7;&#x6C83;&#x7F57;&#x7279;&#x5C3C;&#x79D1;&#x592B;</td></tr></table>>,
+    ];
+    "c714d2d406d0877a507cbebf15835da7" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/w/index.php?title=%E5%BC%97%E6%8B%89%E5%9F%BA%E7%B1%B3%E5%B0%94%C2%B7%E5%BC%97%E6%8B%89%E5%9F%BA%E7%B1%B3%E7%BD%97%E7%BB%B4%E5%A5%87%C2%B7%E6%99%AE%E4%BA%AC&#x26;redirect=no" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5F17;&#x62C9;&#x57FA;&#x7C73;&#x5C14;&#xB7;&#x5F17;&#x62C9;&#x57FA;&#x7C73;&#x7F57;&#x7EF4;&#x5947;&#xB7;&#x666E;&#x4EAC;</td></tr></table>>,
+    ];
+    "055bac3380a5983173947b9659b0ee67" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/Wikipedia:%E6%B6%88%E6%AD%A7%E4%B9%89" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7EF4;&#x57FA;&#x767E;&#x79D1;:&#x6D88;&#x6B67;&#x4E49;</td></tr></table>>,
+    ];
+    "16b561199f40f9d1f326c2042ef7968f" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%B7%9E_(%E4%BF%84%E7%BD%97%E6%96%AF)" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5DDE; (&#x4FC4;&#x7F57;&#x65AF;)</td></tr></table>>,
+    ];
+    "2bdba40150ff98197df49c548ecdff96" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/File:Zh-%E4%BF%84%E7%BD%97%E6%96%AF.ogg" border="0" cellspacing="10" cellpadding="10" style="rounded">File:Zh-&#x4FC4;&#x7F57;&#x65AF;.ogg</td></tr></table>>,
+    ];
+    "e3fbd26361b0f0e64f368c6dbeae4de9" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BD%97%E6%96%AF%E8%81%94%E9%82%A6%E6%94%BF%E5%BA%9C" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x7F85;&#x65AF;&#x806F;&#x90A6;&#x653F;&#x5E9C;</td></tr></table>>,
+    ];
+    "82126640c7436f0c395b1a368378380f" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/w/index.php?title=%E4%BF%84%E7%BD%97%E6%96%AF%E6%97%8F&#x26;redirect=no" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x7F57;&#x65AF;&#x65CF;</td></tr></table>>,
+    ];
+    "c168ca36b0f4688c1ccd8700c048b089" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BF%84%E8%AA%9E" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x8BED;</td></tr></table>>,
+    ];
+    "9051631f18e56bce6db716d34afa8160" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/w/index.php?title=%E5%9B%BD%E5%AE%B6%E8%AE%A1%E5%A7%94&#x26;redirect=no" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x56FD;&#x5BB6;&#x8BA1;&#x59D4;</td></tr></table>>,
+    ];
+    "20ae54170c086740e113bc4e3380e7fe" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/w/index.php?title=%E4%BF%84%E7%99%BD%E8%81%94%E7%9B%9F&#x26;redirect=no" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x767D;&#x8054;&#x76DF;</td></tr></table>>,
+    ];
+    "2c0345f790e57872046860d27db520ba" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/Wikipedia:VAND" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7EF4;&#x57FA;&#x767E;&#x79D1;:&#x7834;&#x574F;</td></tr></table>>,
+    ];
+    "41f5d65b46dd1740c092f5a5329e0253" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/w/index.php?title=%E7%BB%B4%E5%85%8B%E6%89%98%C2%B7%E8%B5%AB%E9%87%8C%E6%96%AF%E5%9D%9A%E7%A7%91&#x26;redirect=no" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7EF4;&#x514B;&#x6258;&#xB7;&#x8D6B;&#x91CC;&#x65AF;&#x575A;&#x79D1;</td></tr></table>>,
+    ];
+    "fe458b92abb328d871d41c888b7b3582" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/WikiProject:%E4%BF%84%E7%BE%85%E6%96%AF" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7EF4;&#x57FA;&#x4E13;&#x9898;:&#x4FC4;&#x7F85;&#x65AF;</td></tr></table>>,
+    ];
+    "055c7633ba4454517b8d69592493f254" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E6%94%BF%E5%BA%9C%E9%A6%96%E8%84%91" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x653F;&#x5E9C;&#x9996;&#x8111;</td></tr></table>>,
+    ];
+    "3a10aa1cc30a29bfa83e373aaf48a5d3" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/File:Flag_of_the_Russian_Empire_(black-yellow-white).svg" border="0" cellspacing="10" cellpadding="10" style="rounded">File:Flag of the Russian Empire (black-yellow-white).svg</td></tr></table>>,
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BD%97%E6%96%AF%E6%94%BF%E5%BA%9C%E9%A6%96%E8%84%91%E5%88%97%E8%A1%A8#%E4%BF%84%E7%BD%97%E6%96%AF%E5%B8%9D%E5%9B%BD%E9%A6%96%E7%9B%B8" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x7F57;&#x65AF;&#x653F;&#x5E9C;&#x9996;&#x8111;&#x5217;&#x8868;</td></tr></table>>,
+    ];
+    "fb2753699e4b98bf246c8731200bf3f0" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/File:Shturmer.gif" border="0" cellspacing="10" cellpadding="10" style="rounded">File:Shturmer.gif</td></tr></table>>,
+    ];
+    "e28b18c5a98ae183336dc778a160fb34" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/File:Alexander_Trepov.jpg" border="0" cellspacing="10" cellpadding="10" style="rounded">File:Alexander Trepov.jpg</td></tr></table>>,
+    ];
+    "bfedcee89e6b03376392a5e5d24cbcbf" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/Help:%E7%BC%96%E8%BE%91%E6%89%8B%E5%86%8C" border="0" cellspacing="10" cellpadding="10" style="rounded">Help:&#x7F16;&#x8F91;&#x624B;&#x518C;</td></tr></table>>,
+    ];
+    "d72d626cbf2d4a933ebfc372ffa39ef0" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Russian_Empire.svg" border="0" cellspacing="10" cellpadding="10" style="rounded">commons:File:Coat of Arms of Russian Empire.svg</td></tr></table>>,
+    ];
+    "6029459ae7706ebcf4a6e4d9d954e336" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://commons.wikimedia.org/wiki/File:Russian_coa_1917_vrem.png" border="0" cellspacing="10" cellpadding="10" style="rounded">commons:File:Russian coa 1917 vrem.png</td></tr></table>>,
+    ];
+    "bca1ffd510f90b0e023b3e53cf3d0a38" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_Russian_Soviet_Federative_Socialist_Republic.svg" border="0" cellspacing="10" cellpadding="10" style="rounded">commons:File:Coat of arms of the Russian Soviet Federative Socialist Republic.svg</td></tr></table>>,
+    ];
+    "0ff003e036b72c3c6626a0d1b37f39ac" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_the_Russian_Federation.svg" border="0" cellspacing="10" cellpadding="10" style="rounded">commons:File:Coat of Arms of the Russian Federation.svg</td></tr></table>>,
+    ];
+    "9e96190800344b02d8f63b6646224cd0" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://ru.wikipedia.org/wiki/%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2,_%D0%93%D0%B5%D0%BE%D1%80%D0%B3%D0%B8%D0%B9_%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D1%8C%D0%B5%D0%B2%D0%B8%D1%87" border="0" cellspacing="10" cellpadding="10" style="rounded">ru:&#x41B;&#x44C;&#x432;&#x43E;&#x432;, &#x413;&#x435;&#x43E;&#x440;&#x433;&#x438;&#x439; &#x415;&#x432;&#x433;&#x435;&#x43D;&#x44C;&#x435;&#x432;&#x438;&#x447;</td></tr></table>>,
+    ];
+    "96d4ac3f79fada6b70cd1af204dabd70" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/w/index.php?title=%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7%C2%B7%E8%B4%B9%E5%A5%A5%E5%A4%9A%E7%BD%97%E7%BB%B4%E5%A5%87%C2%B7%E5%85%8B%E4%BC%A6%E6%96%AF%E5%9F%BA&#x26;redirect=no" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E9A;&#x5386;&#x5C71;&#x5927;&#xB7;&#x8D39;&#x5965;&#x591A;&#x7F57;&#x7EF4;&#x5947;&#xB7;&#x514B;&#x4F26;&#x65AF;&#x57FA;</td></tr></table>>,
+    ];
+    "15158c98b32afb1b323a81b34f953834" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/File:Flag_of_the_Russian_Soviet_Federative_Socialist_Republic_(1954%E2%80%931991).svg" border="0" cellspacing="10" cellpadding="10" style="rounded">File:Flag of the Russian Soviet Federative Socialist Republic (1954&#x2013;1991).svg</td></tr></table>>,
+    ];
+    "8af78f89f4f83b094acc0970ddf97552" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BF%84%E5%9B%BD%E4%B8%B4%E6%97%B6%E6%94%BF%E5%BA%9C" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x7F57;&#x65AF;&#x4E34;&#x65F6;&#x653F;&#x5E9C;</td></tr></table>>,
+    ];
+    "38cdaf95bc1857409ff11b2bf0ed16f6" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/Wikipedia:%E5%88%97%E6%98%8E%E6%9D%A5%E6%BA%90" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7EF4;&#x57FA;&#x767E;&#x79D1;:&#x5217;&#x660E;&#x6765;&#x6E90;</td></tr></table>>,
+    ];
+    "c21b71b8b5adeed8e4bbd40a09a98dba" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/Wikipedia:%E5%84%AA%E8%89%AF%E6%A2%9D%E7%9B%AE" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7EF4;&#x57FA;&#x767E;&#x79D1;:&#x4F18;&#x826F;&#x6761;&#x76EE;</td></tr></table>>,
+    ];
+    "352ed4b0e2e678ec76cf4b3eef7dae19" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/w/index.php?title=%E9%98%BF%E5%88%97%E5%85%8B%E8%B0%A2%C2%B7%E4%BC%8A%E4%B8%87%E8%AF%BA%E7%BB%B4%E5%A5%87%C2%B7%E6%9D%8E%E5%8F%AF%E5%A4%AB&#x26;redirect=no" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x963F;&#x5217;&#x514B;&#x8C22;&#xB7;&#x4F0A;&#x4E07;&#x8BFA;&#x7EF4;&#x5947;&#xB7;&#x674E;&#x53EF;&#x592B;</td></tr></table>>,
+    ];
+    "7ee25267276f0e4e7e5e61a09fbbe26e" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%8B%8F%E8%81%94%E9%83%A8%E9%95%BF%E4%BC%9A%E8%AE%AE%E4%B8%BB%E5%B8%AD" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x82CF;&#x8054;&#x90E8;&#x957F;&#x4F1A;&#x8BAE;&#x4E3B;&#x5E2D;</td></tr></table>>,
+    ];
+    "5e727cfa90ff4cff8ea4bacc6c20e282" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/w/index.php?title=%E9%98%BF%E5%88%97%E5%85%8B%E8%B0%A2%C2%B7%E5%B0%BC%E5%8F%A4%E6%8B%89%E8%80%B6%E7%BB%B4%E5%A5%87%C2%B7%E6%9F%AF%E8%A5%BF%E9%87%91&#x26;redirect=no" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x963F;&#x5217;&#x514B;&#x8C22;&#xB7;&#x5C3C;&#x53E4;&#x62C9;&#x8036;&#x7EF4;&#x5947;&#xB7;&#x67EF;&#x897F;&#x91D1;</td></tr></table>>,
+    ];
+    "9b1a6f34492f9e433fa1d1e65d5c2320" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%84%92%E7%95%A5%E5%8E%86" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5112;&#x7565;&#x66C6;</td></tr></table>>,
+    ];
+    "7d6b683b5443b1277a9bf7af30b0e171" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D1%80%D0%BD%D0%BE%D1%83%D1%81%D0%BE%D0%B2,_%D0%91%D0%BE%D1%80%D0%B8%D1%81_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87" border="0" cellspacing="10" cellpadding="10" style="rounded">ru:&#x427;&#x435;&#x440;&#x43D;&#x43E;&#x443;&#x441;&#x43E;&#x432;, &#x411;&#x43E;&#x440;&#x438;&#x441; &#x41D;&#x438;&#x43A;&#x43E;&#x43B;&#x430;&#x435;&#x432;&#x438;&#x447;</td></tr></table>>,
+    ];
+    "301fb6cf805f2bd4d41a151531a61209" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%8B%8F%E5%85%B1%E4%B8%AD%E5%A4%AE%E4%B8%BB%E5%B8%AD%E5%9B%A2" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x82CF;&#x8054;&#x5171;&#x4EA7;&#x515A;&#x4E2D;&#x592E;&#x653F;&#x6CBB;&#x5C40;</td></tr></table>>,
+    ];
+    "2db5cd9ca70873d6dee3628b025c91a7" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/Talk:%E5%BC%97%E7%BD%97%E5%B0%94%C2%B7%E7%BD%97%E6%9B%BC%E8%AF%BA%E7%BB%B4%E5%A5%87%C2%B7%E7%A7%91%E5%85%B9%E6%B4%9B%E5%A4%AB" border="0" cellspacing="10" cellpadding="10" style="rounded">Talk:&#x5F17;&#x7F57;&#x5C14;&#xB7;&#x7F57;&#x66FC;&#x8BFA;&#x7EF4;&#x5947;&#xB7;&#x79D1;&#x5179;&#x6D1B;&#x592B;</td></tr></table>>,
+    ];
+    "1e87bb9c67c5e3f98e681d2f3806c88f" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%8B%8F%E8%81%94%E9%83%A8%E9%95%BF%E4%BC%9A%E8%AE%AE" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x82CF;&#x8054;&#x90E8;&#x957F;&#x4F1A;&#x8BAE;</td></tr></table>>,
+    ];
+    "339e13cc9339f72446e4c5bb13898cd7" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/w/index.php?title=%E4%BF%84%E7%BD%97%E6%96%AF%E8%8B%8F%E7%BB%B4%E5%9F%83%E8%81%94%E9%82%A6%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E5%85%B1%E5%92%8C%E5%9B%BD%E9%A2%86%E5%AF%BC%E4%BA%BA&#x26;action=edit&#x26;redlink=1" border="0" cellspacing="10" cellpadding="10" style="rounded">unknown</td></tr></table>>,
+    ];
+    "4bbb3b7a1e512b4acaac731343459919" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/w/index.php?title=%E7%BB%B4%E5%A1%94%E5%88%A9%C2%B7%E4%BC%8A%E4%B8%87%E8%AF%BA%E7%BB%B4%E5%A5%87%C2%B7%E6%B2%83%E7%BD%97%E7%89%B9%E5%B0%BC%E7%A7%91%E5%A4%AB&#x26;redirect=no" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7EF4;&#x5854;&#x5229;&#xB7;&#x4F0A;&#x4E07;&#x8BFA;&#x7EF4;&#x5947;&#xB7;&#x6C83;&#x7F57;&#x7279;&#x5C3C;&#x79D1;&#x592B;</td></tr></table>>,
+    ];
+    "95ec4ee67759caec40f2063db7b425aa" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/Wikipedia:%E9%A0%81%E9%9D%A2%E4%BF%9D%E8%AD%B7%E6%96%B9%E9%87%9D#semi" border="0" cellspacing="10" cellpadding="10" style="rounded">Wikipedia:&#x9801;&#x9762;&#x4FDD;&#x8B77;&#x65B9;&#x91DD;#semi</td></tr></table>>,
+    ];
+    "1a8484e4e014a339ff46e92244000d0f" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BD%97%E6%96%AF%E8%81%94%E9%82%A6" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x7F57;&#x65AF;&#x8054;&#x90A6;</td></tr></table>>,
+    ];
+    "3a7062c7bfb448190c794cbd24655d63" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://commons.wikimedia.org/wiki/File:Zh-%E4%BF%84%E7%BD%97%E6%96%AF.ogg" border="0" cellspacing="10" cellpadding="10" style="rounded">commons:File:Zh-&#x4FC4;&#x7F57;&#x65AF;.ogg</td></tr></table>>,
+    ];
+    "12e1b27a92a71127e52a0f339a3b3506" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/w/index.php?title=%E4%BF%84%E7%BD%97%E6%96%AF%E8%81%94%E9%82%A6%E6%94%BF%E5%BA%9C&#x26;redirect=no" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x7F57;&#x65AF;&#x8054;&#x90A6;&#x653F;&#x5E9C;</td></tr></table>>,
+    ];
+    "ef3fecce74e9581dfb3949feb1931e0c" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BE%85%E6%96%AF%E4%BA%BA" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x7F85;&#x65AF;&#x4EBA;</td></tr></table>>,
+    ];
+    "d7ddf54bac1c3f37817add76d113b197" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/w/index.php?title=%E4%BF%84%E8%AA%9E&#x26;redirect=no" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x8A9E;</td></tr></table>>,
+    ];
+    "eec2987a6973612a349bcc178096ee77" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%9C%8B%E5%AE%B6%E8%A8%88%E5%8A%83%E5%A7%94%E5%93%A1%E6%9C%83" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x570B;&#x5BB6;&#x8A08;&#x5283;&#x59D4;&#x54E1;&#x6703;</td></tr></table>>,
+    ];
+    "d71e20857577cb0851c1923729164511" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BF%84%E7%99%BD%E8%81%94%E7%9B%9F%E5%9B%BD" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x767D;&#x8054;&#x76DF;&#x56FD;</td></tr></table>>,
+    ];
+    "204a27527df5975cd3633e11a3381be1" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/Wikipedia:%E4%B8%93%E9%A2%98" border="0" cellspacing="10" cellpadding="10" style="rounded">Wikipedia:&#x4E13;&#x9898;</td></tr></table>>,
+    ];
+    "88c211207b9a4616310266df02330032" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://commons.wikimedia.org/wiki/File:Flag_of_the_Russian_Empire_(black-yellow-white).svg" border="0" cellspacing="10" cellpadding="10" style="rounded">commons:File:Flag of the Russian Empire (black-yellow-white).svg</td></tr></table>>,
+    ];
+    "cf2f3983ff7b2983b9153f7b76222824" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://commons.wikimedia.org/wiki/File:Shturmer.gif" border="0" cellspacing="10" cellpadding="10" style="rounded">commons:File:Shturmer.gif</td></tr></table>>,
+    ];
+    "d6f0ceabc3837f2ab6c075a3bfab9d83" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://commons.wikimedia.org/wiki/File:Alexander_Trepov.jpg" border="0" cellspacing="10" cellpadding="10" style="rounded">commons:File:Alexander Trepov.jpg</td></tr></table>>,
+    ];
+    "5471fc1c3ebf3f724d3c777cdf22312d" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7%C2%B7%E5%85%8B%E4%BC%A6%E6%96%AF%E5%9F%BA" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E9A;&#x5386;&#x5C71;&#x5927;&#xB7;&#x514B;&#x4F26;&#x65AF;&#x57FA;</td></tr></table>>,
+    ];
+    "5d8c50edf2dcfe0812f895643dee87c3" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://commons.wikimedia.org/wiki/File:Flag_of_the_Russian_Soviet_Federative_Socialist_Republic_(1954%E2%80%931991).svg" border="0" cellspacing="10" cellpadding="10" style="rounded">commons:File:Flag of the Russian Soviet Federative Socialist Republic (1954&#x2013;1991).svg</td></tr></table>>,
+    ];
+    "2a8df0be029f6fd764709eff55923813" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/w/index.php?title=%E4%BF%84%E5%9B%BD%E4%B8%B4%E6%97%B6%E6%94%BF%E5%BA%9C&#x26;redirect=no" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4FC4;&#x56FD;&#x4E34;&#x65F6;&#x653F;&#x5E9C;</td></tr></table>>,
+    ];
+    "f3c1e17db28f0a8edb4ca8972771be4a" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E9%98%BF%E5%88%97%E5%85%8B%E8%B0%A2%C2%B7%E6%9D%8E%E5%8F%AF%E5%A4%AB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x963F;&#x5217;&#x514B;&#x8C22;&#xB7;&#x674E;&#x53EF;&#x592B;</td></tr></table>>,
+    ];
+    "a7dfbdc893d18c3c45d7490f3840a6db" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%8B%8F%E8%81%94%E5%9B%BD%E5%BE%BD" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x82CF;&#x8054;&#x56FD;&#x5FBD;</td></tr></table>>,
+    ];
+    "0404cfba2c34c8773d717bc3fee31756" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E9%98%BF%E5%88%97%E5%85%8B%E8%B0%A2%C2%B7%E6%9F%AF%E8%A5%BF%E9%87%91" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x963F;&#x5217;&#x514B;&#x8C22;&#xB7;&#x67EF;&#x897F;&#x91D1;</td></tr></table>>,
+    ];
+    "8c7c40b2ce8b34b1930202aaaaa431ce" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/w/index.php?title=%E5%84%92%E7%95%A5%E5%8E%86&#x26;redirect=no" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5112;&#x7565;&#x5386;</td></tr></table>>,
+    ];
+    "a76d73b1f96e918d91921010c926fc86" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/w/index.php?title=%E8%8B%8F%E5%85%B1%E4%B8%AD%E5%A4%AE%E4%B8%BB%E5%B8%AD%E5%9B%A2&#x26;redirect=no" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x82CF;&#x5171;&#x4E2D;&#x592E;&#x4E3B;&#x5E2D;&#x56E2;</td></tr></table>>,
+    ];
+    "f2c6ba0d69be2552b5ad6b58e065dfab" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/WikiProject:%E4%BC%A0%E8%AE%B0" border="0" cellspacing="10" cellpadding="10" style="rounded">WikiProject:&#x4F20;&#x8BB0;</td></tr></table>>,
+    ];
+    "c51ff881ac0f57464c613ffb358eadd9" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%8B%8F%E7%BB%B4%E5%9F%83%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E5%85%B1%E5%92%8C%E5%9B%BD%E8%81%94%E7%9B%9F" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x82CF;&#x7EF4;&#x57C3;&#x793E;&#x4F1A;&#x4E3B;&#x4E49;&#x5171;&#x548C;&#x56FD;&#x8054;&#x76DF;</td></tr></table>>,
+    ];
+    "b4b62d19297b779d994693f9a21551a3" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E7%BB%B4%E5%A1%94%E5%88%A9%C2%B7%E6%B2%83%E7%BD%97%E7%89%B9%E5%B0%BC%E7%A7%91%E5%A4%AB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7EF4;&#x5854;&#x5229;&#xB7;&#x6C83;&#x7F57;&#x7279;&#x5C3C;&#x79D1;&#x592B;</td></tr></table>>,
+    ];
+  }
+  subgraph {
+    "94ca28100fd0b4c7e9992776e317532d" -> "0ca891ee80410c428b4c952e7dc3899a" [
+      label = "弗拉基米尔·弗拉基米罗维奇·普京",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "ef4c5cc1e445b052e3905ef6bdf51f28" [
+      label = "莫斯科州",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "f5bf089c0f7cb2eb79f7cf16c37f4568" [
+      label = "俄罗斯族",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "b112425f055d78302cc9bf2250b49643" [
+      label = "蘇聯國家計劃委員會",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "3d7cdc86def1c2ab66e6b761ee8769eb" [
+      label = "国家计委",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "cbf1d72bd251cb58239500d8830f252c" [
+      label = "俄白联盟",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "d72faa92e66c3369d30300dc28c937b1" [
+      label = "维克托·赫里斯坚科",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "1fbe67698c31a5c898a9f08ce73fe772" [
+      label = "尼古拉·德米特里耶维奇·戈利岑（页面不存在）",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "ca3471f545f7864c31c89cd0f38d5b0f" [
+      label = "en:Nikolai Golitsyn",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "8022a013bc6bfa83c2eda2f7e7aa9c6f" [
+      label = "Russian Empire",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "1dee75683792d348a377fe7e9dc0984a" [
+      label = "Russian Republic",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "36e9704e09a3d12e95bf205bef082772" [
+      label = "Russian Soviet Federative Socialist Republic",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "83aa11c17ef044cd2dcd5d1faf9f4b22" [
+      label = "Russian Federation",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "0263b3b4a208121d7d1f1fce30f6009c" [
+      label = "俄罗斯临时政府",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "47c8d495c73e8c848a592c2076d6ec87" [
+      label = "格奥尔基·叶夫根耶维奇·李沃夫",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "c1e83e68f6e8308b3bada3e4b8a57d8e" [
+      label = "亚历山大·费奥多罗维奇·克伦斯基",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "d49627bc1aafa85bded26ab6004a2f81" [
+      label = "俄罗斯苏维埃联邦社会主义共和国人民委员会",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "42e28859b0c48d7dd86f28d47bb6aaa3" [
+      label = "俄罗斯苏维埃联邦社会主义共和国部长会议",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "02a230322f6bdd9d0e34d16bcbd36eb5" [
+      label = "弗拉基米尔·伊里奇·列宁",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "bd4abf9cb154b0af41eb6f2e0f30b15e" [
+      label = "阿列克谢·伊万诺维奇·李可夫",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "4b1b532814f786386a81268f7de7bffa" [
+      label = "谢尔盖·伊万诺维奇·塞尔佐夫",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "8ee49b56d44eb7553a2c535e45cfc150" [
+      label = "丹尼尔·叶戈罗维奇·苏利莫夫",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "b262883a448f63b9b605f861489c16c6" [
+      label = "尼古拉·亞歷山德羅維奇·布爾加寧",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "e0735e79eed1fe3fbbc7e0a51500da55" [
+      label = "瓦西里·瓦西里耶维奇·瓦赫鲁舍夫（页面不存在）",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "834539ad37db40d43dbdea2844ff3022" [
+      label = "en:Vasily Vakhrushev",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "60af74f52a27bd7b4509b1e96f564292" [
+      label = "伊万·谢尔盖耶维奇·霍赫洛夫（页面不存在）",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "93f89fd43cf00f89e3a815964d8d9675" [
+      label = "en:Ivan Khokhlov",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "ad55774fb10861ed79a0e3117ff77254" [
+      label = "阿列克谢·尼古拉耶维奇·柯西金",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "9e970f13bc831cf76382cb20115f3f6b" [
+      label = "米哈伊尔·伊万诺维奇·罗季昂诺夫",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "4107f123df83a49c0032175dd42f291e" [
+      label = "鲍里斯·尼古拉耶维奇·切尔诺乌索夫",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "2131dfe01e04c0dc94858a19d8d2d224" [
+      label = "亚历山大·米哈伊洛维奇·普扎诺夫",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "b5a884fb956235ffbc35160187766d6c" [
+      label = "米哈伊尔·阿列克谢耶维奇·亚斯诺夫（页面不存在）",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "25b6785145f78c87673b534009b8a384" [
+      label = "en:Mikhail Yasnov",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "6583dfcf84e68e462120e7d258613429" [
+      label = "弗罗尔·罗曼诺维奇·科兹洛夫",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "9594c0c3780c237b7df9d8c0f0b36a37" [
+      label = "德米特里·斯捷潘诺维奇·波利扬斯基",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "8dcd3d6796c8c62c284a23302bf07f62" [
+      label = "根纳季·伊万诺维奇·沃罗诺夫",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "03e54f05a75ecf552247b3b100fb47c9" [
+      label = "米哈伊尔·谢尔盖耶维奇·索洛缅采夫",
+    ];
+    "94ca28100fd0b4c7e9992776e317532d" -> "8a6d066e6d55f8792fe02106706bf0bc" [
+      label = "维塔利·伊万诺维奇·沃罗特尼科夫",
+    ];
+    "0ca891ee80410c428b4c952e7dc3899a" -> "c714d2d406d0877a507cbebf15835da7" [
+      label = "弗拉基米尔·弗拉基米罗维奇·普京",
+    ];
+    "0ca891ee80410c428b4c952e7dc3899a" -> "0ca891ee80410c428b4c952e7dc3899a" [
+      label = "弗拉基米尔·弗拉基米罗维奇·普京",
+    ];
+    "0ca891ee80410c428b4c952e7dc3899a" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "9397682cfc4143f53baf4a64b30e42b0" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "9397682cfc4143f53baf4a64b30e42b0" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "6704fc4c842aa2bf2c972fb52548e360" -> "055bac3380a5983173947b9659b0ee67" [
+      label = "Wikipedia:消歧义",
+    ];
+    "6704fc4c842aa2bf2c972fb52548e360" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "ef4c5cc1e445b052e3905ef6bdf51f28" -> "16b561199f40f9d1f326c2042ef7968f" [
+      label = "州 (俄罗斯)",
+    ];
+    "0a9b353d0e8a73eb41ae6b951e1098e6" -> "2bdba40150ff98197df49c548ecdff96" [
+      label = "聆聽這篇條目",
+    ];
+    "0a9b353d0e8a73eb41ae6b951e1098e6" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "0a9b353d0e8a73eb41ae6b951e1098e6" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "0a9b353d0e8a73eb41ae6b951e1098e6" -> "ef4c5cc1e445b052e3905ef6bdf51f28" [
+      label = "莫斯科州",
+    ];
+    "7675667d2ed1b74d0c7d3af70af4ef5e" -> "e3fbd26361b0f0e64f368c6dbeae4de9" [
+      label = "俄罗斯联邦政府",
+    ];
+    "7675667d2ed1b74d0c7d3af70af4ef5e" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "7675667d2ed1b74d0c7d3af70af4ef5e" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "f5bf089c0f7cb2eb79f7cf16c37f4568" -> "82126640c7436f0c395b1a368378380f" [
+      label = "俄罗斯族",
+    ];
+    "f5bf089c0f7cb2eb79f7cf16c37f4568" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "f5bf089c0f7cb2eb79f7cf16c37f4568" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "b112425f055d78302cc9bf2250b49643" -> "c168ca36b0f4688c1ccd8700c048b089" [
+      label = "俄語",
+    ];
+    "3d7cdc86def1c2ab66e6b761ee8769eb" -> "9051631f18e56bce6db716d34afa8160" [
+      label = "国家计委",
+    ];
+    "3d7cdc86def1c2ab66e6b761ee8769eb" -> "b112425f055d78302cc9bf2250b49643" [
+      label = "蘇聯國家計劃委員會",
+    ];
+    "cbf1d72bd251cb58239500d8830f252c" -> "20ae54170c086740e113bc4e3380e7fe" [
+      label = "俄白联盟",
+    ];
+    "cbf1d72bd251cb58239500d8830f252c" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "cbf1d72bd251cb58239500d8830f252c" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "cbf1d72bd251cb58239500d8830f252c" -> "f5bf089c0f7cb2eb79f7cf16c37f4568" [
+      label = "俄罗斯族",
+    ];
+    "60d073f23f2887e27e4f0d5704558ee1" -> "2c0345f790e57872046860d27db520ba" [
+      label = "Wikipedia:VAND",
+    ];
+    "60d073f23f2887e27e4f0d5704558ee1" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "60d073f23f2887e27e4f0d5704558ee1" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "60d073f23f2887e27e4f0d5704558ee1" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "60d073f23f2887e27e4f0d5704558ee1" -> "0ca891ee80410c428b4c952e7dc3899a" [
+      label = "弗拉基米尔·弗拉基米罗维奇·普京",
+    ];
+    "60d073f23f2887e27e4f0d5704558ee1" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "60d073f23f2887e27e4f0d5704558ee1" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "d72faa92e66c3369d30300dc28c937b1" -> "41f5d65b46dd1740c092f5a5329e0253" [
+      label = "维克托·赫里斯坚科",
+    ];
+    "d72faa92e66c3369d30300dc28c937b1" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "d72faa92e66c3369d30300dc28c937b1" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "d72faa92e66c3369d30300dc28c937b1" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "d72faa92e66c3369d30300dc28c937b1" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "d72faa92e66c3369d30300dc28c937b1" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "f9d1262ae443faedde781e08a2a1fc80" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "f9d1262ae443faedde781e08a2a1fc80" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "f9d1262ae443faedde781e08a2a1fc80" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "f9d1262ae443faedde781e08a2a1fc80" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "f9d1262ae443faedde781e08a2a1fc80" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "f9d1262ae443faedde781e08a2a1fc80" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "dd06c54ae5550873d42a7aa77b3ea3c7" -> "fe458b92abb328d871d41c888b7b3582" [
+      label = "WikiProject:俄羅斯",
+    ];
+    "dd06c54ae5550873d42a7aa77b3ea3c7" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "dd06c54ae5550873d42a7aa77b3ea3c7" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "dd1089d4c86fb9927ac3671b51624f83" -> "055c7633ba4454517b8d69592493f254" [
+      label = "政府首脑",
+    ];
+    "dd1089d4c86fb9927ac3671b51624f83" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "dd1089d4c86fb9927ac3671b51624f83" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "dd1089d4c86fb9927ac3671b51624f83" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "dd1089d4c86fb9927ac3671b51624f83" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "dd1089d4c86fb9927ac3671b51624f83" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "dd1089d4c86fb9927ac3671b51624f83" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "dd1089d4c86fb9927ac3671b51624f83" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "e49a96757be0ce14508fd2133ca64db5" -> "3a10aa1cc30a29bfa83e373aaf48a5d3" [
+      label = "俄國国旗",
+    ];
+    "e49a96757be0ce14508fd2133ca64db5" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "e49a96757be0ce14508fd2133ca64db5" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "e49a96757be0ce14508fd2133ca64db5" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "e431cdc3a3722ab156f0f7023824cba6" -> "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "e431cdc3a3722ab156f0f7023824cba6" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "e431cdc3a3722ab156f0f7023824cba6" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "e431cdc3a3722ab156f0f7023824cba6" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "e431cdc3a3722ab156f0f7023824cba6" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "e431cdc3a3722ab156f0f7023824cba6" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "e431cdc3a3722ab156f0f7023824cba6" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "e431cdc3a3722ab156f0f7023824cba6" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "e431cdc3a3722ab156f0f7023824cba6" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "e431cdc3a3722ab156f0f7023824cba6" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "d38f32dc57069b2b6654937372f39f4b" -> "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "d38f32dc57069b2b6654937372f39f4b" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "d38f32dc57069b2b6654937372f39f4b" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "d38f32dc57069b2b6654937372f39f4b" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "d38f32dc57069b2b6654937372f39f4b" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "d38f32dc57069b2b6654937372f39f4b" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "d38f32dc57069b2b6654937372f39f4b" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "d38f32dc57069b2b6654937372f39f4b" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "d38f32dc57069b2b6654937372f39f4b" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "d38f32dc57069b2b6654937372f39f4b" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "d38f32dc57069b2b6654937372f39f4b" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "d385744b0aeb50c4144f4e33e831681a" -> "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "d385744b0aeb50c4144f4e33e831681a" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "d385744b0aeb50c4144f4e33e831681a" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "d385744b0aeb50c4144f4e33e831681a" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "d385744b0aeb50c4144f4e33e831681a" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "d385744b0aeb50c4144f4e33e831681a" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "d385744b0aeb50c4144f4e33e831681a" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "d385744b0aeb50c4144f4e33e831681a" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "d385744b0aeb50c4144f4e33e831681a" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "d385744b0aeb50c4144f4e33e831681a" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "d385744b0aeb50c4144f4e33e831681a" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "d385744b0aeb50c4144f4e33e831681a" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "8601fc8b8204dc09bbd416850d57e11b" -> "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "8601fc8b8204dc09bbd416850d57e11b" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "8601fc8b8204dc09bbd416850d57e11b" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "8601fc8b8204dc09bbd416850d57e11b" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "8601fc8b8204dc09bbd416850d57e11b" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "8601fc8b8204dc09bbd416850d57e11b" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "8601fc8b8204dc09bbd416850d57e11b" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "8601fc8b8204dc09bbd416850d57e11b" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "8601fc8b8204dc09bbd416850d57e11b" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "8601fc8b8204dc09bbd416850d57e11b" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "8601fc8b8204dc09bbd416850d57e11b" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "8601fc8b8204dc09bbd416850d57e11b" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "8601fc8b8204dc09bbd416850d57e11b" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "1b3f5eaf1e726fd647b8075b04e42d14" -> "fb2753699e4b98bf246c8731200bf3f0" [
+      label = "放大",
+    ];
+    "1b3f5eaf1e726fd647b8075b04e42d14" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "1b3f5eaf1e726fd647b8075b04e42d14" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "1b3f5eaf1e726fd647b8075b04e42d14" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "1b3f5eaf1e726fd647b8075b04e42d14" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "1b3f5eaf1e726fd647b8075b04e42d14" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "1b3f5eaf1e726fd647b8075b04e42d14" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "1b3f5eaf1e726fd647b8075b04e42d14" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "1b3f5eaf1e726fd647b8075b04e42d14" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "1b3f5eaf1e726fd647b8075b04e42d14" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "1b3f5eaf1e726fd647b8075b04e42d14" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "1b3f5eaf1e726fd647b8075b04e42d14" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "1b3f5eaf1e726fd647b8075b04e42d14" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "1b3f5eaf1e726fd647b8075b04e42d14" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "8a566d8c7b244e9b03fe3f1e9fdcda13" -> "e28b18c5a98ae183336dc778a160fb34" [
+      label = "放大",
+    ];
+    "8a566d8c7b244e9b03fe3f1e9fdcda13" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "8a566d8c7b244e9b03fe3f1e9fdcda13" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "8a566d8c7b244e9b03fe3f1e9fdcda13" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "8a566d8c7b244e9b03fe3f1e9fdcda13" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "8a566d8c7b244e9b03fe3f1e9fdcda13" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "8a566d8c7b244e9b03fe3f1e9fdcda13" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "8a566d8c7b244e9b03fe3f1e9fdcda13" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "8a566d8c7b244e9b03fe3f1e9fdcda13" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "8a566d8c7b244e9b03fe3f1e9fdcda13" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "8a566d8c7b244e9b03fe3f1e9fdcda13" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "8a566d8c7b244e9b03fe3f1e9fdcda13" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "8a566d8c7b244e9b03fe3f1e9fdcda13" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "8a566d8c7b244e9b03fe3f1e9fdcda13" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "8a566d8c7b244e9b03fe3f1e9fdcda13" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "1fbe67698c31a5c898a9f08ce73fe772" -> "bfedcee89e6b03376392a5e5d24cbcbf" [
+      label = "Help:编辑手册",
+    ];
+    "8022a013bc6bfa83c2eda2f7e7aa9c6f" -> "d72d626cbf2d4a933ebfc372ffa39ef0" [
+      label = "commons:File:Coat of Arms of Russian Empire.svg",
+    ];
+    "8022a013bc6bfa83c2eda2f7e7aa9c6f" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "zh:苏联",
+    ];
+    "8022a013bc6bfa83c2eda2f7e7aa9c6f" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "8022a013bc6bfa83c2eda2f7e7aa9c6f" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "8022a013bc6bfa83c2eda2f7e7aa9c6f" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "8022a013bc6bfa83c2eda2f7e7aa9c6f" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "8022a013bc6bfa83c2eda2f7e7aa9c6f" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "8022a013bc6bfa83c2eda2f7e7aa9c6f" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "8022a013bc6bfa83c2eda2f7e7aa9c6f" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "8022a013bc6bfa83c2eda2f7e7aa9c6f" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "8022a013bc6bfa83c2eda2f7e7aa9c6f" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "8022a013bc6bfa83c2eda2f7e7aa9c6f" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "8022a013bc6bfa83c2eda2f7e7aa9c6f" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "1dee75683792d348a377fe7e9dc0984a" -> "6029459ae7706ebcf4a6e4d9d954e336" [
+      label = "commons:File:Russian coa 1917 vrem.png",
+    ];
+    "1dee75683792d348a377fe7e9dc0984a" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "zh:苏联",
+    ];
+    "1dee75683792d348a377fe7e9dc0984a" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "1dee75683792d348a377fe7e9dc0984a" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "1dee75683792d348a377fe7e9dc0984a" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "1dee75683792d348a377fe7e9dc0984a" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "1dee75683792d348a377fe7e9dc0984a" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "1dee75683792d348a377fe7e9dc0984a" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "1dee75683792d348a377fe7e9dc0984a" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "1dee75683792d348a377fe7e9dc0984a" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "1dee75683792d348a377fe7e9dc0984a" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "1dee75683792d348a377fe7e9dc0984a" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "1dee75683792d348a377fe7e9dc0984a" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "36e9704e09a3d12e95bf205bef082772" -> "bca1ffd510f90b0e023b3e53cf3d0a38" [
+      label = "commons:File:Coat of arms of the Russian Soviet Federative Socialist Republic.svg",
+    ];
+    "36e9704e09a3d12e95bf205bef082772" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "zh:苏联",
+    ];
+    "36e9704e09a3d12e95bf205bef082772" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "36e9704e09a3d12e95bf205bef082772" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "36e9704e09a3d12e95bf205bef082772" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "36e9704e09a3d12e95bf205bef082772" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "36e9704e09a3d12e95bf205bef082772" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "36e9704e09a3d12e95bf205bef082772" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "36e9704e09a3d12e95bf205bef082772" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "36e9704e09a3d12e95bf205bef082772" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "36e9704e09a3d12e95bf205bef082772" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "36e9704e09a3d12e95bf205bef082772" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "36e9704e09a3d12e95bf205bef082772" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "83aa11c17ef044cd2dcd5d1faf9f4b22" -> "0ff003e036b72c3c6626a0d1b37f39ac" [
+      label = "commons:File:Coat of Arms of the Russian Federation.svg",
+    ];
+    "83aa11c17ef044cd2dcd5d1faf9f4b22" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "zh:苏联",
+    ];
+    "83aa11c17ef044cd2dcd5d1faf9f4b22" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "83aa11c17ef044cd2dcd5d1faf9f4b22" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "83aa11c17ef044cd2dcd5d1faf9f4b22" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "83aa11c17ef044cd2dcd5d1faf9f4b22" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "83aa11c17ef044cd2dcd5d1faf9f4b22" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "0263b3b4a208121d7d1f1fce30f6009c" -> "055bac3380a5983173947b9659b0ee67" [
+      label = "Wikipedia:消歧义",
+    ];
+    "0263b3b4a208121d7d1f1fce30f6009c" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "0263b3b4a208121d7d1f1fce30f6009c" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "0263b3b4a208121d7d1f1fce30f6009c" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "9e96190800344b02d8f63b6646224cd0" [
+      label = "ru:Львов, Георгий Евгеньевич",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "1fbe67698c31a5c898a9f08ce73fe772" [
+      label = "尼古拉·德米特里耶维奇·戈利岑（页面不存在）",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "8022a013bc6bfa83c2eda2f7e7aa9c6f" [
+      label = "Russian Empire",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "1dee75683792d348a377fe7e9dc0984a" [
+      label = "Russian Republic",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "36e9704e09a3d12e95bf205bef082772" [
+      label = "Russian Soviet Federative Socialist Republic",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "83aa11c17ef044cd2dcd5d1faf9f4b22" [
+      label = "Russian Federation",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "0263b3b4a208121d7d1f1fce30f6009c" [
+      label = "俄罗斯临时政府",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "47c8d495c73e8c848a592c2076d6ec87" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "96d4ac3f79fada6b70cd1af204dabd70" [
+      label = "亚历山大·费奥多罗维奇·克伦斯基",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "47c8d495c73e8c848a592c2076d6ec87" [
+      label = "格奥尔基·叶夫根耶维奇·李沃夫",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "1fbe67698c31a5c898a9f08ce73fe772" [
+      label = "尼古拉·德米特里耶维奇·戈利岑（页面不存在）",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "8022a013bc6bfa83c2eda2f7e7aa9c6f" [
+      label = "Russian Empire",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "1dee75683792d348a377fe7e9dc0984a" [
+      label = "Russian Republic",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "36e9704e09a3d12e95bf205bef082772" [
+      label = "Russian Soviet Federative Socialist Republic",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "83aa11c17ef044cd2dcd5d1faf9f4b22" [
+      label = "Russian Federation",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "0263b3b4a208121d7d1f1fce30f6009c" [
+      label = "俄罗斯临时政府",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "c1e83e68f6e8308b3bada3e4b8a57d8e" [
+      label = "亚历山大·费奥多罗维奇·克伦斯基",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "c1e83e68f6e8308b3bada3e4b8a57d8e" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "44cb3baf078fdb2d02ed840f62f18ae9" -> "15158c98b32afb1b323a81b34f953834" [
+      label = "俄罗斯国旗",
+    ];
+    "44cb3baf078fdb2d02ed840f62f18ae9" -> "36e9704e09a3d12e95bf205bef082772" [
+      label = "俄罗斯國徽（1978−1991）",
+    ];
+    "44cb3baf078fdb2d02ed840f62f18ae9" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "44cb3baf078fdb2d02ed840f62f18ae9" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "44cb3baf078fdb2d02ed840f62f18ae9" -> "0263b3b4a208121d7d1f1fce30f6009c" [
+      label = "俄罗斯临时政府",
+    ];
+    "44cb3baf078fdb2d02ed840f62f18ae9" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "44cb3baf078fdb2d02ed840f62f18ae9" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "d49627bc1aafa85bded26ab6004a2f81" -> "8af78f89f4f83b094acc0970ddf97552" [
+      label = "俄国临时政府",
+    ];
+    "d49627bc1aafa85bded26ab6004a2f81" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "d49627bc1aafa85bded26ab6004a2f81" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "42e28859b0c48d7dd86f28d47bb6aaa3" -> "38cdaf95bc1857409ff11b2bf0ed16f6" [
+      label = "Wikipedia:列明来源",
+    ];
+    "42e28859b0c48d7dd86f28d47bb6aaa3" -> "d49627bc1aafa85bded26ab6004a2f81" [
+      label = "俄罗斯苏维埃联邦社会主义共和国人民委员会",
+    ];
+    "42e28859b0c48d7dd86f28d47bb6aaa3" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "42e28859b0c48d7dd86f28d47bb6aaa3" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "42e28859b0c48d7dd86f28d47bb6aaa3" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "c21b71b8b5adeed8e4bbd40a09a98dba" [
+      label = "这是优良条目，点此获取更多信息。",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "ef4c5cc1e445b052e3905ef6bdf51f28" [
+      label = "莫斯科州",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "c1e83e68f6e8308b3bada3e4b8a57d8e" [
+      label = "亚历山大·费奥多罗维奇·克伦斯基",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "d49627bc1aafa85bded26ab6004a2f81" [
+      label = "俄罗斯苏维埃联邦社会主义共和国人民委员会",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "02a230322f6bdd9d0e34d16bcbd36eb5" [
+      label = "弗拉基米尔·伊里奇·列宁",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "1fbe67698c31a5c898a9f08ce73fe772" [
+      label = "尼古拉·德米特里耶维奇·戈利岑（页面不存在）",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "8022a013bc6bfa83c2eda2f7e7aa9c6f" [
+      label = "Russian Empire",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "1dee75683792d348a377fe7e9dc0984a" [
+      label = "Russian Republic",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "36e9704e09a3d12e95bf205bef082772" [
+      label = "Russian Soviet Federative Socialist Republic",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "83aa11c17ef044cd2dcd5d1faf9f4b22" [
+      label = "Russian Federation",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "0263b3b4a208121d7d1f1fce30f6009c" [
+      label = "俄罗斯临时政府",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "47c8d495c73e8c848a592c2076d6ec87" [
+      label = "格奥尔基·叶夫根耶维奇·李沃夫",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "42e28859b0c48d7dd86f28d47bb6aaa3" [
+      label = "俄罗斯苏维埃联邦社会主义共和国部长会议",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "02a230322f6bdd9d0e34d16bcbd36eb5" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "352ed4b0e2e678ec76cf4b3eef7dae19" [
+      label = "阿列克谢·伊万诺维奇·李可夫",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "d49627bc1aafa85bded26ab6004a2f81" [
+      label = "俄罗斯苏维埃联邦社会主义共和国人民委员会",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "02a230322f6bdd9d0e34d16bcbd36eb5" [
+      label = "弗拉基米尔·伊里奇·列宁",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "bd4abf9cb154b0af41eb6f2e0f30b15e" [
+      label = "阿列克谢·伊万诺维奇·李可夫",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "1fbe67698c31a5c898a9f08ce73fe772" [
+      label = "尼古拉·德米特里耶维奇·戈利岑（页面不存在）",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "8022a013bc6bfa83c2eda2f7e7aa9c6f" [
+      label = "Russian Empire",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "1dee75683792d348a377fe7e9dc0984a" [
+      label = "Russian Republic",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "36e9704e09a3d12e95bf205bef082772" [
+      label = "Russian Soviet Federative Socialist Republic",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "83aa11c17ef044cd2dcd5d1faf9f4b22" [
+      label = "Russian Federation",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "0263b3b4a208121d7d1f1fce30f6009c" [
+      label = "俄罗斯临时政府",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "47c8d495c73e8c848a592c2076d6ec87" [
+      label = "格奥尔基·叶夫根耶维奇·李沃夫",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "c1e83e68f6e8308b3bada3e4b8a57d8e" [
+      label = "亚历山大·费奥多罗维奇·克伦斯基",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "42e28859b0c48d7dd86f28d47bb6aaa3" [
+      label = "俄罗斯苏维埃联邦社会主义共和国部长会议",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "bd4abf9cb154b0af41eb6f2e0f30b15e" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "d49627bc1aafa85bded26ab6004a2f81" [
+      label = "俄罗斯苏维埃联邦社会主义共和国人民委员会",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "bd4abf9cb154b0af41eb6f2e0f30b15e" [
+      label = "阿列克谢·伊万诺维奇·李可夫",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "8ee49b56d44eb7553a2c535e45cfc150" [
+      label = "丹尼尔·叶戈罗维奇·苏利莫夫",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "1fbe67698c31a5c898a9f08ce73fe772" [
+      label = "尼古拉·德米特里耶维奇·戈利岑（页面不存在）",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "8022a013bc6bfa83c2eda2f7e7aa9c6f" [
+      label = "Russian Empire",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "1dee75683792d348a377fe7e9dc0984a" [
+      label = "Russian Republic",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "36e9704e09a3d12e95bf205bef082772" [
+      label = "Russian Soviet Federative Socialist Republic",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "83aa11c17ef044cd2dcd5d1faf9f4b22" [
+      label = "Russian Federation",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "0263b3b4a208121d7d1f1fce30f6009c" [
+      label = "俄罗斯临时政府",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "47c8d495c73e8c848a592c2076d6ec87" [
+      label = "格奥尔基·叶夫根耶维奇·李沃夫",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "c1e83e68f6e8308b3bada3e4b8a57d8e" [
+      label = "亚历山大·费奥多罗维奇·克伦斯基",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "42e28859b0c48d7dd86f28d47bb6aaa3" [
+      label = "俄罗斯苏维埃联邦社会主义共和国部长会议",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "02a230322f6bdd9d0e34d16bcbd36eb5" [
+      label = "弗拉基米尔·伊里奇·列宁",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "4b1b532814f786386a81268f7de7bffa" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "d49627bc1aafa85bded26ab6004a2f81" [
+      label = "俄罗斯苏维埃联邦社会主义共和国人民委员会",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "4b1b532814f786386a81268f7de7bffa" [
+      label = "谢尔盖·伊万诺维奇·塞尔佐夫",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "b262883a448f63b9b605f861489c16c6" [
+      label = "尼古拉·亞歷山德羅維奇·布爾加寧",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "1fbe67698c31a5c898a9f08ce73fe772" [
+      label = "尼古拉·德米特里耶维奇·戈利岑（页面不存在）",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "8022a013bc6bfa83c2eda2f7e7aa9c6f" [
+      label = "Russian Empire",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "1dee75683792d348a377fe7e9dc0984a" [
+      label = "Russian Republic",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "36e9704e09a3d12e95bf205bef082772" [
+      label = "Russian Soviet Federative Socialist Republic",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "83aa11c17ef044cd2dcd5d1faf9f4b22" [
+      label = "Russian Federation",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "0263b3b4a208121d7d1f1fce30f6009c" [
+      label = "俄罗斯临时政府",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "47c8d495c73e8c848a592c2076d6ec87" [
+      label = "格奥尔基·叶夫根耶维奇·李沃夫",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "c1e83e68f6e8308b3bada3e4b8a57d8e" [
+      label = "亚历山大·费奥多罗维奇·克伦斯基",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "42e28859b0c48d7dd86f28d47bb6aaa3" [
+      label = "俄罗斯苏维埃联邦社会主义共和国部长会议",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "02a230322f6bdd9d0e34d16bcbd36eb5" [
+      label = "弗拉基米尔·伊里奇·列宁",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "bd4abf9cb154b0af41eb6f2e0f30b15e" [
+      label = "阿列克谢·伊万诺维奇·李可夫",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "8ee49b56d44eb7553a2c535e45cfc150" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "7ee25267276f0e4e7e5e61a09fbbe26e" [
+      label = "苏联部长会议主席",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "8ee49b56d44eb7553a2c535e45cfc150" [
+      label = "丹尼尔·叶戈罗维奇·苏利莫夫",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "02a230322f6bdd9d0e34d16bcbd36eb5" [
+      label = "弗拉基米尔·伊里奇·列宁",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "bd4abf9cb154b0af41eb6f2e0f30b15e" [
+      label = "阿列克谢·伊万诺维奇·李可夫",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "1fbe67698c31a5c898a9f08ce73fe772" [
+      label = "尼古拉·德米特里耶维奇·戈利岑（页面不存在）",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "8022a013bc6bfa83c2eda2f7e7aa9c6f" [
+      label = "Russian Empire",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "1dee75683792d348a377fe7e9dc0984a" [
+      label = "Russian Republic",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "36e9704e09a3d12e95bf205bef082772" [
+      label = "Russian Soviet Federative Socialist Republic",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "83aa11c17ef044cd2dcd5d1faf9f4b22" [
+      label = "Russian Federation",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "0263b3b4a208121d7d1f1fce30f6009c" [
+      label = "俄罗斯临时政府",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "47c8d495c73e8c848a592c2076d6ec87" [
+      label = "格奥尔基·叶夫根耶维奇·李沃夫",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "c1e83e68f6e8308b3bada3e4b8a57d8e" [
+      label = "亚历山大·费奥多罗维奇·克伦斯基",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "d49627bc1aafa85bded26ab6004a2f81" [
+      label = "俄罗斯苏维埃联邦社会主义共和国人民委员会",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "42e28859b0c48d7dd86f28d47bb6aaa3" [
+      label = "俄罗斯苏维埃联邦社会主义共和国部长会议",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "4b1b532814f786386a81268f7de7bffa" [
+      label = "谢尔盖·伊万诺维奇·塞尔佐夫",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "b262883a448f63b9b605f861489c16c6" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "e0735e79eed1fe3fbbc7e0a51500da55" -> "bfedcee89e6b03376392a5e5d24cbcbf" [
+      label = "Help:编辑手册",
+    ];
+    "60af74f52a27bd7b4509b1e96f564292" -> "bfedcee89e6b03376392a5e5d24cbcbf" [
+      label = "Help:编辑手册",
+    ];
+    "ad55774fb10861ed79a0e3117ff77254" -> "5e727cfa90ff4cff8ea4bacc6c20e282" [
+      label = "阿列克谢·尼古拉耶维奇·柯西金",
+    ];
+    "ad55774fb10861ed79a0e3117ff77254" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "ad55774fb10861ed79a0e3117ff77254" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "ad55774fb10861ed79a0e3117ff77254" -> "02a230322f6bdd9d0e34d16bcbd36eb5" [
+      label = "弗拉基米尔·伊里奇·列宁",
+    ];
+    "ad55774fb10861ed79a0e3117ff77254" -> "bd4abf9cb154b0af41eb6f2e0f30b15e" [
+      label = "阿列克谢·伊万诺维奇·李可夫",
+    ];
+    "ad55774fb10861ed79a0e3117ff77254" -> "b262883a448f63b9b605f861489c16c6" [
+      label = "尼古拉·亞歷山德羅維奇·布爾加寧",
+    ];
+    "ad55774fb10861ed79a0e3117ff77254" -> "ad55774fb10861ed79a0e3117ff77254" [
+      label = "阿列克谢·尼古拉耶维奇·柯西金",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "9b1a6f34492f9e433fa1d1e65d5c2320" [
+      label = "儒略历",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "42e28859b0c48d7dd86f28d47bb6aaa3" [
+      label = "俄罗斯苏维埃联邦社会主义共和国部长会议",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "1fbe67698c31a5c898a9f08ce73fe772" [
+      label = "尼古拉·德米特里耶维奇·戈利岑（页面不存在）",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "8022a013bc6bfa83c2eda2f7e7aa9c6f" [
+      label = "Russian Empire",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "1dee75683792d348a377fe7e9dc0984a" [
+      label = "Russian Republic",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "36e9704e09a3d12e95bf205bef082772" [
+      label = "Russian Soviet Federative Socialist Republic",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "83aa11c17ef044cd2dcd5d1faf9f4b22" [
+      label = "Russian Federation",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "0263b3b4a208121d7d1f1fce30f6009c" [
+      label = "俄罗斯临时政府",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "47c8d495c73e8c848a592c2076d6ec87" [
+      label = "格奥尔基·叶夫根耶维奇·李沃夫",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "c1e83e68f6e8308b3bada3e4b8a57d8e" [
+      label = "亚历山大·费奥多罗维奇·克伦斯基",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "d49627bc1aafa85bded26ab6004a2f81" [
+      label = "俄罗斯苏维埃联邦社会主义共和国人民委员会",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "02a230322f6bdd9d0e34d16bcbd36eb5" [
+      label = "弗拉基米尔·伊里奇·列宁",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "bd4abf9cb154b0af41eb6f2e0f30b15e" [
+      label = "阿列克谢·伊万诺维奇·李可夫",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "4b1b532814f786386a81268f7de7bffa" [
+      label = "谢尔盖·伊万诺维奇·塞尔佐夫",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "8ee49b56d44eb7553a2c535e45cfc150" [
+      label = "丹尼尔·叶戈罗维奇·苏利莫夫",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "b262883a448f63b9b605f861489c16c6" [
+      label = "尼古拉·亞歷山德羅維奇·布爾加寧",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "e0735e79eed1fe3fbbc7e0a51500da55" [
+      label = "瓦西里·瓦西里耶维奇·瓦赫鲁舍夫（页面不存在）",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "60af74f52a27bd7b4509b1e96f564292" [
+      label = "伊万·谢尔盖耶维奇·霍赫洛夫（页面不存在）",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "ad55774fb10861ed79a0e3117ff77254" [
+      label = "阿列克谢·尼古拉耶维奇·柯西金",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "9e970f13bc831cf76382cb20115f3f6b" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "7d6b683b5443b1277a9bf7af30b0e171" [
+      label = "ru:Черноусов, Борис Николаевич",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "42e28859b0c48d7dd86f28d47bb6aaa3" [
+      label = "俄罗斯苏维埃联邦社会主义共和国部长会议",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "1fbe67698c31a5c898a9f08ce73fe772" [
+      label = "尼古拉·德米特里耶维奇·戈利岑（页面不存在）",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "8022a013bc6bfa83c2eda2f7e7aa9c6f" [
+      label = "Russian Empire",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "1dee75683792d348a377fe7e9dc0984a" [
+      label = "Russian Republic",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "36e9704e09a3d12e95bf205bef082772" [
+      label = "Russian Soviet Federative Socialist Republic",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "83aa11c17ef044cd2dcd5d1faf9f4b22" [
+      label = "Russian Federation",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "0263b3b4a208121d7d1f1fce30f6009c" [
+      label = "俄罗斯临时政府",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "47c8d495c73e8c848a592c2076d6ec87" [
+      label = "格奥尔基·叶夫根耶维奇·李沃夫",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "c1e83e68f6e8308b3bada3e4b8a57d8e" [
+      label = "亚历山大·费奥多罗维奇·克伦斯基",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "d49627bc1aafa85bded26ab6004a2f81" [
+      label = "俄罗斯苏维埃联邦社会主义共和国人民委员会",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "02a230322f6bdd9d0e34d16bcbd36eb5" [
+      label = "弗拉基米尔·伊里奇·列宁",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "bd4abf9cb154b0af41eb6f2e0f30b15e" [
+      label = "阿列克谢·伊万诺维奇·李可夫",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "4b1b532814f786386a81268f7de7bffa" [
+      label = "谢尔盖·伊万诺维奇·塞尔佐夫",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "8ee49b56d44eb7553a2c535e45cfc150" [
+      label = "丹尼尔·叶戈罗维奇·苏利莫夫",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "b262883a448f63b9b605f861489c16c6" [
+      label = "尼古拉·亞歷山德羅維奇·布爾加寧",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "e0735e79eed1fe3fbbc7e0a51500da55" [
+      label = "瓦西里·瓦西里耶维奇·瓦赫鲁舍夫（页面不存在）",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "60af74f52a27bd7b4509b1e96f564292" [
+      label = "伊万·谢尔盖耶维奇·霍赫洛夫（页面不存在）",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "ad55774fb10861ed79a0e3117ff77254" [
+      label = "阿列克谢·尼古拉耶维奇·柯西金",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "9e970f13bc831cf76382cb20115f3f6b" [
+      label = "米哈伊尔·伊万诺维奇·罗季昂诺夫",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "4107f123df83a49c0032175dd42f291e" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "301fb6cf805f2bd4d41a151531a61209" [
+      label = "苏共中央主席团",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "1fbe67698c31a5c898a9f08ce73fe772" [
+      label = "尼古拉·德米特里耶维奇·戈利岑（页面不存在）",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "8022a013bc6bfa83c2eda2f7e7aa9c6f" [
+      label = "Russian Empire",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "1dee75683792d348a377fe7e9dc0984a" [
+      label = "Russian Republic",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "36e9704e09a3d12e95bf205bef082772" [
+      label = "Russian Soviet Federative Socialist Republic",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "83aa11c17ef044cd2dcd5d1faf9f4b22" [
+      label = "Russian Federation",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "0263b3b4a208121d7d1f1fce30f6009c" [
+      label = "俄罗斯临时政府",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "47c8d495c73e8c848a592c2076d6ec87" [
+      label = "格奥尔基·叶夫根耶维奇·李沃夫",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "c1e83e68f6e8308b3bada3e4b8a57d8e" [
+      label = "亚历山大·费奥多罗维奇·克伦斯基",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "d49627bc1aafa85bded26ab6004a2f81" [
+      label = "俄罗斯苏维埃联邦社会主义共和国人民委员会",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "42e28859b0c48d7dd86f28d47bb6aaa3" [
+      label = "俄罗斯苏维埃联邦社会主义共和国部长会议",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "02a230322f6bdd9d0e34d16bcbd36eb5" [
+      label = "弗拉基米尔·伊里奇·列宁",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "bd4abf9cb154b0af41eb6f2e0f30b15e" [
+      label = "阿列克谢·伊万诺维奇·李可夫",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "4b1b532814f786386a81268f7de7bffa" [
+      label = "谢尔盖·伊万诺维奇·塞尔佐夫",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "8ee49b56d44eb7553a2c535e45cfc150" [
+      label = "丹尼尔·叶戈罗维奇·苏利莫夫",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "b262883a448f63b9b605f861489c16c6" [
+      label = "尼古拉·亞歷山德羅維奇·布爾加寧",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "e0735e79eed1fe3fbbc7e0a51500da55" [
+      label = "瓦西里·瓦西里耶维奇·瓦赫鲁舍夫（页面不存在）",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "60af74f52a27bd7b4509b1e96f564292" [
+      label = "伊万·谢尔盖耶维奇·霍赫洛夫（页面不存在）",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "ad55774fb10861ed79a0e3117ff77254" [
+      label = "阿列克谢·尼古拉耶维奇·柯西金",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "9e970f13bc831cf76382cb20115f3f6b" [
+      label = "米哈伊尔·伊万诺维奇·罗季昂诺夫",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "4107f123df83a49c0032175dd42f291e" [
+      label = "鲍里斯·尼古拉耶维奇·切尔诺乌索夫",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "2131dfe01e04c0dc94858a19d8d2d224" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "b5a884fb956235ffbc35160187766d6c" -> "bfedcee89e6b03376392a5e5d24cbcbf" [
+      label = "Help:编辑手册",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "2db5cd9ca70873d6dee3628b025c91a7" [
+      label = "Talk:弗罗尔·罗曼诺维奇·科兹洛夫",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "ad55774fb10861ed79a0e3117ff77254" [
+      label = "阿列克谢·尼古拉耶维奇·柯西金",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "02a230322f6bdd9d0e34d16bcbd36eb5" [
+      label = "弗拉基米尔·伊里奇·列宁",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "bd4abf9cb154b0af41eb6f2e0f30b15e" [
+      label = "阿列克谢·伊万诺维奇·李可夫",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "b262883a448f63b9b605f861489c16c6" [
+      label = "尼古拉·亞歷山德羅維奇·布爾加寧",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "1fbe67698c31a5c898a9f08ce73fe772" [
+      label = "尼古拉·德米特里耶维奇·戈利岑（页面不存在）",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "8022a013bc6bfa83c2eda2f7e7aa9c6f" [
+      label = "Russian Empire",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "1dee75683792d348a377fe7e9dc0984a" [
+      label = "Russian Republic",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "36e9704e09a3d12e95bf205bef082772" [
+      label = "Russian Soviet Federative Socialist Republic",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "83aa11c17ef044cd2dcd5d1faf9f4b22" [
+      label = "Russian Federation",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "0263b3b4a208121d7d1f1fce30f6009c" [
+      label = "俄罗斯临时政府",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "47c8d495c73e8c848a592c2076d6ec87" [
+      label = "格奥尔基·叶夫根耶维奇·李沃夫",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "c1e83e68f6e8308b3bada3e4b8a57d8e" [
+      label = "亚历山大·费奥多罗维奇·克伦斯基",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "d49627bc1aafa85bded26ab6004a2f81" [
+      label = "俄罗斯苏维埃联邦社会主义共和国人民委员会",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "42e28859b0c48d7dd86f28d47bb6aaa3" [
+      label = "俄罗斯苏维埃联邦社会主义共和国部长会议",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "4b1b532814f786386a81268f7de7bffa" [
+      label = "谢尔盖·伊万诺维奇·塞尔佐夫",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "8ee49b56d44eb7553a2c535e45cfc150" [
+      label = "丹尼尔·叶戈罗维奇·苏利莫夫",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "e0735e79eed1fe3fbbc7e0a51500da55" [
+      label = "瓦西里·瓦西里耶维奇·瓦赫鲁舍夫（页面不存在）",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "60af74f52a27bd7b4509b1e96f564292" [
+      label = "伊万·谢尔盖耶维奇·霍赫洛夫（页面不存在）",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "9e970f13bc831cf76382cb20115f3f6b" [
+      label = "米哈伊尔·伊万诺维奇·罗季昂诺夫",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "4107f123df83a49c0032175dd42f291e" [
+      label = "鲍里斯·尼古拉耶维奇·切尔诺乌索夫",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "2131dfe01e04c0dc94858a19d8d2d224" [
+      label = "亚历山大·米哈伊洛维奇·普扎诺夫",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "b5a884fb956235ffbc35160187766d6c" [
+      label = "米哈伊尔·阿列克谢耶维奇·亚斯诺夫（页面不存在）",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "6583dfcf84e68e462120e7d258613429" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "1e87bb9c67c5e3f98e681d2f3806c88f" [
+      label = "苏联部长会议",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "ad55774fb10861ed79a0e3117ff77254" [
+      label = "阿列克谢·尼古拉耶维奇·柯西金",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "42e28859b0c48d7dd86f28d47bb6aaa3" [
+      label = "俄罗斯苏维埃联邦社会主义共和国部长会议",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "6583dfcf84e68e462120e7d258613429" [
+      label = "弗罗尔·罗曼诺维奇·科兹洛夫",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "1fbe67698c31a5c898a9f08ce73fe772" [
+      label = "尼古拉·德米特里耶维奇·戈利岑（页面不存在）",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "8022a013bc6bfa83c2eda2f7e7aa9c6f" [
+      label = "Russian Empire",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "1dee75683792d348a377fe7e9dc0984a" [
+      label = "Russian Republic",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "36e9704e09a3d12e95bf205bef082772" [
+      label = "Russian Soviet Federative Socialist Republic",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "83aa11c17ef044cd2dcd5d1faf9f4b22" [
+      label = "Russian Federation",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "0263b3b4a208121d7d1f1fce30f6009c" [
+      label = "俄罗斯临时政府",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "47c8d495c73e8c848a592c2076d6ec87" [
+      label = "格奥尔基·叶夫根耶维奇·李沃夫",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "c1e83e68f6e8308b3bada3e4b8a57d8e" [
+      label = "亚历山大·费奥多罗维奇·克伦斯基",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "d49627bc1aafa85bded26ab6004a2f81" [
+      label = "俄罗斯苏维埃联邦社会主义共和国人民委员会",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "02a230322f6bdd9d0e34d16bcbd36eb5" [
+      label = "弗拉基米尔·伊里奇·列宁",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "bd4abf9cb154b0af41eb6f2e0f30b15e" [
+      label = "阿列克谢·伊万诺维奇·李可夫",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "4b1b532814f786386a81268f7de7bffa" [
+      label = "谢尔盖·伊万诺维奇·塞尔佐夫",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "8ee49b56d44eb7553a2c535e45cfc150" [
+      label = "丹尼尔·叶戈罗维奇·苏利莫夫",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "b262883a448f63b9b605f861489c16c6" [
+      label = "尼古拉·亞歷山德羅維奇·布爾加寧",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "e0735e79eed1fe3fbbc7e0a51500da55" [
+      label = "瓦西里·瓦西里耶维奇·瓦赫鲁舍夫（页面不存在）",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "60af74f52a27bd7b4509b1e96f564292" [
+      label = "伊万·谢尔盖耶维奇·霍赫洛夫（页面不存在）",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "9e970f13bc831cf76382cb20115f3f6b" [
+      label = "米哈伊尔·伊万诺维奇·罗季昂诺夫",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "4107f123df83a49c0032175dd42f291e" [
+      label = "鲍里斯·尼古拉耶维奇·切尔诺乌索夫",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "2131dfe01e04c0dc94858a19d8d2d224" [
+      label = "亚历山大·米哈伊洛维奇·普扎诺夫",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "b5a884fb956235ffbc35160187766d6c" [
+      label = "米哈伊尔·阿列克谢耶维奇·亚斯诺夫（页面不存在）",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "9594c0c3780c237b7df9d8c0f0b36a37" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "38cdaf95bc1857409ff11b2bf0ed16f6" [
+      label = "Wikipedia:列明来源",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "1fbe67698c31a5c898a9f08ce73fe772" [
+      label = "尼古拉·德米特里耶维奇·戈利岑（页面不存在）",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "8022a013bc6bfa83c2eda2f7e7aa9c6f" [
+      label = "Russian Empire",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "1dee75683792d348a377fe7e9dc0984a" [
+      label = "Russian Republic",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "36e9704e09a3d12e95bf205bef082772" [
+      label = "Russian Soviet Federative Socialist Republic",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "83aa11c17ef044cd2dcd5d1faf9f4b22" [
+      label = "Russian Federation",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "0263b3b4a208121d7d1f1fce30f6009c" [
+      label = "俄罗斯临时政府",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "47c8d495c73e8c848a592c2076d6ec87" [
+      label = "格奥尔基·叶夫根耶维奇·李沃夫",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "c1e83e68f6e8308b3bada3e4b8a57d8e" [
+      label = "亚历山大·费奥多罗维奇·克伦斯基",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "d49627bc1aafa85bded26ab6004a2f81" [
+      label = "俄罗斯苏维埃联邦社会主义共和国人民委员会",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "42e28859b0c48d7dd86f28d47bb6aaa3" [
+      label = "俄罗斯苏维埃联邦社会主义共和国部长会议",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "02a230322f6bdd9d0e34d16bcbd36eb5" [
+      label = "弗拉基米尔·伊里奇·列宁",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "bd4abf9cb154b0af41eb6f2e0f30b15e" [
+      label = "阿列克谢·伊万诺维奇·李可夫",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "4b1b532814f786386a81268f7de7bffa" [
+      label = "谢尔盖·伊万诺维奇·塞尔佐夫",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "8ee49b56d44eb7553a2c535e45cfc150" [
+      label = "丹尼尔·叶戈罗维奇·苏利莫夫",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "b262883a448f63b9b605f861489c16c6" [
+      label = "尼古拉·亞歷山德羅維奇·布爾加寧",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "e0735e79eed1fe3fbbc7e0a51500da55" [
+      label = "瓦西里·瓦西里耶维奇·瓦赫鲁舍夫（页面不存在）",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "60af74f52a27bd7b4509b1e96f564292" [
+      label = "伊万·谢尔盖耶维奇·霍赫洛夫（页面不存在）",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "ad55774fb10861ed79a0e3117ff77254" [
+      label = "阿列克谢·尼古拉耶维奇·柯西金",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "9e970f13bc831cf76382cb20115f3f6b" [
+      label = "米哈伊尔·伊万诺维奇·罗季昂诺夫",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "4107f123df83a49c0032175dd42f291e" [
+      label = "鲍里斯·尼古拉耶维奇·切尔诺乌索夫",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "2131dfe01e04c0dc94858a19d8d2d224" [
+      label = "亚历山大·米哈伊洛维奇·普扎诺夫",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "b5a884fb956235ffbc35160187766d6c" [
+      label = "米哈伊尔·阿列克谢耶维奇·亚斯诺夫（页面不存在）",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "6583dfcf84e68e462120e7d258613429" [
+      label = "弗罗尔·罗曼诺维奇·科兹洛夫",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "9594c0c3780c237b7df9d8c0f0b36a37" [
+      label = "德米特里·斯捷潘诺维奇·波利扬斯基",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "8dcd3d6796c8c62c284a23302bf07f62" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "339e13cc9339f72446e4c5bb13898cd7" [
+      label = "俄罗斯苏维埃联邦社会主义共和国领导人（页面不存在）",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "1fbe67698c31a5c898a9f08ce73fe772" [
+      label = "尼古拉·德米特里耶维奇·戈利岑（页面不存在）",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "8022a013bc6bfa83c2eda2f7e7aa9c6f" [
+      label = "Russian Empire",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "1dee75683792d348a377fe7e9dc0984a" [
+      label = "Russian Republic",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "36e9704e09a3d12e95bf205bef082772" [
+      label = "Russian Soviet Federative Socialist Republic",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "83aa11c17ef044cd2dcd5d1faf9f4b22" [
+      label = "Russian Federation",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "0263b3b4a208121d7d1f1fce30f6009c" [
+      label = "俄罗斯临时政府",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "47c8d495c73e8c848a592c2076d6ec87" [
+      label = "格奥尔基·叶夫根耶维奇·李沃夫",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "c1e83e68f6e8308b3bada3e4b8a57d8e" [
+      label = "亚历山大·费奥多罗维奇·克伦斯基",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "d49627bc1aafa85bded26ab6004a2f81" [
+      label = "俄罗斯苏维埃联邦社会主义共和国人民委员会",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "42e28859b0c48d7dd86f28d47bb6aaa3" [
+      label = "俄罗斯苏维埃联邦社会主义共和国部长会议",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "02a230322f6bdd9d0e34d16bcbd36eb5" [
+      label = "弗拉基米尔·伊里奇·列宁",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "bd4abf9cb154b0af41eb6f2e0f30b15e" [
+      label = "阿列克谢·伊万诺维奇·李可夫",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "4b1b532814f786386a81268f7de7bffa" [
+      label = "谢尔盖·伊万诺维奇·塞尔佐夫",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "8ee49b56d44eb7553a2c535e45cfc150" [
+      label = "丹尼尔·叶戈罗维奇·苏利莫夫",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "b262883a448f63b9b605f861489c16c6" [
+      label = "尼古拉·亞歷山德羅維奇·布爾加寧",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "e0735e79eed1fe3fbbc7e0a51500da55" [
+      label = "瓦西里·瓦西里耶维奇·瓦赫鲁舍夫（页面不存在）",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "60af74f52a27bd7b4509b1e96f564292" [
+      label = "伊万·谢尔盖耶维奇·霍赫洛夫（页面不存在）",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "ad55774fb10861ed79a0e3117ff77254" [
+      label = "阿列克谢·尼古拉耶维奇·柯西金",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "9e970f13bc831cf76382cb20115f3f6b" [
+      label = "米哈伊尔·伊万诺维奇·罗季昂诺夫",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "4107f123df83a49c0032175dd42f291e" [
+      label = "鲍里斯·尼古拉耶维奇·切尔诺乌索夫",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "2131dfe01e04c0dc94858a19d8d2d224" [
+      label = "亚历山大·米哈伊洛维奇·普扎诺夫",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "b5a884fb956235ffbc35160187766d6c" [
+      label = "米哈伊尔·阿列克谢耶维奇·亚斯诺夫（页面不存在）",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "6583dfcf84e68e462120e7d258613429" [
+      label = "弗罗尔·罗曼诺维奇·科兹洛夫",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "9594c0c3780c237b7df9d8c0f0b36a37" [
+      label = "德米特里·斯捷潘诺维奇·波利扬斯基",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "8dcd3d6796c8c62c284a23302bf07f62" [
+      label = "根纳季·伊万诺维奇·沃罗诺夫",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "03e54f05a75ecf552247b3b100fb47c9" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "4bbb3b7a1e512b4acaac731343459919" [
+      label = "维塔利·伊万诺维奇·沃罗特尼科夫",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "42e28859b0c48d7dd86f28d47bb6aaa3" [
+      label = "俄罗斯苏维埃联邦社会主义共和国部长会议",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "1fbe67698c31a5c898a9f08ce73fe772" [
+      label = "尼古拉·德米特里耶维奇·戈利岑（页面不存在）",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "8022a013bc6bfa83c2eda2f7e7aa9c6f" [
+      label = "Russian Empire",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "1dee75683792d348a377fe7e9dc0984a" [
+      label = "Russian Republic",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "36e9704e09a3d12e95bf205bef082772" [
+      label = "Russian Soviet Federative Socialist Republic",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "83aa11c17ef044cd2dcd5d1faf9f4b22" [
+      label = "Russian Federation",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "0263b3b4a208121d7d1f1fce30f6009c" [
+      label = "俄罗斯临时政府",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "47c8d495c73e8c848a592c2076d6ec87" [
+      label = "格奥尔基·叶夫根耶维奇·李沃夫",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "c1e83e68f6e8308b3bada3e4b8a57d8e" [
+      label = "亚历山大·费奥多罗维奇·克伦斯基",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "d49627bc1aafa85bded26ab6004a2f81" [
+      label = "俄罗斯苏维埃联邦社会主义共和国人民委员会",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "02a230322f6bdd9d0e34d16bcbd36eb5" [
+      label = "弗拉基米尔·伊里奇·列宁",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "bd4abf9cb154b0af41eb6f2e0f30b15e" [
+      label = "阿列克谢·伊万诺维奇·李可夫",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "4b1b532814f786386a81268f7de7bffa" [
+      label = "谢尔盖·伊万诺维奇·塞尔佐夫",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "8ee49b56d44eb7553a2c535e45cfc150" [
+      label = "丹尼尔·叶戈罗维奇·苏利莫夫",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "b262883a448f63b9b605f861489c16c6" [
+      label = "尼古拉·亞歷山德羅維奇·布爾加寧",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "e0735e79eed1fe3fbbc7e0a51500da55" [
+      label = "瓦西里·瓦西里耶维奇·瓦赫鲁舍夫（页面不存在）",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "60af74f52a27bd7b4509b1e96f564292" [
+      label = "伊万·谢尔盖耶维奇·霍赫洛夫（页面不存在）",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "ad55774fb10861ed79a0e3117ff77254" [
+      label = "阿列克谢·尼古拉耶维奇·柯西金",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "9e970f13bc831cf76382cb20115f3f6b" [
+      label = "米哈伊尔·伊万诺维奇·罗季昂诺夫",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "4107f123df83a49c0032175dd42f291e" [
+      label = "鲍里斯·尼古拉耶维奇·切尔诺乌索夫",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "2131dfe01e04c0dc94858a19d8d2d224" [
+      label = "亚历山大·米哈伊洛维奇·普扎诺夫",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "b5a884fb956235ffbc35160187766d6c" [
+      label = "米哈伊尔·阿列克谢耶维奇·亚斯诺夫（页面不存在）",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "6583dfcf84e68e462120e7d258613429" [
+      label = "弗罗尔·罗曼诺维奇·科兹洛夫",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "9594c0c3780c237b7df9d8c0f0b36a37" [
+      label = "德米特里·斯捷潘诺维奇·波利扬斯基",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "8dcd3d6796c8c62c284a23302bf07f62" [
+      label = "根纳季·伊万诺维奇·沃罗诺夫",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "03e54f05a75ecf552247b3b100fb47c9" [
+      label = "米哈伊尔·谢尔盖耶维奇·索洛缅采夫",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "8a6d066e6d55f8792fe02106706bf0bc" [
+      label = "维塔利·伊万诺维奇·沃罗特尼科夫",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "8a6d066e6d55f8792fe02106706bf0bc" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "c714d2d406d0877a507cbebf15835da7" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "055bac3380a5983173947b9659b0ee67" -> "95ec4ee67759caec40f2063db7b425aa" [
+      label = "Wikipedia:頁面保護方針#semi",
+    ];
+    "055bac3380a5983173947b9659b0ee67" -> "055bac3380a5983173947b9659b0ee67" [
+      label = "Wikipedia:消歧义",
+    ];
+    "16b561199f40f9d1f326c2042ef7968f" -> "1a8484e4e014a339ff46e92244000d0f" [
+      label = "俄罗斯联邦",
+    ];
+    "16b561199f40f9d1f326c2042ef7968f" -> "ef4c5cc1e445b052e3905ef6bdf51f28" [
+      label = "莫斯科州",
+    ];
+    "16b561199f40f9d1f326c2042ef7968f" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "2bdba40150ff98197df49c548ecdff96" -> "3a7062c7bfb448190c794cbd24655d63" [
+      label = "commons:File:Zh-俄罗斯.ogg",
+    ];
+    "2bdba40150ff98197df49c548ecdff96" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "e3fbd26361b0f0e64f368c6dbeae4de9" -> "12e1b27a92a71127e52a0f339a3b3506" [
+      label = "俄罗斯联邦政府",
+    ];
+    "e3fbd26361b0f0e64f368c6dbeae4de9" -> "42e28859b0c48d7dd86f28d47bb6aaa3" [
+      label = "俄罗斯苏维埃联邦社会主义共和国部长会议",
+    ];
+    "e3fbd26361b0f0e64f368c6dbeae4de9" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "e3fbd26361b0f0e64f368c6dbeae4de9" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "e3fbd26361b0f0e64f368c6dbeae4de9" -> "e3fbd26361b0f0e64f368c6dbeae4de9" [
+      label = "俄罗斯联邦政府",
+    ];
+    "e3fbd26361b0f0e64f368c6dbeae4de9" -> "d49627bc1aafa85bded26ab6004a2f81" [
+      label = "俄罗斯苏维埃联邦社会主义共和国人民委员会",
+    ];
+    "e3fbd26361b0f0e64f368c6dbeae4de9" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "82126640c7436f0c395b1a368378380f" -> "ef3fecce74e9581dfb3949feb1931e0c" [
+      label = "俄羅斯人",
+    ];
+    "c168ca36b0f4688c1ccd8700c048b089" -> "d7ddf54bac1c3f37817add76d113b197" [
+      label = "俄語",
+    ];
+    "c168ca36b0f4688c1ccd8700c048b089" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "c168ca36b0f4688c1ccd8700c048b089" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "9051631f18e56bce6db716d34afa8160" -> "eec2987a6973612a349bcc178096ee77" [
+      label = "國家計劃委員會",
+    ];
+    "20ae54170c086740e113bc4e3380e7fe" -> "d71e20857577cb0851c1923729164511" [
+      label = "俄白联盟国",
+    ];
+    "2c0345f790e57872046860d27db520ba" -> "95ec4ee67759caec40f2063db7b425aa" [
+      label = "Wikipedia:頁面保護方針#semi",
+    ];
+    "2c0345f790e57872046860d27db520ba" -> "055bac3380a5983173947b9659b0ee67" [
+      label = "Wikipedia:消歧义",
+    ];
+    "41f5d65b46dd1740c092f5a5329e0253" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "fe458b92abb328d871d41c888b7b3582" -> "204a27527df5975cd3633e11a3381be1" [
+      label = "Wikipedia:专题",
+    ];
+    "fe458b92abb328d871d41c888b7b3582" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "fe458b92abb328d871d41c888b7b3582" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "fe458b92abb328d871d41c888b7b3582" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "fe458b92abb328d871d41c888b7b3582" -> "055bac3380a5983173947b9659b0ee67" [
+      label = "Wikipedia:消歧义",
+    ];
+    "055c7633ba4454517b8d69592493f254" -> "38cdaf95bc1857409ff11b2bf0ed16f6" [
+      label = "Wikipedia:列明来源",
+    ];
+    "055c7633ba4454517b8d69592493f254" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "055c7633ba4454517b8d69592493f254" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "055c7633ba4454517b8d69592493f254" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "055c7633ba4454517b8d69592493f254" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "3a10aa1cc30a29bfa83e373aaf48a5d3" -> "88c211207b9a4616310266df02330032" [
+      label = "commons:File:Flag of the Russian Empire (black-yellow-white).svg",
+    ];
+    "3a10aa1cc30a29bfa83e373aaf48a5d3" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "zh:俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "3a10aa1cc30a29bfa83e373aaf48a5d3" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "zh:苏联",
+    ];
+    "3a10aa1cc30a29bfa83e373aaf48a5d3" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "3a10aa1cc30a29bfa83e373aaf48a5d3" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "3a10aa1cc30a29bfa83e373aaf48a5d3" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "3a10aa1cc30a29bfa83e373aaf48a5d3" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "055c7633ba4454517b8d69592493f254" [
+      label = "政府首脑",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "d49627bc1aafa85bded26ab6004a2f81" [
+      label = "俄罗斯苏维埃联邦社会主义共和国人民委员会",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "42e28859b0c48d7dd86f28d47bb6aaa3" [
+      label = "俄罗斯苏维埃联邦社会主义共和国部长会议",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "7ee25267276f0e4e7e5e61a09fbbe26e" [
+      label = "苏联部长会议主席",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "e431cdc3a3722ab156f0f7023824cba6" [
+      label = "谢尔盖·维特",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "d38f32dc57069b2b6654937372f39f4b" [
+      label = "伊万·洛吉诺维奇·戈列梅金",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "d385744b0aeb50c4144f4e33e831681a" [
+      label = "彼得·阿尔卡季耶维奇·斯托雷平",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "8601fc8b8204dc09bbd416850d57e11b" [
+      label = "弗拉基米尔·尼古拉耶维奇·科科夫佐夫",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "0263b3b4a208121d7d1f1fce30f6009c" [
+      label = "俄罗斯临时政府",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "47c8d495c73e8c848a592c2076d6ec87" [
+      label = "格奥尔基·叶夫根耶维奇·李沃夫",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "b262883a448f63b9b605f861489c16c6" [
+      label = "尼古拉·亞歷山德羅維奇·布爾加寧",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "9e970f13bc831cf76382cb20115f3f6b" [
+      label = "米哈伊尔·伊万诺维奇·罗季昂诺夫",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "4107f123df83a49c0032175dd42f291e" [
+      label = "鲍里斯·尼古拉耶维奇·切尔诺乌索夫",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "2131dfe01e04c0dc94858a19d8d2d224" [
+      label = "亚历山大·米哈伊洛维奇·普扎诺夫",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "6583dfcf84e68e462120e7d258613429" [
+      label = "弗罗尔·罗曼诺维奇·科兹洛夫",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "8dcd3d6796c8c62c284a23302bf07f62" [
+      label = "根纳季·伊万诺维奇·沃罗诺夫",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "60d073f23f2887e27e4f0d5704558ee1" [
+      label = "弗拉基米尔·普京",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "94ca28100fd0b4c7e9992776e317532d" [
+      label = "米哈伊尔·米哈伊洛维奇·卡西亚诺夫",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "9397682cfc4143f53baf4a64b30e42b0" [
+      label = "维克托·鲍里索维奇·赫里斯坚科",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "f9d1262ae443faedde781e08a2a1fc80" [
+      label = "Template:俄罗斯政府首脑",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "dd06c54ae5550873d42a7aa77b3ea3c7" [
+      label = "Template talk:俄罗斯政府首脑",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "1fbe67698c31a5c898a9f08ce73fe772" [
+      label = "尼古拉·德米特里耶维奇·戈利岑（页面不存在）",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "8022a013bc6bfa83c2eda2f7e7aa9c6f" [
+      label = "Russian Empire",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "1dee75683792d348a377fe7e9dc0984a" [
+      label = "Russian Republic",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "36e9704e09a3d12e95bf205bef082772" [
+      label = "Russian Soviet Federative Socialist Republic",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "83aa11c17ef044cd2dcd5d1faf9f4b22" [
+      label = "Russian Federation",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "c1e83e68f6e8308b3bada3e4b8a57d8e" [
+      label = "亚历山大·费奥多罗维奇·克伦斯基",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "02a230322f6bdd9d0e34d16bcbd36eb5" [
+      label = "弗拉基米尔·伊里奇·列宁",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "bd4abf9cb154b0af41eb6f2e0f30b15e" [
+      label = "阿列克谢·伊万诺维奇·李可夫",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "4b1b532814f786386a81268f7de7bffa" [
+      label = "谢尔盖·伊万诺维奇·塞尔佐夫",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "8ee49b56d44eb7553a2c535e45cfc150" [
+      label = "丹尼尔·叶戈罗维奇·苏利莫夫",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "e0735e79eed1fe3fbbc7e0a51500da55" [
+      label = "瓦西里·瓦西里耶维奇·瓦赫鲁舍夫（页面不存在）",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "60af74f52a27bd7b4509b1e96f564292" [
+      label = "伊万·谢尔盖耶维奇·霍赫洛夫（页面不存在）",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "ad55774fb10861ed79a0e3117ff77254" [
+      label = "阿列克谢·尼古拉耶维奇·柯西金",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "b5a884fb956235ffbc35160187766d6c" [
+      label = "米哈伊尔·阿列克谢耶维奇·亚斯诺夫（页面不存在）",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "9594c0c3780c237b7df9d8c0f0b36a37" [
+      label = "德米特里·斯捷潘诺维奇·波利扬斯基",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "03e54f05a75ecf552247b3b100fb47c9" [
+      label = "米哈伊尔·谢尔盖耶维奇·索洛缅采夫",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "8a6d066e6d55f8792fe02106706bf0bc" [
+      label = "维塔利·伊万诺维奇·沃罗特尼科夫",
+    ];
+    "9ff749bbfd9ea250eb6f0ddc1cf4dc6c" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "fb2753699e4b98bf246c8731200bf3f0" -> "cf2f3983ff7b2983b9153f7b76222824" [
+      label = "commons:File:Shturmer.gif",
+    ];
+    "fb2753699e4b98bf246c8731200bf3f0" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "fb2753699e4b98bf246c8731200bf3f0" -> "1b3f5eaf1e726fd647b8075b04e42d14" [
+      label = "鲍里斯·弗拉基米罗维奇·施蒂默尔",
+    ];
+    "e28b18c5a98ae183336dc778a160fb34" -> "d6f0ceabc3837f2ab6c075a3bfab9d83" [
+      label = "commons:File:Alexander Trepov.jpg",
+    ];
+    "e28b18c5a98ae183336dc778a160fb34" -> "8a566d8c7b244e9b03fe3f1e9fdcda13" [
+      label = "亚历山大·费奥多罗维奇·特列波夫",
+    ];
+    "bfedcee89e6b03376392a5e5d24cbcbf" -> "95ec4ee67759caec40f2063db7b425aa" [
+      label = "Wikipedia:頁面保護方針#semi",
+    ];
+    "bfedcee89e6b03376392a5e5d24cbcbf" -> "055bac3380a5983173947b9659b0ee67" [
+      label = "Wikipedia:消歧义",
+    ];
+    "96d4ac3f79fada6b70cd1af204dabd70" -> "5471fc1c3ebf3f724d3c777cdf22312d" [
+      label = "亚历山大·克伦斯基",
+    ];
+    "15158c98b32afb1b323a81b34f953834" -> "5d8c50edf2dcfe0812f895643dee87c3" [
+      label = "commons:File:Flag of the Russian Soviet Federative Socialist Republic (1954–1991).svg",
+    ];
+    "15158c98b32afb1b323a81b34f953834" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "zh:俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "15158c98b32afb1b323a81b34f953834" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "zh:苏联",
+    ];
+    "15158c98b32afb1b323a81b34f953834" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "8af78f89f4f83b094acc0970ddf97552" -> "2a8df0be029f6fd764709eff55923813" [
+      label = "俄国临时政府",
+    ];
+    "8af78f89f4f83b094acc0970ddf97552" -> "055bac3380a5983173947b9659b0ee67" [
+      label = "Wikipedia:消歧义",
+    ];
+    "8af78f89f4f83b094acc0970ddf97552" -> "47c8d495c73e8c848a592c2076d6ec87" [
+      label = "格奥尔基·叶夫根耶维奇·李沃夫",
+    ];
+    "8af78f89f4f83b094acc0970ddf97552" -> "c1e83e68f6e8308b3bada3e4b8a57d8e" [
+      label = "亚历山大·费奥多罗维奇·克伦斯基",
+    ];
+    "8af78f89f4f83b094acc0970ddf97552" -> "e49a96757be0ce14508fd2133ca64db5" [
+      label = "俄罗斯帝国",
+    ];
+    "8af78f89f4f83b094acc0970ddf97552" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "8af78f89f4f83b094acc0970ddf97552" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "8af78f89f4f83b094acc0970ddf97552" -> "d49627bc1aafa85bded26ab6004a2f81" [
+      label = "俄罗斯苏维埃联邦社会主义共和国人民委员会",
+    ];
+    "8af78f89f4f83b094acc0970ddf97552" -> "02a230322f6bdd9d0e34d16bcbd36eb5" [
+      label = "弗拉基米尔·伊里奇·列宁",
+    ];
+    "8af78f89f4f83b094acc0970ddf97552" -> "dd1089d4c86fb9927ac3671b51624f83" [
+      label = "俄罗斯政府首脑列表",
+    ];
+    "38cdaf95bc1857409ff11b2bf0ed16f6" -> "95ec4ee67759caec40f2063db7b425aa" [
+      label = "Wikipedia:頁面保護方針#semi",
+    ];
+    "38cdaf95bc1857409ff11b2bf0ed16f6" -> "055bac3380a5983173947b9659b0ee67" [
+      label = "Wikipedia:消歧义",
+    ];
+    "c21b71b8b5adeed8e4bbd40a09a98dba" -> "95ec4ee67759caec40f2063db7b425aa" [
+      label = "Wikipedia:頁面保護方針#semi",
+    ];
+    "352ed4b0e2e678ec76cf4b3eef7dae19" -> "f3c1e17db28f0a8edb4ca8972771be4a" [
+      label = "阿列克谢·李可夫",
+    ];
+    "7ee25267276f0e4e7e5e61a09fbbe26e" -> "a7dfbdc893d18c3c45d7490f3840a6db" [
+      label = "苏联国徽",
+    ];
+    "7ee25267276f0e4e7e5e61a09fbbe26e" -> "d49627bc1aafa85bded26ab6004a2f81" [
+      label = "俄罗斯苏维埃联邦社会主义共和国人民委员会",
+    ];
+    "7ee25267276f0e4e7e5e61a09fbbe26e" -> "055c7633ba4454517b8d69592493f254" [
+      label = "政府首脑",
+    ];
+    "7ee25267276f0e4e7e5e61a09fbbe26e" -> "0a9b353d0e8a73eb41ae6b951e1098e6" [
+      label = "俄罗斯",
+    ];
+    "7ee25267276f0e4e7e5e61a09fbbe26e" -> "7675667d2ed1b74d0c7d3af70af4ef5e" [
+      label = "俄罗斯总理",
+    ];
+    "7ee25267276f0e4e7e5e61a09fbbe26e" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "7ee25267276f0e4e7e5e61a09fbbe26e" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "7ee25267276f0e4e7e5e61a09fbbe26e" -> "b262883a448f63b9b605f861489c16c6" [
+      label = "尼古拉·亞歷山德羅維奇·布爾加寧",
+    ];
+    "5e727cfa90ff4cff8ea4bacc6c20e282" -> "0404cfba2c34c8773d717bc3fee31756" [
+      label = "阿列克谢·柯西金",
+    ];
+    "9b1a6f34492f9e433fa1d1e65d5c2320" -> "8c7c40b2ce8b34b1930202aaaaa431ce" [
+      label = "儒略历",
+    ];
+    "9b1a6f34492f9e433fa1d1e65d5c2320" -> "38cdaf95bc1857409ff11b2bf0ed16f6" [
+      label = "Wikipedia:列明来源",
+    ];
+    "301fb6cf805f2bd4d41a151531a61209" -> "a76d73b1f96e918d91921010c926fc86" [
+      label = "苏共中央主席团",
+    ];
+    "301fb6cf805f2bd4d41a151531a61209" -> "7ee25267276f0e4e7e5e61a09fbbe26e" [
+      label = "苏联部长会议主席",
+    ];
+    "301fb6cf805f2bd4d41a151531a61209" -> "02a230322f6bdd9d0e34d16bcbd36eb5" [
+      label = "弗拉基米尔·伊里奇·列宁",
+    ];
+    "301fb6cf805f2bd4d41a151531a61209" -> "bd4abf9cb154b0af41eb6f2e0f30b15e" [
+      label = "阿列克谢·伊万诺维奇·李可夫",
+    ];
+    "301fb6cf805f2bd4d41a151531a61209" -> "ad55774fb10861ed79a0e3117ff77254" [
+      label = "阿列克谢·尼古拉耶维奇·柯西金",
+    ];
+    "301fb6cf805f2bd4d41a151531a61209" -> "6583dfcf84e68e462120e7d258613429" [
+      label = "弗罗尔·罗曼诺维奇·科兹洛夫",
+    ];
+    "301fb6cf805f2bd4d41a151531a61209" -> "9594c0c3780c237b7df9d8c0f0b36a37" [
+      label = "德米特里·斯捷潘诺维奇·波利扬斯基",
+    ];
+    "301fb6cf805f2bd4d41a151531a61209" -> "03e54f05a75ecf552247b3b100fb47c9" [
+      label = "米哈伊尔·谢尔盖耶维奇·索洛缅采夫",
+    ];
+    "301fb6cf805f2bd4d41a151531a61209" -> "8a6d066e6d55f8792fe02106706bf0bc" [
+      label = "维塔利·伊万诺维奇·沃罗特尼科夫",
+    ];
+    "301fb6cf805f2bd4d41a151531a61209" -> "6704fc4c842aa2bf2c972fb52548e360" [
+      label = "苏联",
+    ];
+    "301fb6cf805f2bd4d41a151531a61209" -> "44cb3baf078fdb2d02ed840f62f18ae9" [
+      label = "俄罗斯苏维埃联邦社会主义共和国",
+    ];
+    "2db5cd9ca70873d6dee3628b025c91a7" -> "f2c6ba0d69be2552b5ad6b58e065dfab" [
+      label = "WikiProject:传记",
+    ];
+    "1e87bb9c67c5e3f98e681d2f3806c88f" -> "c51ff881ac0f57464c613ffb358eadd9" [
+      label = "苏维埃社会主义共和国联盟",
+    ];
+    "1e87bb9c67c5e3f98e681d2f3806c88f" -> "7ee25267276f0e4e7e5e61a09fbbe26e" [
+      label = "苏联部长会议主席",
+    ];
+    "1e87bb9c67c5e3f98e681d2f3806c88f" -> "38cdaf95bc1857409ff11b2bf0ed16f6" [
+      label = "Wikipedia:列明来源",
+    ];
+    "1e87bb9c67c5e3f98e681d2f3806c88f" -> "b112425f055d78302cc9bf2250b49643" [
+      label = "蘇聯國家計劃委員會",
+    ];
+    "4bbb3b7a1e512b4acaac731343459919" -> "b4b62d19297b779d994693f9a21551a3" [
+      label = "维塔利·沃罗特尼科夫",
+    ];
+  }
+  subgraph "top" {
+    rank = "same";
+    "94ca28100fd0b4c7e9992776e317532d" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E7%B1%B3%E5%93%88%E4%BC%8A%E5%B0%94%C2%B7%E7%B1%B3%E5%93%88%E4%BC%8A%E6%B4%9B%E7%BB%B4%E5%A5%87%C2%B7%E5%8D%A1%E8%A5%BF%E4%BA%9A%E8%AF%BA%E5%A4%AB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7C73;&#x54C8;&#x4F0A;&#x5C14;&#xB7;&#x7C73;&#x54C8;&#x4F0A;&#x6D1B;&#x7EF4;&#x5947;&#xB7;&#x5361;&#x897F;&#x4E9A;&#x8BFA;&#x592B;</td></tr></table>>,
+    ];
+  }
+}
