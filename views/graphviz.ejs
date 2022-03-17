@@ -4,6 +4,7 @@
 <script src="https://d3js.org/d3.v7.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@hpcc-js/wasm/dist/index.min.js" type="javascript/worker"></script>
 <script src="https://unpkg.com/d3-graphviz@4.0.0/build/d3-graphviz.js"></script>
+
 <div id="graph" style="width: 95vw; height: 95vh; margin:auto; border: 1px solid black"></div>
 <script>
 
@@ -45,7 +46,77 @@ function set_edges(target,new_color,rate){
     d3.select(target).select("polygon").attr("fill", new_color);
     d3.select(target).select('text').attr("style", "fill:"+new_color); 
 }
+
+const createStyleElementFromCSS = () => {
+    // JSFiddle's custom CSS is defined in the second stylesheet file
+    const sheet = document.styleSheets[1];
+  
+    const styleRules = [];
+    for (let i = 0; i < sheet.cssRules.length; i++)
+      styleRules.push(sheet.cssRules.item(i).cssText);
+  
+    const style = document.createElement('style');
+    style.type = 'text/css';
+    style.appendChild(document.createTextNode(styleRules.join(' ')))
+  
+    return style;
+  };
+ // const style = createStyleElementFromCSS();
+
+ function downloadSVGAsText() {
+    const svg = document.querySelector('svg');
+    const base64doc = btoa(unescape(encodeURIComponent(svg.outerHTML)));
+    const a = document.createElement('a');
+    const e = new MouseEvent('click');
+    a.download = 'download.svg';
+    a.href = 'data:image/svg+xml;base64,' + base64doc;
+    a.dispatchEvent(e);
+  }
+
 function interactive() {
+    /*
+    const svg = document.querySelector('svg');
+    const data = (new XMLSerializer()).serializeToString(svg);
+    const svgBlob = new Blob([data], {
+    type: 'image/svg+xml;charset=utf-8'
+    });
+    // convert the blob object to a dedicated URL
+    const url = URL.createObjectURL(svgBlob);
+    
+    // load the SVG blob to a flesh image object
+    const img = new Image();
+    img.addEventListener('load', () => {
+    // draw the image on an ad-hoc canvas
+    const bbox = svg.getBBox();
+
+    const canvas = document.createElement('canvas');
+    canvas.width = bbox.width;
+    canvas.height = bbox.height * 2;
+
+    const context = canvas.getContext('2d');
+    context.drawImage(img, 0, 0, bbox.width, bbox.height * 2);
+
+    URL.revokeObjectURL(url);
+
+    // trigger a synthetic download operation with a temporary link
+    const a = document.createElement('a');
+    a.download = 'image.png';
+    document.body.appendChild(a);
+    a.href = canvas.toDataURL();
+    a.click();
+    a.remove();
+    });
+    img.src = url;
+    */
+    var svg = document.querySelector('svg');
+    var svgAsXML = (new XMLSerializer).serializeToString(svg);
+    var dataURL = "data:image/svg+xml," + encodeURIComponent(svgAsXML);
+    var dl = document.createElement("a");
+    document.body.appendChild(dl); // This line makes it work in Firefox.
+    dl.setAttribute("href", dataURL);
+    dl.setAttribute("download", "data.svg");
+    dl.click();
+
     //return;
     edges = d3.selectAll(".edge");
     edges.each(

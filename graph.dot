@@ -3,649 +3,368 @@ digraph "Missions" {
   overlap = false;
   splines = true;
   nodesep = 0.5;
-  subgraph "cluster_0" {
-    label = "任務:0";
-    "8d59dbf20999d10b490e351efa880494" [
+  subgraph "cluster_12" {
+    label = "任務:12";
+    "e9758ba7deede33ae8787c4e495b7e75" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="&#x9CE9;&#x6469;&#x7F85;&#x4EC0;" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x9CE9;&#x6469;&#x7F85;&#x4EC0;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E9%B8%A0%E6%91%A9%E7%BD%97%E4%BB%80" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x9E20;&#x6469;&#x7F57;&#x4EC0;</td></tr></table>>,
     ];
-    "f3ee665bfae086cd540be32433034f9b" [
+    "35c413cf4e0cb4525cd66e5e57000273" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="&#x5F8C;&#x79E6;" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x540E;&#x79E6;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E6%A2%B5%E8%AA%9E" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x68B5;&#x8BED;</td></tr></table>>,
     ];
-    "2315b1d2e01f52f6db8fcc7df05965e0" [
+    "89a83ce460070ca63562e551e765261a" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="&#x524D;&#x79E6;" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x524D;&#x79E6;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/IAST" border="0" cellspacing="10" cellpadding="10" style="rounded">IAST</td></tr></table>>,
     ];
-    "adcfe4db2100818bdf5b0f6dc958db70" [
+    "d08259f53d6a493b165f7306e91bc6e3" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="&#x6E05;" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6E05;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%B8%8A%E5%8F%A4%E6%BC%A2%E8%AA%9E" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E0A;&#x53E4;&#x6C49;&#x8BED;</td></tr></table>>,
     ];
-    "1e1637d13e91f015e972a6f7cd5a8f50" [
+    "7a6c08370457df694e9891ede2cf0f62" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="&#x9F9C;&#x8332;" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x9F9F;&#x5179;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E6%9D%B1%E6%99%89" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E1C;&#x664B;</td></tr></table>>,
     ];
-    "701ddd59e09da3150d44eee0f2579bde" [
+    "31cad652d2eb9a2284e7b1f88d10e045" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="&#x897F;&#x57DF;" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x897F;&#x57DF;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BA%94%E8%83%A1%E5%8D%81%E5%85%AD%E5%9B%BD" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E94;&#x80E1;&#x5341;&#x516D;&#x56FD;</td></tr></table>>,
     ];
-    "00f6c22df0c7244587ba2f0dffe2a5aa" [
+    "629214f9ad86a26eedeea4d12b5dce01" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="&#x9808;&#x5229;&#x8036;&#x8607;&#x6469;" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x9808;&#x5229;&#x8036;&#x8607;&#x6469;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E9%BE%9C%E8%8C%B2" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x9F9F;&#x5179;</td></tr></table>>,
     ];
-    "5cb777cacbc9edd5eef444907b616376" [
+    "ac914e272739c1f3aac3958ca50b995f" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="&#x9053;&#x878D;" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x9053;&#x878D;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E6%AF%94%E4%B8%98" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6BD4;&#x4E18;</td></tr></table>>,
     ];
-    "e976571c9d31cfe7cde9d818aa853e4c" [
+    "dd14d18abcd7e57ab9a674ab50f3f90e" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%8D%81%E5%85%AD%E5%9B%BD" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E94;&#x80E1;&#x5341;&#x516D;&#x56FD;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E6%BC%A2%E5%82%B3%E4%BD%9B%E6%95%99" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6C49;&#x4F20;&#x4F5B;&#x6559;</td></tr></table>>,
     ];
-    "42493d9913896e0765a8690959300c98" [
+    "4a25b9688f13e6cda2c65f05da0b09a1" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%8F%A4%E7%BE%8C%E4%BA%BA" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x53E4;&#x7F8C;&#x4EBA;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%AD%AF%E5%B8%AB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x8B6F;&#x5E2B;</td></tr></table>>,
     ];
-    "0d44b012c7b65c277431238056168aff" [
+    "9eaa3ba3d65a6b3de7199f993b8c9d7b" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%A7%9A%E8%8B%8C" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x59DA;&#x82CC;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E9%87%91%E5%89%9B%E7%B6%93" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x91D1;&#x525B;&#x7D93;</td></tr></table>>,
     ];
-    "83ed58f24ac40c454539d1fb7a0dfa73" [
+    "9f68188413ff4b6102937eb78aeccfe8" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E6%94%BF%E6%9D%83" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x653F;&#x6743;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E6%B3%95%E8%8F%AF%E7%B6%93" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5999;&#x6CD5;&#x83B2;&#x534E;&#x7ECF;</td></tr></table>>,
     ];
-    "8a51b82cdc6b7c2ba4403cf614b09c66" [
+    "9aacd3b4df2ccfbd6977f02f13965841" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%89%8D%E7%A7%A6" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x524D;&#x79E6;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%AB%96" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E2D;&#x8BBA;</td></tr></table>>,
     ];
-    "af2554c2bc44195b1df9e55ab54c448c" [
+    "b03aacec992fa844f8cb223ca8a1d8a1" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%8B%BB%E5%9D%9A" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x82FB;&#x575A;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%8D%B0%E6%AC%A7%E8%AF%AD%E7%B3%BB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5370;&#x6B27;&#x8BED;&#x7CFB;</td></tr></table>>,
     ];
-    "1146acf43747e1c05e91b68accb7aae6" [
+    "fd12430f8a3affcdcc66e1bcd501e531" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E6%B7%9D%E6%B0%B4%E4%B9%8B%E6%88%98" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6DDD;&#x6C34;&#x4E4B;&#x6230;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%BD%89%E5%AF%AB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x8F6C;&#x5199;</td></tr></table>>,
     ];
-    "c0ac00636103dd5e48ea013da257e73d" [
+    "4162e6971811ec05b1e335476bc99e6c" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E7%BE%8C%E4%BA%BA" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7F8C;&#x65CF;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/Unicode" border="0" cellspacing="10" cellpadding="10" style="rounded">Unicode</td></tr></table>>,
     ];
-    "92db3a49134e3038651dde97ab9dc285" [
+    "ad0e4d55cecca63b0593c0161aa59c7b" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%85%83_(%E4%B8%9C%E6%99%8B)" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x592A;&#x5143; (&#x4E1C;&#x664B;)</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%91%A8%E6%9C%9D" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5468;&#x671D;</td></tr></table>>,
     ];
-    "26064c86958483f93b6342aaa2b0611b" [
+    "84d330b93ad81e5162928341a049109a" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%80%80%E5%8E%BF" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x8000;&#x5DDE;&#x533A;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E6%9C%9D%E4%BB%A3" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E2D;&#x56FD;&#x671D;&#x4EE3;</td></tr></table>>,
     ];
-    "2d9e5b8a1ad50247d91227cd54ea9be1" [
+    "f65a1688f942475512bd5c17fe99f0ba" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E9%95%BF%E5%AE%89" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x957F;&#x5B89;</td></tr></table>>,
-    ];
-    "8f898a2d93438add935873289da3a889" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E9%99%95%E8%A5%BF" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x9655;&#x897F;&#x7701;</td></tr></table>>,
-    ];
-    "19abf768ed6071d79092f4cd4835094e" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E6%B0%90%E6%97%8F" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6C10;</td></tr></table>>,
-    ];
-    "dcbf925a180288b2cea8e63485791dc1" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%8B%BB%E6%B4%AA" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x82FB;&#x6D2A;</td></tr></table>>,
-    ];
-    "8b63c381b44445a157f97a58907f079d" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E6%B8%AD%E6%B2%B3%E5%B9%B3%E5%8E%9F" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6E2D;&#x6CB3;&#x5E73;&#x539F;</td></tr></table>>,
-    ];
-    "60d19622c0907c2fb5356528d82f3a2e" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%8B%BB%E5%81%A5" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x82FB;&#x5065;</td></tr></table>>,
-    ];
-    "2e029d73454698d0f22d386ec973ec45" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%89%8D%E7%87%95" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x524D;&#x71D5;</td></tr></table>>,
-    ];
-    "0abdd398967ee4d4d59012cd66af8f2d" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%89%8D%E5%87%89" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x524D;&#x51C9;</td></tr></table>>,
-    ];
-    "3ae6f4e1788d1a147cdb742f976e2110" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BB%A3_(%E5%8D%81%E5%85%AD%E5%9B%BD)" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4EE3; (&#x5341;&#x516D;&#x56FD;)</td></tr></table>>,
-    ];
-    "25729e0990f7a7d85aeb9a93d54d1abd" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%A5%BF%E7%A7%A6" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x897F;&#x79E6;</td></tr></table>>,
-    ];
-    "3465e8bd4a1460ebac41d84a92da913e" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%BE%8C%E7%A7%A6" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x540E;&#x79E6;</td></tr></table>>,
-    ];
-    "cb5984f0cf6522636c09d6dbd7eac740" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E6%9C%9D%E9%AE%AE%E5%8D%8A%E5%B3%B6" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x671D;&#x9C9C;&#x534A;&#x5C9B;</td></tr></table>>,
-    ];
-    "2b7bf6b4be105910467287a998ab22ab" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="&#x968B;" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x968B;&#x671D;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%8E%86%E5%8F%B2" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E2D;&#x56FD;&#x5386;&#x53F2;</td></tr></table>>,
     ];
     "ed6f8aebea9ea124707f65a59f04036e" [
       color = "red",
       label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%BA%93%E8%BD%A6%E5%B8%82" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5E93;&#x8F66;&#x5E02;</td></tr></table>>,
     ];
-    "573cd7e9d9b8bab8e341d40704130277" [
+    "dd60b1bac2a6c7839f38018b03323fa6" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E9%BE%9F%E5%85%B9%E8%AF%AD" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5410;&#x706B;&#x7F57;&#x8BED;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%B7%B4%E5%88%A9%E8%AA%9E" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5DF4;&#x5229;&#x8BED;</td></tr></table>>,
+    ];
+    "963ab5b4d5c1ee92eeb2e37af0ce4af5" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%BD%9B%E6%95%99%E8%A1%93%E8%AA%9E" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4F5B;&#x6559;&#x7528;&#x8BED;&#x5217;&#x8868;</td></tr></table>>,
+    ];
+    "ba20cba10a16e7c9bfe87dd8e1787cbe" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E6%BC%A2%E5%AD%97" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6C49;&#x5B57;</td></tr></table>>,
+    ];
+    "a9bf59acd66efde770c60c8ac017a085" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%97%8F%E6%96%87" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x85CF;&#x6587;</td></tr></table>>,
+    ];
+    "82b828091a1f2bd07d2709acb36e540a" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%A4%A7%E4%B9%98%E4%BD%9B%E6%95%99" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5927;&#x4E58;&#x4F5B;&#x6559;</td></tr></table>>,
+    ];
+    "d508d22d84301e5c543ddfba2f0c3e70" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%88%AC%E8%8B%A5%E9%83%A8" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x822C;&#x82E5;&#x7ECF;</td></tr></table>>,
     ];
     "2e3f5d23c67d4ce5600c6355365b936f" [
       color = "red",
       label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E6%A2%B5%E6%96%87" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x68B5;&#x8BED;</td></tr></table>>,
     ];
-    "855a7f6d816b8cd3b12325099f96bd10" [
+    "1cb99d1073c46b3298d1bca9e3711796" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E7%B6%AD%E5%90%BE%E7%88%BE%E8%AA%9E" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7EF4;&#x543E;&#x5C14;&#x8BED;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E9%BE%99%E6%A0%91" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x9F8D;&#x6A39;</td></tr></table>>,
     ];
-    "b18517b4cf79f4a4e360b27f744a3cec" [
+    "4b17d69678fe0dffb60d718035c36f42" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%A5%BF%E5%9F%9F" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x897F;&#x57DF;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%B8%96%E7%95%8C" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E16;&#x754C;</td></tr></table>>,
     ];
-    "d355d9ed61eb5be4a0826f2de12bd09b" [
+    "3378325266816ed4396a163f1ef7d2a4" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E7%BB%BF%E6%B4%B2" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7DA0;&#x6D32;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E6%8B%BC%E9%9F%B3%E6%96%87%E5%AD%97" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x62FC;&#x97F3;&#x6587;&#x5B57;</td></tr></table>>,
     ];
-    "9790855e099789de337996a3cb984c88" [
+    "69cfc910c011aaa3672c9140aaf55806" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%AE%89%E8%A5%BF%E5%A4%A7%E9%83%BD%E6%8A%A4%E5%BA%9C" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5B89;&#x897F;&#x5927;&#x90FD;&#x62A4;&#x5E9C;</td></tr></table>>,
-    ];
-    "d75af5bfb0cd55aaaa47e6211cbd1c31" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%AE%89%E8%A5%BF%E5%9B%9B%E9%95%87" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5B89;&#x897F;&#x56DB;&#x9547;</td></tr></table>>,
-    ];
-    "8d3595c818ac3f13aaedfd1807f1500e" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%94%90%E6%9C%9D" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5510;&#x671D;</td></tr></table>>,
-    ];
-    "6b3ff16f2d138ddc4789145ebef545cf" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E9%96%A9%E5%8D%97%E8%A9%B1" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x95FD;&#x5357;&#x8BED;</td></tr></table>>,
-    ];
-    "763f17f8a341b4f2c2ef870871ac5bfd" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%AE%A2%E5%AE%B6%E8%A9%B1" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5BA2;&#x5BB6;&#x8BDD;</td></tr></table>>,
-    ];
-    "1aeb8ad9aea199c79511f22bb49bf7e6" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E9%9F%93%E8%AA%9E" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x671D;&#x9BAE;&#x8A9E;</td></tr></table>>,
-    ];
-    "d01c57d17d0d2dc7354104afb06391b5" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8E%9F" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E2D;&#x539F;</td></tr></table>>,
-    ];
-    "703cc8c65815a0c7cb88f735d31cb5e5" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E2D;&#x570B;</td></tr></table>>,
-    ];
-    "1cca2b0a7ba1570cf044cc2a2b6232bc" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E6%B1%89%E6%9C%9D" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6C49;&#x671D;</td></tr></table>>,
-    ];
-    "3a51b5b721541006284c330665ff3707" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%B1%B1" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5929;&#x5C71;&#x5C71;&#x8109;</td></tr></table>>,
-    ];
-    "19adcf8101a30c95d27935791004211f" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E7%8E%89%E9%97%A8%E5%85%B3" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7389;&#x95E8;&#x5173;</td></tr></table>>,
-    ];
-    "e8ee1a98b53e48acab892a193155924e" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E9%98%B3%E5%85%B3" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x9633;&#x5173;</td></tr></table>>,
-    ];
-    "9ba10ed154001435a8f2c13748c9c08e" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E9%9A%8B%E6%9C%9D" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x968B;&#x671D;</td></tr></table>>,
-    ];
-    "49a06e1e710c47d18f73da9a695bbeb7" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E6%8B%82%E8%8F%BB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6771;&#x7F85;&#x99AC;&#x5E1D;&#x570B;</td></tr></table>>,
-    ];
-    "fef436eb7b15ff45b6364df40198e64f" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E6%B3%A2%E6%96%AF" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6CE2;&#x65AF;</td></tr></table>>,
-    ];
-    "d8484c6216901f291c673bc7957435ec" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%A9%86%E7%BD%97%E9%97%A8" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5A46;&#x7F57;&#x95E8;</td></tr></table>>,
-    ];
-    "494043e9b7efdf4dd72b4ac57bdff55a" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%85%83%E6%9C%9D" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5143;&#x671D;</td></tr></table>>,
-    ];
-    "259eefac2c7f2b2bb42a4021df48685e" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="&#x6649;" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x664B;</td></tr></table>>,
-    ];
-    "95e9702ad160744a1688b1f0ff23a5bd" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="&#x838E;&#x8ECA;" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x838E;&#x8F66;&#x53BF;</td></tr></table>>,
-    ];
-    "5aa9bd888488dd1509f7eabbd1672f46" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="&#x9808;&#x5229;&#x8036;&#x8DCB;&#x9640;" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x9808;&#x5229;&#x8036;&#x8DCB;&#x9640;</td></tr></table>>,
-    ];
-    "2e89e42078055d8ee2acf6b4d0ef9ab8" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="&#x5B8B;" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5B8B;</td></tr></table>>,
-    ];
-    "878f7f1f4d11b1822d0adf3578b9c1f2" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%A1%A8%E5%AD%97" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x8868;&#x5B57;</td></tr></table>>,
-    ];
-    "bdd63e4398883e75102eff8aac56b2d9" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%B8%9C%E6%99%8B" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E1C;&#x664B;</td></tr></table>>,
-    ];
-    "a711ecc839ba3b4a5fb48c03c1bc21f0" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%9C%B0%E7%90%86%E5%9D%90%E6%A0%87" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5730;&#x7406;&#x5750;&#x6807;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E7%B5%B1%E4%B8%80%E7%A2%BC%E8%81%AF%E7%9B%9F" border="0" cellspacing="10" cellpadding="10" style="rounded">Unicode&#x806F;&#x76DF;</td></tr></table>>,
     ];
     "83d320297642b8473f33126f0e523cbf" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E6%AD%B7%E5%8F%B2" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E2D;&#x570B;&#x6B77;&#x53F2;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E6%AD%B7%E5%8F%B2" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E2D;&#x56FD;&#x5386;&#x53F2;</td></tr></table>>,
     ];
-    "5116e91bb5c79e34db8a02cf51f59d2c" [
+    "a7594b1cc1fe40fd1115ef8a86de5230" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E7%BB%B4%E5%90%BE%E5%B0%94%E8%AF%AD" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7EF4;&#x543E;&#x5C14;&#x8BED;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E2D;&#x570B;</td></tr></table>>,
     ];
-  }
-  subgraph "cluster_1" {
-    label = "任務:1";
-    "c470369124a65c5ea82c8e3c9787265f" [
+    "a711ecc839ba3b4a5fb48c03c1bc21f0" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="&#x9808;&#x5229;&#x8036;&#x8607;&#x6469;" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x9808;&#x5229;&#x8036;&#x8607;&#x6469;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%9C%B0%E7%90%86%E5%9D%90%E6%A0%87" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5730;&#x7406;&#x5750;&#x6807;&#x7CFB;</td></tr></table>>,
     ];
-    "259eefac2c7f2b2bb42a4021df48685e" [
+    "f31e59bafd050a6492f74b338c75f0d2" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="&#x6649;" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x664B;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/ISO_15919" border="0" cellspacing="10" cellpadding="10" style="rounded">ISO 15919</td></tr></table>>,
     ];
-    "95e9702ad160744a1688b1f0ff23a5bd" [
+    "42511e0ade88a001c8c0eaf9f262dfcb" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="&#x838E;&#x8ECA;" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x838E;&#x8F66;&#x53BF;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%8F%A4%E5%8D%B0%E5%BA%A6" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5370;&#x5EA6;&#x6CB3;&#x6D41;&#x57DF;&#x6587;&#x660E;</td></tr></table>>,
     ];
-    "5aa9bd888488dd1509f7eabbd1672f46" [
+    "e299c9ac9ba1da416db16f100d83441d" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="&#x9808;&#x5229;&#x8036;&#x8DCB;&#x9640;" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x9808;&#x5229;&#x8036;&#x8DCB;&#x9640;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%8D%B0%E5%BA%A6-%E4%BC%8A%E6%9C%97%E8%AF%AD%E6%97%8F" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5370;&#x5EA6;-&#x4F0A;&#x6717;&#x8BED;&#x65CF;</td></tr></table>>,
     ];
-    "8d59dbf20999d10b490e351efa880494" [
+    "e4db02bf9d4e6cc2da3a1e5f4f152e23" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="&#x9CE9;&#x6469;&#x7F85;&#x4EC0;" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x9CE9;&#x6469;&#x7F85;&#x4EC0;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E7%85%A9%E6%83%B1_(%E4%BD%9B%E6%95%99)" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x7169;&#x60F1; (&#x4F5B;&#x6559;)</td></tr></table>>,
+    ];
+    "0f8ee5ae07e10dc2b441ce9e3261db0e" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%A8%81%E5%88%A9%E8%BD%AC%E5%86%99" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5A01;&#x5229;&#x8F6C;&#x5199;</td></tr></table>>,
+    ];
+    "14c6b8f4894ed81afffd05802f1e7d20" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%A4%A7%E4%B9%98" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5927;&#x4E58;&#x4F5B;&#x6559;</td></tr></table>>,
+    ];
+    "951317b105abfddf685e1bb79d2e52ab" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E4%BD%9B%E6%95%99%E5%BE%92%E8%81%AF%E8%AA%BC%E6%9C%83" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E16;&#x754C;&#x4F5B;&#x6559;&#x5F92;&#x806F;&#x8ABC;&#x6703;</td></tr></table>>,
+    ];
+    "855c5342b3f267bbef14956e92bd4083" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E7%A9%BA%E5%AE%97" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x4E2D;&#x89C0;&#x5B78;&#x6D3E;</td></tr></table>>,
+    ];
+    "16bdc8f8cd8cc93c937e749f8b0b760e" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E8%88%AC%E8%8B%A5" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6167; (&#x4F5B;&#x6559;)</td></tr></table>>,
+    ];
+    "edfafdb8bcde0681bf1f76ddad1dad82" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%8D%B0%E5%BA%A6-%E4%BC%8A%E6%9C%97%E8%AA%9E%E6%97%8F" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5370;&#x5EA6;-&#x4F0A;&#x6717;&#x8BED;&#x65CF;</td></tr></table>>,
+    ];
+    "0318f9da322d058ca1432bf1199f2728" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%8D%B0%E5%BA%A6-%E9%9B%85%E5%88%A9%E5%AE%89%E8%AF%AD%E6%94%AF" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5370;&#x5EA6;-&#x96C5;&#x5229;&#x5B89;&#x8BED;&#x652F;</td></tr></table>>,
+    ];
+    "41878d3f784ac386272a55198e9339bb" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9F%8E%E6%96%87" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5929;&#x57CE;&#x6587;</td></tr></table>>,
     ];
   }
   subgraph {
-    "8d59dbf20999d10b490e351efa880494" -> "f3ee665bfae086cd540be32433034f9b" [
-      label = "年代",
+    "e9758ba7deede33ae8787c4e495b7e75" -> "35c413cf4e0cb4525cd66e5e57000273" [
+      label = "梵語",
     ];
-    "8d59dbf20999d10b490e351efa880494" -> "2315b1d2e01f52f6db8fcc7df05965e0" [
-      label = "年代",
+    "e9758ba7deede33ae8787c4e495b7e75" -> "89a83ce460070ca63562e551e765261a" [
+      label = "IAST",
     ];
-    "8d59dbf20999d10b490e351efa880494" -> "adcfe4db2100818bdf5b0f6dc958db70" [
-      label = "年代",
+    "e9758ba7deede33ae8787c4e495b7e75" -> "d08259f53d6a493b165f7306e91bc6e3" [
+      label = "上古漢語",
     ];
-    "8d59dbf20999d10b490e351efa880494" -> "1e1637d13e91f015e972a6f7cd5a8f50" [
-      label = "籍貫",
+    "e9758ba7deede33ae8787c4e495b7e75" -> "7a6c08370457df694e9891ede2cf0f62" [
+      label = "東晉",
     ];
-    "8d59dbf20999d10b490e351efa880494" -> "701ddd59e09da3150d44eee0f2579bde" [
-      label = "籍貫",
+    "e9758ba7deede33ae8787c4e495b7e75" -> "31cad652d2eb9a2284e7b1f88d10e045" [
+      label = "五胡十六国",
     ];
-    "8d59dbf20999d10b490e351efa880494" -> "00f6c22df0c7244587ba2f0dffe2a5aa" [
-      label = "老師",
+    "e9758ba7deede33ae8787c4e495b7e75" -> "629214f9ad86a26eedeea4d12b5dce01" [
+      label = "龜茲",
     ];
-    "8d59dbf20999d10b490e351efa880494" -> "5cb777cacbc9edd5eef444907b616376" [
-      label = "學生",
+    "e9758ba7deede33ae8787c4e495b7e75" -> "ac914e272739c1f3aac3958ca50b995f" [
+      label = "比丘",
     ];
-    "f3ee665bfae086cd540be32433034f9b" -> "e976571c9d31cfe7cde9d818aa853e4c" [
-      label = "十六国",
+    "e9758ba7deede33ae8787c4e495b7e75" -> "dd14d18abcd7e57ab9a674ab50f3f90e" [
+      label = "漢傳佛教",
     ];
-    "f3ee665bfae086cd540be32433034f9b" -> "42493d9913896e0765a8690959300c98" [
-      label = "古羌人",
+    "e9758ba7deede33ae8787c4e495b7e75" -> "4a25b9688f13e6cda2c65f05da0b09a1" [
+      label = "譯師",
     ];
-    "f3ee665bfae086cd540be32433034f9b" -> "0d44b012c7b65c277431238056168aff" [
-      label = "姚苌",
+    "e9758ba7deede33ae8787c4e495b7e75" -> "9eaa3ba3d65a6b3de7199f993b8c9d7b" [
+      label = "金剛經",
     ];
-    "f3ee665bfae086cd540be32433034f9b" -> "83ed58f24ac40c454539d1fb7a0dfa73" [
-      label = "政权",
+    "e9758ba7deede33ae8787c4e495b7e75" -> "9f68188413ff4b6102937eb78aeccfe8" [
+      label = "法華經",
     ];
-    "f3ee665bfae086cd540be32433034f9b" -> "8a51b82cdc6b7c2ba4403cf614b09c66" [
-      label = "前秦",
+    "e9758ba7deede33ae8787c4e495b7e75" -> "9aacd3b4df2ccfbd6977f02f13965841" [
+      label = "中論",
     ];
-    "f3ee665bfae086cd540be32433034f9b" -> "af2554c2bc44195b1df9e55ab54c448c" [
-      label = "苻坚",
+    "35c413cf4e0cb4525cd66e5e57000273" -> "b03aacec992fa844f8cb223ca8a1d8a1" [
+      label = "印欧语系",
     ];
-    "f3ee665bfae086cd540be32433034f9b" -> "1146acf43747e1c05e91b68accb7aae6" [
-      label = "淝水之战",
+    "89a83ce460070ca63562e551e765261a" -> "35c413cf4e0cb4525cd66e5e57000273" [
+      label = "梵語",
     ];
-    "f3ee665bfae086cd540be32433034f9b" -> "c0ac00636103dd5e48ea013da257e73d" [
-      label = "羌人",
+    "89a83ce460070ca63562e551e765261a" -> "fd12430f8a3affcdcc66e1bcd501e531" [
+      label = "轉寫",
     ];
-    "f3ee665bfae086cd540be32433034f9b" -> "92db3a49134e3038651dde97ab9dc285" [
-      label = "太元 (东晋)",
+    "89a83ce460070ca63562e551e765261a" -> "4162e6971811ec05b1e335476bc99e6c" [
+      label = "Unicode",
     ];
-    "f3ee665bfae086cd540be32433034f9b" -> "26064c86958483f93b6342aaa2b0611b" [
-      label = "耀县",
+    "d08259f53d6a493b165f7306e91bc6e3" -> "ad0e4d55cecca63b0593c0161aa59c7b" [
+      label = "周朝",
     ];
-    "f3ee665bfae086cd540be32433034f9b" -> "2d9e5b8a1ad50247d91227cd54ea9be1" [
-      label = "长安",
+    "7a6c08370457df694e9891ede2cf0f62" -> "84d330b93ad81e5162928341a049109a" [
+      label = "中国朝代",
     ];
-    "f3ee665bfae086cd540be32433034f9b" -> "8f898a2d93438add935873289da3a889" [
-      label = "陕西",
+    "31cad652d2eb9a2284e7b1f88d10e045" -> "f65a1688f942475512bd5c17fe99f0ba" [
+      label = "中国历史",
     ];
-    "2315b1d2e01f52f6db8fcc7df05965e0" -> "e976571c9d31cfe7cde9d818aa853e4c" [
-      label = "十六国",
-    ];
-    "2315b1d2e01f52f6db8fcc7df05965e0" -> "19abf768ed6071d79092f4cd4835094e" [
-      label = "氐族",
-    ];
-    "2315b1d2e01f52f6db8fcc7df05965e0" -> "dcbf925a180288b2cea8e63485791dc1" [
-      label = "苻洪",
-    ];
-    "2315b1d2e01f52f6db8fcc7df05965e0" -> "8b63c381b44445a157f97a58907f079d" [
-      label = "渭河平原",
-    ];
-    "2315b1d2e01f52f6db8fcc7df05965e0" -> "60d19622c0907c2fb5356528d82f3a2e" [
-      label = "苻健",
-    ];
-    "2315b1d2e01f52f6db8fcc7df05965e0" -> "2d9e5b8a1ad50247d91227cd54ea9be1" [
-      label = "长安",
-    ];
-    "2315b1d2e01f52f6db8fcc7df05965e0" -> "2e029d73454698d0f22d386ec973ec45" [
-      label = "前燕",
-    ];
-    "2315b1d2e01f52f6db8fcc7df05965e0" -> "0abdd398967ee4d4d59012cd66af8f2d" [
-      label = "前凉",
-    ];
-    "2315b1d2e01f52f6db8fcc7df05965e0" -> "3ae6f4e1788d1a147cdb742f976e2110" [
-      label = "代 (十六国)",
-    ];
-    "2315b1d2e01f52f6db8fcc7df05965e0" -> "25729e0990f7a7d85aeb9a93d54d1abd" [
-      label = "西秦",
-    ];
-    "2315b1d2e01f52f6db8fcc7df05965e0" -> "3465e8bd4a1460ebac41d84a92da913e" [
-      label = "後秦",
-    ];
-    "2315b1d2e01f52f6db8fcc7df05965e0" -> "cb5984f0cf6522636c09d6dbd7eac740" [
-      label = "朝鮮半島",
-    ];
-    "adcfe4db2100818bdf5b0f6dc958db70" -> "2b7bf6b4be105910467287a998ab22ab" [
-      label = "年代",
-    ];
-    "1e1637d13e91f015e972a6f7cd5a8f50" -> "ed6f8aebea9ea124707f65a59f04036e" [
+    "629214f9ad86a26eedeea4d12b5dce01" -> "ed6f8aebea9ea124707f65a59f04036e" [
       label = "库车市",
     ];
-    "1e1637d13e91f015e972a6f7cd5a8f50" -> "573cd7e9d9b8bab8e341d40704130277" [
-      label = "龟兹语",
+    "ac914e272739c1f3aac3958ca50b995f" -> "35c413cf4e0cb4525cd66e5e57000273" [
+      label = "梵語",
     ];
-    "1e1637d13e91f015e972a6f7cd5a8f50" -> "2e3f5d23c67d4ce5600c6355365b936f" [
+    "ac914e272739c1f3aac3958ca50b995f" -> "dd60b1bac2a6c7839f38018b03323fa6" [
+      label = "巴利語",
+    ];
+    "ac914e272739c1f3aac3958ca50b995f" -> "963ab5b4d5c1ee92eeb2e37af0ce4af5" [
+      label = "佛教術語",
+    ];
+    "dd14d18abcd7e57ab9a674ab50f3f90e" -> "ba20cba10a16e7c9bfe87dd8e1787cbe" [
+      label = "漢字",
+    ];
+    "4a25b9688f13e6cda2c65f05da0b09a1" -> "a9bf59acd66efde770c60c8ac017a085" [
+      label = "藏文",
+    ];
+    "9eaa3ba3d65a6b3de7199f993b8c9d7b" -> "35c413cf4e0cb4525cd66e5e57000273" [
+      label = "梵語",
+    ];
+    "9eaa3ba3d65a6b3de7199f993b8c9d7b" -> "82b828091a1f2bd07d2709acb36e540a" [
+      label = "大乘佛教",
+    ];
+    "9eaa3ba3d65a6b3de7199f993b8c9d7b" -> "d508d22d84301e5c543ddfba2f0c3e70" [
+      label = "般若部",
+    ];
+    "9f68188413ff4b6102937eb78aeccfe8" -> "2e3f5d23c67d4ce5600c6355365b936f" [
       label = "梵文",
     ];
-    "1e1637d13e91f015e972a6f7cd5a8f50" -> "855a7f6d816b8cd3b12325099f96bd10" [
-      label = "維吾爾語",
+    "9aacd3b4df2ccfbd6977f02f13965841" -> "35c413cf4e0cb4525cd66e5e57000273" [
+      label = "梵語",
     ];
-    "1e1637d13e91f015e972a6f7cd5a8f50" -> "b18517b4cf79f4a4e360b27f744a3cec" [
-      label = "西域",
+    "9aacd3b4df2ccfbd6977f02f13965841" -> "a9bf59acd66efde770c60c8ac017a085" [
+      label = "藏文",
     ];
-    "1e1637d13e91f015e972a6f7cd5a8f50" -> "d355d9ed61eb5be4a0826f2de12bd09b" [
-      label = "绿洲",
+    "9aacd3b4df2ccfbd6977f02f13965841" -> "1cb99d1073c46b3298d1bca9e3711796" [
+      label = "龙树",
     ];
-    "1e1637d13e91f015e972a6f7cd5a8f50" -> "9790855e099789de337996a3cb984c88" [
-      label = "安西大都护府",
+    "b03aacec992fa844f8cb223ca8a1d8a1" -> "4b17d69678fe0dffb60d718035c36f42" [
+      label = "世界",
     ];
-    "1e1637d13e91f015e972a6f7cd5a8f50" -> "d75af5bfb0cd55aaaa47e6211cbd1c31" [
-      label = "安西四镇",
+    "fd12430f8a3affcdcc66e1bcd501e531" -> "3378325266816ed4396a163f1ef7d2a4" [
+      label = "拼音文字",
     ];
-    "1e1637d13e91f015e972a6f7cd5a8f50" -> "8d3595c818ac3f13aaedfd1807f1500e" [
-      label = "唐朝",
+    "4162e6971811ec05b1e335476bc99e6c" -> "69cfc910c011aaa3672c9140aaf55806" [
+      label = "統一碼聯盟",
     ];
-    "1e1637d13e91f015e972a6f7cd5a8f50" -> "6b3ff16f2d138ddc4789145ebef545cf" [
-      label = "閩南話",
-    ];
-    "1e1637d13e91f015e972a6f7cd5a8f50" -> "763f17f8a341b4f2c2ef870871ac5bfd" [
-      label = "客家話",
-    ];
-    "1e1637d13e91f015e972a6f7cd5a8f50" -> "1aeb8ad9aea199c79511f22bb49bf7e6" [
-      label = "韓語",
-    ];
-    "701ddd59e09da3150d44eee0f2579bde" -> "d01c57d17d0d2dc7354104afb06391b5" [
-      label = "中原",
-    ];
-    "701ddd59e09da3150d44eee0f2579bde" -> "703cc8c65815a0c7cb88f735d31cb5e5" [
-      label = "中国",
-    ];
-    "701ddd59e09da3150d44eee0f2579bde" -> "1cca2b0a7ba1570cf044cc2a2b6232bc" [
-      label = "汉朝",
-    ];
-    "701ddd59e09da3150d44eee0f2579bde" -> "3a51b5b721541006284c330665ff3707" [
-      label = "天山",
-    ];
-    "701ddd59e09da3150d44eee0f2579bde" -> "19adcf8101a30c95d27935791004211f" [
-      label = "玉门关",
-    ];
-    "701ddd59e09da3150d44eee0f2579bde" -> "e8ee1a98b53e48acab892a193155924e" [
-      label = "阳关",
-    ];
-    "701ddd59e09da3150d44eee0f2579bde" -> "9ba10ed154001435a8f2c13748c9c08e" [
-      label = "隋朝",
-    ];
-    "701ddd59e09da3150d44eee0f2579bde" -> "8d3595c818ac3f13aaedfd1807f1500e" [
-      label = "唐朝",
-    ];
-    "701ddd59e09da3150d44eee0f2579bde" -> "49a06e1e710c47d18f73da9a695bbeb7" [
-      label = "拂菻",
-    ];
-    "701ddd59e09da3150d44eee0f2579bde" -> "fef436eb7b15ff45b6364df40198e64f" [
-      label = "波斯",
-    ];
-    "701ddd59e09da3150d44eee0f2579bde" -> "d8484c6216901f291c673bc7957435ec" [
-      label = "婆罗门",
-    ];
-    "701ddd59e09da3150d44eee0f2579bde" -> "494043e9b7efdf4dd72b4ac57bdff55a" [
-      label = "元朝",
-    ];
-    "00f6c22df0c7244587ba2f0dffe2a5aa" -> "259eefac2c7f2b2bb42a4021df48685e" [
-      label = "年代",
-    ];
-    "00f6c22df0c7244587ba2f0dffe2a5aa" -> "95e9702ad160744a1688b1f0ff23a5bd" [
-      label = "籍貫",
-    ];
-    "00f6c22df0c7244587ba2f0dffe2a5aa" -> "5aa9bd888488dd1509f7eabbd1672f46" [
-      label = "學生",
-    ];
-    "00f6c22df0c7244587ba2f0dffe2a5aa" -> "8d59dbf20999d10b490e351efa880494" [
-      label = "學生",
-    ];
-    "5cb777cacbc9edd5eef444907b616376" -> "2e89e42078055d8ee2acf6b4d0ef9ab8" [
-      label = "年代",
-    ];
-    "0d44b012c7b65c277431238056168aff" -> "878f7f1f4d11b1822d0adf3578b9c1f2" [
-      label = "表字",
-    ];
-    "8a51b82cdc6b7c2ba4403cf614b09c66" -> "e976571c9d31cfe7cde9d818aa853e4c" [
-      label = "十六国",
-    ];
-    "8a51b82cdc6b7c2ba4403cf614b09c66" -> "19abf768ed6071d79092f4cd4835094e" [
-      label = "氐族",
-    ];
-    "8a51b82cdc6b7c2ba4403cf614b09c66" -> "dcbf925a180288b2cea8e63485791dc1" [
-      label = "苻洪",
-    ];
-    "af2554c2bc44195b1df9e55ab54c448c" -> "878f7f1f4d11b1822d0adf3578b9c1f2" [
-      label = "表字",
-    ];
-    "1146acf43747e1c05e91b68accb7aae6" -> "bdd63e4398883e75102eff8aac56b2d9" [
-      label = "东晋",
-    ];
-    "1146acf43747e1c05e91b68accb7aae6" -> "8a51b82cdc6b7c2ba4403cf614b09c66" [
-      label = "前秦",
-    ];
-    "c0ac00636103dd5e48ea013da257e73d" -> "42493d9913896e0765a8690959300c98" [
-      label = "古羌人",
-    ];
-    "92db3a49134e3038651dde97ab9dc285" -> "bdd63e4398883e75102eff8aac56b2d9" [
-      label = "东晋",
-    ];
-    "26064c86958483f93b6342aaa2b0611b" -> "703cc8c65815a0c7cb88f735d31cb5e5" [
-      label = "中国",
-    ];
-    "8f898a2d93438add935873289da3a889" -> "a711ecc839ba3b4a5fb48c03c1bc21f0" [
-      label = "地理坐标",
-    ];
-    "dcbf925a180288b2cea8e63485791dc1" -> "878f7f1f4d11b1822d0adf3578b9c1f2" [
-      label = "表字",
-    ];
-    "dcbf925a180288b2cea8e63485791dc1" -> "8a51b82cdc6b7c2ba4403cf614b09c66" [
-      label = "前秦",
-    ];
-    "60d19622c0907c2fb5356528d82f3a2e" -> "878f7f1f4d11b1822d0adf3578b9c1f2" [
-      label = "表字",
-    ];
-    "0abdd398967ee4d4d59012cd66af8f2d" -> "e976571c9d31cfe7cde9d818aa853e4c" [
-      label = "十六国",
-    ];
-    "3ae6f4e1788d1a147cdb742f976e2110" -> "e976571c9d31cfe7cde9d818aa853e4c" [
-      label = "十六国",
-    ];
-    "3ae6f4e1788d1a147cdb742f976e2110" -> "83ed58f24ac40c454539d1fb7a0dfa73" [
-      label = "政权",
-    ];
-    "25729e0990f7a7d85aeb9a93d54d1abd" -> "e976571c9d31cfe7cde9d818aa853e4c" [
-      label = "十六国",
-    ];
-    "3465e8bd4a1460ebac41d84a92da913e" -> "e976571c9d31cfe7cde9d818aa853e4c" [
-      label = "十六国",
-    ];
-    "3465e8bd4a1460ebac41d84a92da913e" -> "42493d9913896e0765a8690959300c98" [
-      label = "古羌人",
-    ];
-    "3465e8bd4a1460ebac41d84a92da913e" -> "0d44b012c7b65c277431238056168aff" [
-      label = "姚苌",
-    ];
-    "3465e8bd4a1460ebac41d84a92da913e" -> "83ed58f24ac40c454539d1fb7a0dfa73" [
-      label = "政权",
-    ];
-    "3465e8bd4a1460ebac41d84a92da913e" -> "8a51b82cdc6b7c2ba4403cf614b09c66" [
-      label = "前秦",
-    ];
-    "3465e8bd4a1460ebac41d84a92da913e" -> "af2554c2bc44195b1df9e55ab54c448c" [
-      label = "苻坚",
-    ];
-    "3465e8bd4a1460ebac41d84a92da913e" -> "1146acf43747e1c05e91b68accb7aae6" [
-      label = "淝水之战",
-    ];
-    "3465e8bd4a1460ebac41d84a92da913e" -> "c0ac00636103dd5e48ea013da257e73d" [
-      label = "羌人",
-    ];
-    "3465e8bd4a1460ebac41d84a92da913e" -> "92db3a49134e3038651dde97ab9dc285" [
-      label = "太元 (东晋)",
-    ];
-    "3465e8bd4a1460ebac41d84a92da913e" -> "26064c86958483f93b6342aaa2b0611b" [
-      label = "耀县",
-    ];
-    "3465e8bd4a1460ebac41d84a92da913e" -> "2d9e5b8a1ad50247d91227cd54ea9be1" [
-      label = "长安",
-    ];
-    "3465e8bd4a1460ebac41d84a92da913e" -> "8f898a2d93438add935873289da3a889" [
-      label = "陕西",
-    ];
-    "3465e8bd4a1460ebac41d84a92da913e" -> "25729e0990f7a7d85aeb9a93d54d1abd" [
-      label = "西秦",
-    ];
-    "3465e8bd4a1460ebac41d84a92da913e" -> "bdd63e4398883e75102eff8aac56b2d9" [
-      label = "东晋",
-    ];
-    "2b7bf6b4be105910467287a998ab22ab" -> "83d320297642b8473f33126f0e523cbf" [
+    "ad0e4d55cecca63b0593c0161aa59c7b" -> "83d320297642b8473f33126f0e523cbf" [
       label = "中國歷史",
     ];
-    "2b7bf6b4be105910467287a998ab22ab" -> "8d3595c818ac3f13aaedfd1807f1500e" [
-      label = "唐朝",
+    "84d330b93ad81e5162928341a049109a" -> "f65a1688f942475512bd5c17fe99f0ba" [
+      label = "中国历史",
+    ];
+    "f65a1688f942475512bd5c17fe99f0ba" -> "a7594b1cc1fe40fd1115ef8a86de5230" [
+      label = "中國",
     ];
     "ed6f8aebea9ea124707f65a59f04036e" -> "a711ecc839ba3b4a5fb48c03c1bc21f0" [
       label = "地理坐标",
     ];
-    "b18517b4cf79f4a4e360b27f744a3cec" -> "d01c57d17d0d2dc7354104afb06391b5" [
-      label = "中原",
+    "dd60b1bac2a6c7839f38018b03323fa6" -> "89a83ce460070ca63562e551e765261a" [
+      label = "IAST",
     ];
-    "9790855e099789de337996a3cb984c88" -> "8d3595c818ac3f13aaedfd1807f1500e" [
-      label = "唐朝",
+    "dd60b1bac2a6c7839f38018b03323fa6" -> "f31e59bafd050a6492f74b338c75f0d2" [
+      label = "ISO 15919",
     ];
-    "d75af5bfb0cd55aaaa47e6211cbd1c31" -> "b18517b4cf79f4a4e360b27f744a3cec" [
-      label = "西域",
+    "dd60b1bac2a6c7839f38018b03323fa6" -> "42511e0ade88a001c8c0eaf9f262dfcb" [
+      label = "古印度",
     ];
-    "703cc8c65815a0c7cb88f735d31cb5e5" -> "a711ecc839ba3b4a5fb48c03c1bc21f0" [
-      label = "地理坐标",
+    "dd60b1bac2a6c7839f38018b03323fa6" -> "b03aacec992fa844f8cb223ca8a1d8a1" [
+      label = "印欧语系",
     ];
-    "3a51b5b721541006284c330665ff3707" -> "5116e91bb5c79e34db8a02cf51f59d2c" [
-      label = "维吾尔语",
+    "dd60b1bac2a6c7839f38018b03323fa6" -> "e299c9ac9ba1da416db16f100d83441d" [
+      label = "印度-伊朗语族",
     ];
-    "19adcf8101a30c95d27935791004211f" -> "a711ecc839ba3b4a5fb48c03c1bc21f0" [
-      label = "地理坐标",
+    "963ab5b4d5c1ee92eeb2e37af0ce4af5" -> "e4db02bf9d4e6cc2da3a1e5f4f152e23" [
+      label = "煩惱 (佛教)",
     ];
-    "19adcf8101a30c95d27935791004211f" -> "703cc8c65815a0c7cb88f735d31cb5e5" [
-      label = "中国",
+    "a9bf59acd66efde770c60c8ac017a085" -> "0f8ee5ae07e10dc2b441ce9e3261db0e" [
+      label = "威利转写",
     ];
-    "e8ee1a98b53e48acab892a193155924e" -> "19adcf8101a30c95d27935791004211f" [
-      label = "玉门关",
+    "82b828091a1f2bd07d2709acb36e540a" -> "14c6b8f4894ed81afffd05802f1e7d20" [
+      label = "大乘",
     ];
-    "e8ee1a98b53e48acab892a193155924e" -> "b18517b4cf79f4a4e360b27f744a3cec" [
-      label = "西域",
+    "82b828091a1f2bd07d2709acb36e540a" -> "35c413cf4e0cb4525cd66e5e57000273" [
+      label = "梵語",
     ];
-    "9ba10ed154001435a8f2c13748c9c08e" -> "83d320297642b8473f33126f0e523cbf" [
-      label = "中國歷史",
+    "82b828091a1f2bd07d2709acb36e540a" -> "951317b105abfddf685e1bb79d2e52ab" [
+      label = "世界佛教徒聯誼會",
     ];
-    "9ba10ed154001435a8f2c13748c9c08e" -> "8d3595c818ac3f13aaedfd1807f1500e" [
-      label = "唐朝",
+    "d508d22d84301e5c543ddfba2f0c3e70" -> "855c5342b3f267bbef14956e92bd4083" [
+      label = "空宗",
     ];
-    "259eefac2c7f2b2bb42a4021df48685e" -> "bdd63e4398883e75102eff8aac56b2d9" [
-      label = "东晋",
+    "d508d22d84301e5c543ddfba2f0c3e70" -> "82b828091a1f2bd07d2709acb36e540a" [
+      label = "大乘佛教",
     ];
-    "95e9702ad160744a1688b1f0ff23a5bd" -> "a711ecc839ba3b4a5fb48c03c1bc21f0" [
-      label = "地理坐标",
+    "d508d22d84301e5c543ddfba2f0c3e70" -> "16bdc8f8cd8cc93c937e749f8b0b760e" [
+      label = "般若",
     ];
-    "95e9702ad160744a1688b1f0ff23a5bd" -> "5116e91bb5c79e34db8a02cf51f59d2c" [
-      label = "维吾尔语",
+    "2e3f5d23c67d4ce5600c6355365b936f" -> "b03aacec992fa844f8cb223ca8a1d8a1" [
+      label = "印欧语系",
     ];
-    "95e9702ad160744a1688b1f0ff23a5bd" -> "703cc8c65815a0c7cb88f735d31cb5e5" [
-      label = "中国",
+    "2e3f5d23c67d4ce5600c6355365b936f" -> "edfafdb8bcde0681bf1f76ddad1dad82" [
+      label = "印度-伊朗語族",
     ];
-    "5aa9bd888488dd1509f7eabbd1672f46" -> "f3ee665bfae086cd540be32433034f9b" [
-      label = "年代",
+    "2e3f5d23c67d4ce5600c6355365b936f" -> "0318f9da322d058ca1432bf1199f2728" [
+      label = "印度-雅利安语支",
     ];
-    "5aa9bd888488dd1509f7eabbd1672f46" -> "00f6c22df0c7244587ba2f0dffe2a5aa" [
-      label = "老師",
-    ];
-    "c470369124a65c5ea82c8e3c9787265f" -> "00f6c22df0c7244587ba2f0dffe2a5aa" [
-      label = "[相同]",
-    ];
-    "c470369124a65c5ea82c8e3c9787265f" -> "259eefac2c7f2b2bb42a4021df48685e" [
-      label = "年代",
-    ];
-    "c470369124a65c5ea82c8e3c9787265f" -> "95e9702ad160744a1688b1f0ff23a5bd" [
-      label = "籍貫",
-    ];
-    "c470369124a65c5ea82c8e3c9787265f" -> "5aa9bd888488dd1509f7eabbd1672f46" [
-      label = "學生",
-    ];
-    "c470369124a65c5ea82c8e3c9787265f" -> "8d59dbf20999d10b490e351efa880494" [
-      label = "學生",
+    "1cb99d1073c46b3298d1bca9e3711796" -> "41878d3f784ac386272a55198e9339bb" [
+      label = "天城文",
     ];
   }
   subgraph "top" {
     rank = "same";
-    "8d59dbf20999d10b490e351efa880494" [
+    "e9758ba7deede33ae8787c4e495b7e75" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="&#x9CE9;&#x6469;&#x7F85;&#x4EC0;" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x9CE9;&#x6469;&#x7F85;&#x4EC0;</td></tr></table>>,
-    ];
-    "c470369124a65c5ea82c8e3c9787265f" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="&#x9808;&#x5229;&#x8036;&#x8607;&#x6469;" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x9808;&#x5229;&#x8036;&#x8607;&#x6469;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://zh.wikipedia.org/wiki/%E9%B8%A0%E6%91%A9%E7%BD%97%E4%BB%80" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x9E20;&#x6469;&#x7F57;&#x4EC0;</td></tr></table>>,
     ];
   }
 }

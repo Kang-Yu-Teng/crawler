@@ -47,10 +47,7 @@ const bfsController = {
         while(missionQueue.length > 0) {
             /* 取出任務 */
             var mission = missionQueue.shift();
-            if(mission['lifepoint'] < 0){
-                /* 壽命已盡 */
-                continue;
-            }
+
             /* 限制初始化 */
             if(child_limit_record[mission['url']]==undefined){
                 child_limit_record[mission['url']]=width_limit[mission['lifepoint']];
@@ -108,8 +105,16 @@ const bfsController = {
                             maxValue = value;
                         }
                     }
-                    child_limit_record[mission['url']] = maxValue/10;
+                    if(mission['root_flag']==true){
+                        child_limit_record[mission['url']] = maxValue;
+                    }else{
+                        child_limit_record[mission['url']] = maxValue/10;
+                    }
                     
+                }
+                if(mission['lifepoint'] < 0){
+                    /* 壽命已盡 */
+                    continue;
                 }
                 /* 子點處理 */
                 result['child'].forEach(
@@ -121,9 +126,16 @@ const bfsController = {
                         var title = value["title"];
                         var href = value["href"];
                         var child_name = "unknown";
+                        //const url = new URL(href);
+                        //child_name = decodeURI(url.pathname);
                         if(title!=undefined || title!=null){
                             relation = title;
-                            child_name = title;
+                            //child_name = title;
+                        }
+                        if(old_bfs_history[href]!=undefined){
+                            if(old_bfs_history[href]["name"]!="unknown"){
+                                child_name = old_bfs_history[href]["name"];
+                            }
                         }
                         
                         /* 添加子點資料 */

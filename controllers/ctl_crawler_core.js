@@ -22,7 +22,9 @@ import htmlParser from 'html-parser';
 
 var xmlFile = fs.readFileSync(__dirname+'/data/20210914-DILA-PersonAuthority-DocuXml.xml', 'utf8');
 var xmlFileSmall = fs.readFileSync(__dirname+'/data/small.xml', 'utf8');
-const xml = Cheerio.load(xmlFile);
+const xml = Cheerio.load(xmlFile,{
+    xmlMode: true
+  });
 //var doc = new DOMParser().parseFromString(xmlFileSmall);
 
 
@@ -303,9 +305,10 @@ async function wikipediaSolver(target,rule){
         //console.log("resolver: ",$(this).attr("href"));
         return result;
     } catch (error) {
-        //console.log(error);
+        console.log(error);
+        console.log(target);
         const url = new URL(target);
-        //result['name'] = decodeURI(url.pathname);
+        result['name'] = decodeURI(url.pathname);
         return result;
     }
 }
@@ -314,12 +317,29 @@ async function normalSolver(target,rule){
     var result = {};
     result['child'] = [];
     result['name'] = "unknown";
+    var $=xml;
+    var page=null
+    /*
+    要處理同名，不同人的問題
+    */
+    const PersonRefId_pattern = "^dila_.*";
+    try{
+        if(RegExp(PersonRefId_pattern).test(target)==true){
+            console.log("dila_id: ",target);
+            page = $('document[filename='+target+']').html();
+        }else{
+            page = $('PersonName:contains("'+target+'")').filter(function(){    
+                return $(this).text() === target;}
+                ).parent().parent().parent().html();
+        }
+    }catch(error){}
+
 
     try {
-        var $=xml;
-        var page = $('PersonName:contains("'+target+'")').filter(function(){ return $(this).text() === target;}).first().parent().parent().parent().html();
+
         if(page != null){
             var content=Cheerio.load(page);
+            console.log("html: ",page);
             console.log("name: ",content("author").html());
             result['name'] = content("author").html();
             /*
@@ -328,7 +348,7 @@ async function normalSolver(target,rule){
             /* 年代 */
             content('*').find('time_dynasty').each(function (index, element) {
                 var item = $(element);
-                console.log("年代： ",item.html());
+                console.log("年代： ",decodeURI(item.html()));
                 if(rule.nodeBanlist[item.text()] == undefined && item.html()!=null){
                     result['child'].push(wrapString(item,item.text(),"年代"));
                 } 
@@ -346,23 +366,23 @@ async function normalSolver(target,rule){
             /* 老師 */
             content('doc_content > Paragraph[Key="BasicInfo"]').find('Udef_Association[RelCode*="teacher"]').each(function (index, element) {
                 var item = $(element);
-                console.log("老師： ",item.html());
+                console.log("老師： ",item.attr("personrefid"),"/",item.html());
                 if(rule.nodeBanlist[item.text()] == undefined && item.html()!=null){
-                    result['child'].push(wrapString(item,item.text(),"老師"));
+                    result['child'].push(wrapString(item,item.attr("personrefid"),"老師"));
                 } 
               });
 
             /* 學生 */
             content('doc_content > Paragraph[Key="BasicInfo"]').find('Udef_Association[RelCode*="student"]').each(function (index, element) {
                 var item = $(element);
-                console.log("學生： ",item.html());
+                console.log("學生： ",item.attr("personrefid"),"/",item.html());
                 if(rule.nodeBanlist[item.text()] == undefined && item.html()!=null){
-                    result['child'].push(wrapString(item,item.text(),"學生"));
+                    result['child'].push(wrapString(item,item.attr("personrefid"),"學生"));
                 } 
                 });
 
         }else{
-            console.log("resolver null: ", target);
+            console.log("自動搜尋: ", target);
             //console.log("https://zh.wikipedia.org/wiki/"+target);
             var et = encodeURI("https://zh.wikipedia.org/wiki/"+target);
 
