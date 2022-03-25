@@ -86,6 +86,8 @@ const bfsController = {
                 }
                 old_bfs_history[mission['url']]=current_node;
                 nodes.push(current_node);  /* 每個節點都必須完成資料更新 */
+                /* wiki 特殊規則 */
+                
                 if(mission['rule'].solverType != 'wikipedia_pattern' || crawlerRuleModel.get(mission['parent_url']) != 'wikipedia_pattern' ){
                             
                     let maxValue = 1;
@@ -97,6 +99,7 @@ const bfsController = {
                     child_limit_record[mission['url']] = maxValue;
 
                 }
+                /*
                 if(mission['rule'].solverType == 'wikipedia_pattern' && crawlerRuleModel.get(mission['parent_url']) != 'wikipedia_pattern' ){
                             
                     let maxValue = 1;
@@ -112,6 +115,7 @@ const bfsController = {
                     }
                     
                 }
+                */
                 if(mission['lifepoint'] < 0){
                     /* 壽命已盡 */
                     continue;
