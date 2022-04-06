@@ -3,374 +3,61 @@ digraph "Missions" {
   overlap = false;
   splines = true;
   nodesep = 0.5;
-  subgraph "cluster_0" {
-    label = "任務:0";
-    "4fa5868ed865040d8fcd6b4b7b3132eb" [
+  subgraph "cluster_1" {
+    label = "任務:1";
+    "2a09eb6907672291483c49bd6bb1af2a" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/35051" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x5BE6;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/a597e-CeB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6731;&#x5F5E;&#x54F2;</td></tr></table>>,
     ];
-    "ea878fe47dd411139c90e624b27ac122" [
+    "ef37b0f0cd2b2adf07c206db9126235b" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/0c74b" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x6046;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/33" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x9805;&#x6C0F;&#xFF08;33&#xFF09;</td></tr></table>>,
     ];
-    "21e8018bbd35475ca6945ac569423c61" [
+    "c9ef2ba87d7a40839e33c1eeddf05a62" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/1a5b1" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x76C6;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/8d5e9-kky" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6731;&#x5FB7;&#x6A5F;</td></tr></table>>,
     ];
-    "8e3db582a07ffd5a6cad0f81f7c92c73" [
+    "e522573ff19ccea39fb7ad29745dde62" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/093f6" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x795A;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/cee63-4Tw" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6731;&#x4E15;&#x8944;</td></tr></table>>,
     ];
-    "d643bdb361bc8bc3d14809b705df094a" [
+    "4329473bd158fb3a00e1af4d2946485e" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/9f614" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x7E7C;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/63" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6C88;&#x6C0F;&#xFF08;63&#xFF09;</td></tr></table>>,
     ];
-    "b0659410dcadbf6ce32eff53e856c372" [
+    "72e8eaf80969ca44b7abea6896f6cdb6" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/bf822" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x7E6A;</td></tr></table>>,
-    ];
-    "53964042fe37f2c31ef101be3124bda9" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/2b449" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x74CA;</td></tr></table>>,
-    ];
-    "6ab4790020595dc3e344efea67288f28" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/14294" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x79C9;&#x921E;</td></tr></table>>,
-    ];
-    "ae68bbfbb5eda79173c55d43b0f613dc" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/2421f" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x79C9;&#x8861;</td></tr></table>>,
-    ];
-    "ce1ef7c190b091f032f45ac72f0b4bf3" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/75fc0" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x79C9;&#x5F5D;</td></tr></table>>,
-    ];
-    "5d1f28dd0719ef81c09206e204702e15" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/73278" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x61CB;&#x8A00;</td></tr></table>>,
-    ];
-    "a9d3573358e5bd3545c91f868737d71a" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/8f855" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x5FD7;&#x6D3D;</td></tr></table>>,
-    ];
-    "93bf65c85fcc5fe3629b15f8dfe49b84" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/5ef0b" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x5FD7;&#x9AD8;</td></tr></table>>,
-    ];
-    "65a92724526d0078851074693aa890eb" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/854d9" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x5C1A;&#x8CE2;</td></tr></table>>,
-    ];
-    "08fa5a75286bb626831fa901f151a777" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/0f49c" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x5141;&#x6968;</td></tr></table>>,
-    ];
-    "2efb2bc60c4e62ff1b52bc2399e606db" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/4c56f" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x5141;&#x82B3;</td></tr></table>>,
-    ];
-    "a1adc82bce3cba49f960b2dd0e8be336" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/0f49c-dFV" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x6C0F;</td></tr></table>>,
-    ];
-    "3f31dbdbe8558f7a5d64ec612d20b76a" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/357a6" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x5B5F;&#x9E9F;</td></tr></table>>,
-    ];
-    "ad0403e3beede9f56649e37e27a7f83d" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/20f07" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x5927;&#x711C;</td></tr></table>>,
-    ];
-    "cf2c6217d9948a422fc759e2424a2354" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/69adc" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x5927;&#x4EFB;</td></tr></table>>,
-    ];
-    "3f46a3b906d1c5b13d272bfdbdaff4bd" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/e1654" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x8A31;&#x4EE4;&#x96DB;</td></tr></table>>,
-    ];
-    "ef7be67f6836b35d67a8ac43bde02f36" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/e46de" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x656C;&#x5B97;</td></tr></table>>,
-    ];
-    "2877a2f9f328ca3755ac7b6f32f60704" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/a3f39" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x57F9;&#x7E7C;</td></tr></table>>,
-    ];
-    "7b191b60fdc6967e035fb3170cc60841" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/51d92" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x7E7C;&#x5E8F;</td></tr></table>>,
-    ];
-    "2e586a95da02058368dd9b7415c097bf" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/7eabe" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x55E3;&#x99A8;</td></tr></table>>,
-    ];
-    "df02ca66bcccd6942337f5eee2a89cae" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/72b32" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x55E3;&#x742A;</td></tr></table>>,
-    ];
-    "18ffcd220bffc2c01b2f861b92b7eeba" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/89" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x8A31;&#x6C0F;(89)</td></tr></table>>,
-    ];
-    "de130579aab29e336d157ef499471651" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/3c778" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x711C;</td></tr></table>>,
-    ];
-    "0cc85dda67e04db135b6f40c16db384a" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/f73b7" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x6607;</td></tr></table>>,
-    ];
-    "b7dd8d5f9f3fd2519ad84b48d18f09e2" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/13fe9" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x660C;&#x8EFE;</td></tr></table>>,
-    ];
-    "947beb68f43c9cf4ca8f84354773de91" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/a0a08" border="0" cellspacing="10" cellpadding="10" style="rounded">?</td></tr></table>>,
-    ];
-    "5eef7eb935d0291b7d21624df77b0f98" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/c203d" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x660C;&#x9593;</td></tr></table>>,
-    ];
-    "5ed8a2fcd17cb6e518ad8861b1100a65" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/91889" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x6C0F;</td></tr></table>>,
-    ];
-    "bacb32d3dab5235d4d18829e230a5620" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/06905" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x666F;</td></tr></table>>,
-    ];
-    "fccd5c07cbd708eab0b30ff5cfb151fd" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/3c59d" border="0" cellspacing="10" cellpadding="10" style="rounded">?</td></tr></table>>,
-    ];
-    "2af7218a5cbd9b2cd563788159e93265" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/598b3" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6C6A;&#x6C0F;</td></tr></table>>,
-    ];
-    "a8f2c3cb415f61a72d7bff21d081f698" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/e3796" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x61CB;</td></tr></table>>,
-    ];
-    "80b7f438fe09a776b682af082027eeee" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/cny" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6C88;&#x5143;&#x6EC4;</td></tr></table>>,
-    ];
-    "df27f25d4f6a95278b6dc174f5d1fa99" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/3ad7c" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x4E16;&#x82B3;</td></tr></table>>,
-    ];
-    "c4a107aeb2471496799c2be04201e427" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/a3f39-PHd" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5F35;&#x52AD;</td></tr></table>>,
-    ];
-    "4a2088795077a4ab2aac76aae5cbb7bb" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/ac627" border="0" cellspacing="10" cellpadding="10" style="rounded">?</td></tr></table>>,
-    ];
-    "ffc86b443632d522fd36ec598e9d79de" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/f8545" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x4E16;&#x5013;</td></tr></table>>,
-    ];
-    "6053a380c9ca67b55484cec3ecf2ea48" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/8d3bb" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6C88;&#x5EF7;&#x82B3;</td></tr></table>>,
-    ];
-    "8e0dcb9cc5fe350ace3749477be77400" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/a597e" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x6709;&#x65B0;</td></tr></table>>,
-    ];
-    "2208541dcf25c0052d91c8a6f8d60899" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/00411" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6C6A;&#x705D;</td></tr></table>>,
-    ];
-    "8cb4be4d1485385cc163924f93500f75" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/fc490" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6C6A;&#x5982;&#x703E;</td></tr></table>>,
-    ];
-    "5b25547b11e6f0045d8785870fd42d95" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/9431c" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x6C0F;&#x82E5;&#x7B60;</td></tr></table>>,
-    ];
-    "5d16482235004f4ce4e8498a22fa7123" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/cny-IR8" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x5143;&#x5041;</td></tr></table>>,
-    ];
-    "67281df0cc2b5eb688472d7915735168" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/77" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5433;&#x6C0F;(77)</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/9c838-m1n" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6731;&#x632F;&#x98DB;</td></tr></table>>,
     ];
   }
   subgraph {
-    "4fa5868ed865040d8fcd6b4b7b3132eb" -> "ea878fe47dd411139c90e624b27ac122" [
-      label = "子",
-    ];
-    "4fa5868ed865040d8fcd6b4b7b3132eb" -> "21e8018bbd35475ca6945ac569423c61" [
-      label = "子",
-    ];
-    "ea878fe47dd411139c90e624b27ac122" -> "8e3db582a07ffd5a6cad0f81f7c92c73" [
-      label = "子",
-    ];
-    "21e8018bbd35475ca6945ac569423c61" -> "d643bdb361bc8bc3d14809b705df094a" [
-      label = "子",
-    ];
-    "21e8018bbd35475ca6945ac569423c61" -> "b0659410dcadbf6ce32eff53e856c372" [
-      label = "子",
-    ];
-    "8e3db582a07ffd5a6cad0f81f7c92c73" -> "53964042fe37f2c31ef101be3124bda9" [
-      label = "子",
-    ];
-    "d643bdb361bc8bc3d14809b705df094a" -> "6ab4790020595dc3e344efea67288f28" [
-      label = "子",
-    ];
-    "b0659410dcadbf6ce32eff53e856c372" -> "ae68bbfbb5eda79173c55d43b0f613dc" [
-      label = "子",
-    ];
-    "b0659410dcadbf6ce32eff53e856c372" -> "ce1ef7c190b091f032f45ac72f0b4bf3" [
-      label = "子",
-    ];
-    "53964042fe37f2c31ef101be3124bda9" -> "5d1f28dd0719ef81c09206e204702e15" [
-      label = "子",
-    ];
-    "6ab4790020595dc3e344efea67288f28" -> "a9d3573358e5bd3545c91f868737d71a" [
-      label = "子",
-    ];
-    "ae68bbfbb5eda79173c55d43b0f613dc" -> "93bf65c85fcc5fe3629b15f8dfe49b84" [
-      label = "子",
-    ];
-    "5d1f28dd0719ef81c09206e204702e15" -> "65a92724526d0078851074693aa890eb" [
-      label = "子",
-    ];
-    "a9d3573358e5bd3545c91f868737d71a" -> "08fa5a75286bb626831fa901f151a777" [
-      label = "子",
-    ];
-    "93bf65c85fcc5fe3629b15f8dfe49b84" -> "2efb2bc60c4e62ff1b52bc2399e606db" [
-      label = "子",
-    ];
-    "93bf65c85fcc5fe3629b15f8dfe49b84" -> "a1adc82bce3cba49f960b2dd0e8be336" [
-      label = "女",
-    ];
-    "65a92724526d0078851074693aa890eb" -> "3f31dbdbe8558f7a5d64ec612d20b76a" [
-      label = "子",
-    ];
-    "08fa5a75286bb626831fa901f151a777" -> "ad0403e3beede9f56649e37e27a7f83d" [
-      label = "子",
-    ];
-    "2efb2bc60c4e62ff1b52bc2399e606db" -> "cf2c6217d9948a422fc759e2424a2354" [
-      label = "子",
-    ];
-    "a1adc82bce3cba49f960b2dd0e8be336" -> "3f46a3b906d1c5b13d272bfdbdaff4bd" [
-      label = "夫",
-    ];
-    "3f31dbdbe8558f7a5d64ec612d20b76a" -> "ef7be67f6836b35d67a8ac43bde02f36" [
-      label = "子",
-    ];
-    "ad0403e3beede9f56649e37e27a7f83d" -> "2877a2f9f328ca3755ac7b6f32f60704" [
-      label = "子",
-    ];
-    "cf2c6217d9948a422fc759e2424a2354" -> "7b191b60fdc6967e035fb3170cc60841" [
-      label = "子",
-    ];
-    "ef7be67f6836b35d67a8ac43bde02f36" -> "2e586a95da02058368dd9b7415c097bf" [
-      label = "子",
-    ];
-    "7b191b60fdc6967e035fb3170cc60841" -> "df02ca66bcccd6942337f5eee2a89cae" [
-      label = "子",
-    ];
-    "7b191b60fdc6967e035fb3170cc60841" -> "18ffcd220bffc2c01b2f861b92b7eeba" [
+    "2a09eb6907672291483c49bd6bb1af2a" -> "ef37b0f0cd2b2adf07c206db9126235b" [
       label = "妻",
     ];
-    "2e586a95da02058368dd9b7415c097bf" -> "de130579aab29e336d157ef499471651" [
+    "2a09eb6907672291483c49bd6bb1af2a" -> "c9ef2ba87d7a40839e33c1eeddf05a62" [
       label = "子",
     ];
-    "df02ca66bcccd6942337f5eee2a89cae" -> "0cc85dda67e04db135b6f40c16db384a" [
-      label = "子",
-    ];
-    "de130579aab29e336d157ef499471651" -> "b7dd8d5f9f3fd2519ad84b48d18f09e2" [
-      label = "子",
-    ];
-    "0cc85dda67e04db135b6f40c16db384a" -> "947beb68f43c9cf4ca8f84354773de91" [
-      label = "妻",
-    ];
-    "0cc85dda67e04db135b6f40c16db384a" -> "5eef7eb935d0291b7d21624df77b0f98" [
-      label = "子",
-    ];
-    "0cc85dda67e04db135b6f40c16db384a" -> "5ed8a2fcd17cb6e518ad8861b1100a65" [
-      label = "女",
-    ];
-    "b7dd8d5f9f3fd2519ad84b48d18f09e2" -> "bacb32d3dab5235d4d18829e230a5620" [
-      label = "子",
-    ];
-    "947beb68f43c9cf4ca8f84354773de91" -> "0cc85dda67e04db135b6f40c16db384a" [
+    "ef37b0f0cd2b2adf07c206db9126235b" -> "2a09eb6907672291483c49bd6bb1af2a" [
       label = "夫",
     ];
-    "947beb68f43c9cf4ca8f84354773de91" -> "fccd5c07cbd708eab0b30ff5cfb151fd" [
-      label = "姊妹",
+    "c9ef2ba87d7a40839e33c1eeddf05a62" -> "e522573ff19ccea39fb7ad29745dde62" [
+      label = "子",
     ];
-    "5eef7eb935d0291b7d21624df77b0f98" -> "2af7218a5cbd9b2cd563788159e93265" [
+    "e522573ff19ccea39fb7ad29745dde62" -> "4329473bd158fb3a00e1af4d2946485e" [
       label = "妻",
     ];
-    "5eef7eb935d0291b7d21624df77b0f98" -> "a8f2c3cb415f61a72d7bff21d081f698" [
+    "e522573ff19ccea39fb7ad29745dde62" -> "72e8eaf80969ca44b7abea6896f6cdb6" [
       label = "子",
     ];
-    "5ed8a2fcd17cb6e518ad8861b1100a65" -> "80b7f438fe09a776b682af082027eeee" [
+    "4329473bd158fb3a00e1af4d2946485e" -> "e522573ff19ccea39fb7ad29745dde62" [
       label = "夫",
-    ];
-    "bacb32d3dab5235d4d18829e230a5620" -> "df27f25d4f6a95278b6dc174f5d1fa99" [
-      label = "子",
-    ];
-    "fccd5c07cbd708eab0b30ff5cfb151fd" -> "c4a107aeb2471496799c2be04201e427" [
-      label = "夫",
-    ];
-    "fccd5c07cbd708eab0b30ff5cfb151fd" -> "947beb68f43c9cf4ca8f84354773de91" [
-      label = "姊妹",
-    ];
-    "2af7218a5cbd9b2cd563788159e93265" -> "5eef7eb935d0291b7d21624df77b0f98" [
-      label = "夫",
-    ];
-    "2af7218a5cbd9b2cd563788159e93265" -> "4a2088795077a4ab2aac76aae5cbb7bb" [
-      label = "父",
-    ];
-    "a8f2c3cb415f61a72d7bff21d081f698" -> "ffc86b443632d522fd36ec598e9d79de" [
-      label = "子",
-    ];
-    "80b7f438fe09a776b682af082027eeee" -> "6053a380c9ca67b55484cec3ecf2ea48" [
-      label = "子",
-    ];
-    "df27f25d4f6a95278b6dc174f5d1fa99" -> "8e0dcb9cc5fe350ace3749477be77400" [
-      label = "子",
-    ];
-    "c4a107aeb2471496799c2be04201e427" -> "fccd5c07cbd708eab0b30ff5cfb151fd" [
-      label = "妻",
-    ];
-    "4a2088795077a4ab2aac76aae5cbb7bb" -> "2af7218a5cbd9b2cd563788159e93265" [
-      label = "女",
-    ];
-    "4a2088795077a4ab2aac76aae5cbb7bb" -> "2208541dcf25c0052d91c8a6f8d60899" [
-      label = "父",
-    ];
-    "ffc86b443632d522fd36ec598e9d79de" -> "8cb4be4d1485385cc163924f93500f75" [
-      label = "子",
-    ];
-    "ffc86b443632d522fd36ec598e9d79de" -> "5b25547b11e6f0045d8785870fd42d95" [
-      label = "女",
-    ];
-    "ffc86b443632d522fd36ec598e9d79de" -> "5d16482235004f4ce4e8498a22fa7123" [
-      label = "子",
-    ];
-    "8e0dcb9cc5fe350ace3749477be77400" -> "67281df0cc2b5eb688472d7915735168" [
-      label = "妻",
-    ];
-    "2208541dcf25c0052d91c8a6f8d60899" -> "4a2088795077a4ab2aac76aae5cbb7bb" [
-      label = "子",
     ];
   }
   subgraph "top" {
     rank = "same";
-    "4fa5868ed865040d8fcd6b4b7b3132eb" [
+    "2a09eb6907672291483c49bd6bb1af2a" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/35051" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x5BE6;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/a597e-CeB" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6731;&#x5F5E;&#x54F2;</td></tr></table>>,
     ];
   }
 }

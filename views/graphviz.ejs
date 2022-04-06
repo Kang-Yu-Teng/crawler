@@ -6,6 +6,7 @@
 <script src="https://unpkg.com/d3-graphviz@4.0.0/build/d3-graphviz.js"></script>
 
 <div id="graph" style="width: 95vw; height: 95vh; margin:auto; border: 1px solid black"></div>
+
 <script>
 
 var dotSrc = <%-  JSON.stringify(dot || null) %>;
@@ -14,8 +15,15 @@ var dotSrcLines;
 var graphviz = d3.select("#graph");
 const width = graphviz.node().clientWidth;
 const height = graphviz.node().clientHeight;
+
+//var graphviz_c = d3.select("#graph_circle");
+//const width_c = graphviz_c.node().clientWidth;
+//const height_c = graphviz_c.node().clientHeight;
 //    <tr><td><img src="http://yuanqingfei.me/images/sparrow2.jpeg" width="50" height="60"/></td></tr>
 //graphviz.addImage("http://yuanqingfei.me/images/sparrow2.jpeg", 50, 60);
+
+
+
 
 function render() {
     dotSrcLines = dotSrc.split('\n');
@@ -24,7 +32,9 @@ function render() {
         graphviz.graphviz()
             .tweenPaths(false)
             .tweenShapes(false)
+            .convertEqualSidedPolygons(false)
             .engine("dot")
+            //.engine("circo")
             .width(width)
             .height(height)
             .zoomScaleExtent([0.01, 100])
@@ -115,6 +125,7 @@ function interactive() {
     document.body.appendChild(dl); // This line makes it work in Firefox.
     dl.setAttribute("href", dataURL);
     dl.setAttribute("download", "data.svg");
+    /* auto download */
     dl.click();
 
     //return;
@@ -137,5 +148,6 @@ function interactive() {
 }
 
 render(dotSrc);
+
 
 </script>

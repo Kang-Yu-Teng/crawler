@@ -50,8 +50,35 @@ async function defaultSolver(target,rule){
     var result = {};
     result['child'] = [];
     result['name'] = "unknown";
-    const current_url = new URL(target);
-    return result;
+    //const current_url = new URL(target);
+    try {
+        //target = encodeURI(target);
+        const response = await axios.get(target);
+        const html = response.data;
+        const $ = Cheerio.load(html);
+        const current_url = new URL(target);
+        var page = $.html();
+        if(page != null){
+          var content=Cheerio.load(page);
+          var links = content("a").each(
+              function(){
+                /* 如果沒有在黑名單才會加入 */
+                if(rule.nodeBanlist[$(this).attr("href")] == undefined){
+                    var full_url = new URL($(this).attr("href"),current_url.origin);
+                    var full_title = $(this).attr("title");
+                    result['child'].push(wrapUrl($(this),full_url,full_title));
+                }
+              }
+          );
+          result['name'] = current_url.pathname;
+        }
+        //console.log(result);
+        return result;
+    } catch (error) {
+        console.log(error);
+        return result;
+    }
+    //return result;
 }
 
 async function bookStackShelvesSolver(target,rule){
@@ -444,7 +471,7 @@ const  crawlerControllerCore = {
                 break;
             default:
                 console.log(`unknow solverType: ${solverType} ${target}`);
-                //result = await defaultSolver(target,rule);
+                result = await defaultSolver(target,rule);
                 break;
         }
         //console.log(result);

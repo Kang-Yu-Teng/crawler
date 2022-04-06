@@ -45,6 +45,9 @@ const bfsController = {
         var confirm_child_record = {};
         //var parent = {};
         while(missionQueue.length > 0) {
+            var wiki_limit = false;
+            /* bookstack解除限制 */
+            var bookstack_special_rule = true;
             /* 取出任務 */
             var mission = missionQueue.shift();
 
@@ -86,36 +89,54 @@ const bfsController = {
                 }
                 old_bfs_history[mission['url']]=current_node;
                 nodes.push(current_node);  /* 每個節點都必須完成資料更新 */
-                /* wiki 特殊規則 */
-                
-                if(mission['rule'].solverType != 'wikipedia_pattern' || crawlerRuleModel.get(mission['parent_url']) != 'wikipedia_pattern' ){
-                            
-                    let maxValue = 1;
-                    for(const [key, value] of Object.entries(child_limit_record)) {
-                        if(value > maxValue) {
-                            maxValue = value;
-                        }
-                    }
-                    child_limit_record[mission['url']] = maxValue;
 
-                }
-                /*
-                if(mission['rule'].solverType == 'wikipedia_pattern' && crawlerRuleModel.get(mission['parent_url']) != 'wikipedia_pattern' ){
+                /* wiki 特殊規則 */
+                if(wiki_limit){
+                    if(mission['rule'].solverType != 'wikipedia_pattern' || crawlerRuleModel.get(mission['parent_url']) != 'wikipedia_pattern' ){
                             
-                    let maxValue = 1;
-                    for(const [key, value] of Object.entries(child_limit_record)) {
-                        if(value > maxValue) {
-                            maxValue = value;
+                        let maxValue = 1;
+                        for(const [key, value] of Object.entries(child_limit_record)) {
+                            if(value > maxValue) {
+                                maxValue = value;
+                            }
                         }
-                    }
-                    if(mission['root_flag']==true){
                         child_limit_record[mission['url']] = maxValue;
-                    }else{
-                        child_limit_record[mission['url']] = maxValue/10;
+    
                     }
                     
+                    if(mission['rule'].solverType == 'wikipedia_pattern' && crawlerRuleModel.get(mission['parent_url']) != 'wikipedia_pattern' ){
+                            
+                        let maxValue = 1;
+                        /*
+                        for(const [key, value] of Object.entries(child_limit_record)) {
+                            if(value > maxValue) {
+                                maxValue = value;
+                            }
+                        }
+                        if(mission['root_flag']==true){
+                            child_limit_record[mission['url']] = maxValue;
+                        }else{
+                            child_limit_record[mission['url']] = maxValue/10;
+                        }
+                        */
+                        child_limit_record[mission['url']] = 1;
+                        mission['lifepoint'] = 0;
+                    }
                 }
-                */
+
+                if(bookstack_special_rule){
+                    let maxValue = 1;
+                    for(const [key, value] of Object.entries(width_limit)) {
+                        if(value > maxValue) {
+                            maxValue = value;
+                        }
+                    }
+                    if(mission['rule'].solverType == 'bookstack_page_pattern'){
+                        mission['lifepoint'] = mission['lifepoint'] + 1;
+                        child_limit_record[mission['url']] = maxValue;
+                    }
+                }
+                
                 if(mission['lifepoint'] < 0){
                     /* 壽命已盡 */
                     continue;
@@ -155,6 +176,13 @@ const bfsController = {
                             confirm_child_record[parent[href]]=0;
                         }
                         */
+
+                        /* 維基百科特殊規則 */
+                        if(wiki_limit){
+                            if(mission['rule'].solverType == 'wikipedia_pattern'){
+                                return;
+                            }
+                        }
 
 
                         if(old_bfs_history[href]==undefined){
