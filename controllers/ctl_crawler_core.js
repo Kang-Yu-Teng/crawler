@@ -435,6 +435,42 @@ async function normalSolver(target,rule){
     }    
 }
 
+async function bookStackLinkSolver(target,rule){
+    var result = {};
+    result['child'] = [];
+    result['name'] = "unknown";
+    try {
+        //target = encodeURI(target);
+        const response = await axios.get(target);
+        const html = response.data;
+        //console.log(html);
+        const $ = Cheerio.load(html);
+        const current_url = new URL(target);
+        var page = $("main[class='content-wrap card']").html();
+        if(page != null){
+          var content=Cheerio.load(page);
+          content("a[title]").each(
+              function(){
+                /* 如果沒有在黑名單才會加入 */
+                if(rule.nodeBanlist[$(this).attr("href")] == undefined){
+                    var full_url = new URL($(this).attr("href"),current_url.origin);
+                    var full_title = $(this).attr("title");
+                    result['child'].push(wrapUrl($(this),full_url,full_title));
+                }
+              }
+          );
+          result['name'] = content("h1[class='break-text']").text();
+        }else{
+            console.log("resolver null: ", target);
+        }
+        //console.log("resolver: ",$(this).attr("href"));
+        return result;
+    } catch (error) {
+        //console.log(error);
+        return result;
+    }
+}
+
 const  crawlerControllerCore = {
     /* 負責呼叫不同網頁的solver，統一回傳下一層節點的原始物件陣列 */
     run: async (target,rule) => {
@@ -468,6 +504,9 @@ const  crawlerControllerCore = {
                 console.log("normal string");
                 result = await normalSolver(target,rule);
                 /* todo */
+                break;
+            case 'bookstack_link_pattern':
+                result = await bookStackLinkSolver(target,rule);
                 break;
             default:
                 console.log(`unknow solverType: ${solverType} ${target}`);

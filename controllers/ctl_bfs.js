@@ -43,11 +43,9 @@ const bfsController = {
         var edges = [];
         var child_limit_record = {};
         var confirm_child_record = {};
-        //var parent = {};
+        var wiki_limit = false;
+        var bookstack_special_rule = true;
         while(missionQueue.length > 0) {
-            var wiki_limit = false;
-            /* bookstack解除限制 */
-            var bookstack_special_rule = true;
             /* 取出任務 */
             var mission = missionQueue.shift();
 
@@ -90,7 +88,7 @@ const bfsController = {
                 old_bfs_history[mission['url']]=current_node;
                 nodes.push(current_node);  /* 每個節點都必須完成資料更新 */
 
-                /* wiki 特殊規則 */
+                /* 特殊規則 */
                 if(wiki_limit){
                     if(mission['rule'].solverType != 'wikipedia_pattern' || crawlerRuleModel.get(mission['parent_url']) != 'wikipedia_pattern' ){
                             
@@ -132,7 +130,11 @@ const bfsController = {
                         }
                     }
                     if(
-                        (mission['rule'].solverType == 'bookstack_page_pattern')
+                        (
+                            mission['rule'].solverType == 'bookstack_page_pattern' 
+                            ||
+                            mission['rule'].solverType == 'bookstack_link_pattern'
+                        )
                      ){
                         mission['lifepoint'] = mission['lifepoint'] + 1;
                         child_limit_record[mission['url']] = maxValue;

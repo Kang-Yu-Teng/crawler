@@ -46,7 +46,7 @@ const crawlerController = {
       //console.log("mission: ",key,missionlist[key]);
       /* 運行BFS演算法 */
       var root_flag = true;
-      var init_lifepoint = 2;
+      var init_lifepoint = 0;
       var width_dict = {};
       var div_param = Object.keys(missionlist).length;
       for (let i = 0; i < init_lifepoint; i++) {

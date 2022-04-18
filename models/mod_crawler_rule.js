@@ -14,6 +14,7 @@ const chapter_pattern = ".*\/books\/.*\/chapter\/.*";
 const page_pattern = ".*\/books\/.*\/page\/.*";
 const wikipedia_pattern = "zh\.wikipedia\..*";
 const normal_pattern = "^((?![\.]).)*$";
+const link_pattern = ".*\/link\/.*#bkmrk-.*";
 patterns.push(shelves_pattern);
 patterns.push(shelf_pattern);
 patterns.push(book_pattern);
@@ -21,6 +22,7 @@ patterns.push(chapter_pattern);
 patterns.push(page_pattern);
 patterns.push(wikipedia_pattern);
 patterns.push(normal_pattern);
+patterns.push(link_pattern);
 
 var type_dict = {};
 type_dict[RegExp(shelves_pattern)]="bookstack_shelves_pattern";
@@ -30,6 +32,7 @@ type_dict[RegExp(chapter_pattern)]="bookstack_chapter_pattern";
 type_dict[RegExp(page_pattern)]="bookstack_page_pattern";
 type_dict[RegExp(wikipedia_pattern)]="wikipedia_pattern";
 type_dict[RegExp(normal_pattern)]="normal_pattern";
+type_dict[RegExp(link_pattern)]="bookstack_link_pattern";
 
 var pattern_dict = {};
 pattern_dict["bookstack_shelves_pattern"]=RegExp(shelves_pattern);
@@ -39,6 +42,7 @@ pattern_dict["bookstack_chapter_pattern"]=RegExp(chapter_pattern);
 pattern_dict["bookstack_page_pattern"]=RegExp(page_pattern);
 pattern_dict["wikipedia_pattern"]=RegExp(wikipedia_pattern);
 pattern_dict["normal_pattern"]=RegExp(normal_pattern);
+pattern_dict["bookstack_link_pattern"]=RegExp(link_pattern);
 
 /*
 url_test.forEach(
