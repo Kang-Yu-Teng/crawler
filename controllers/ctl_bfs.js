@@ -131,9 +131,20 @@ const bfsController = {
                             maxValue = value;
                         }
                     }
-                    if(mission['rule'].solverType == 'bookstack_page_pattern'){
+                    if(
+                        (mission['rule'].solverType == 'bookstack_page_pattern')
+                     ){
                         mission['lifepoint'] = mission['lifepoint'] + 1;
                         child_limit_record[mission['url']] = maxValue;
+                    }
+                    if(
+                        (mission['rule'].solverType == 'wikipedia_pattern')
+                        //||
+                        //(mission['rule'].solverType == 'normal_pattern')
+                     ){
+                        if(mission['lifepoint'] >= 0){
+                            mission['lifepoint'] = -1;
+                        }
                     }
                 }
                 
