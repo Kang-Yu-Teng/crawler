@@ -43,8 +43,7 @@ const bfsController = {
         var edges = [];
         var child_limit_record = {};
         var confirm_child_record = {};
-        var wiki_limit = false;
-        var bookstack_special_rule = true;
+        var special_rule = true;
         while(missionQueue.length > 0) {
             /* 取出任務 */
             var mission = missionQueue.shift();
@@ -56,7 +55,7 @@ const bfsController = {
             if(confirm_child_record[mission['url']]==undefined){
                 confirm_child_record[mission['url']]=0;
             }
-            console.log("p: ",mission['parent_url']);
+            console.log("parent_url: ",mission['parent_url']);
 
             if (old_bfs_history[mission['url']]!=undefined && mission['root_flag']==false){
                 /* 非root且出現過就跳過 */
@@ -71,8 +70,8 @@ const bfsController = {
             if(result != null){
                 /* 添加當前點資料 */              
                 var current_node = nodeModel.create(result["name"],mission['url']);
+                /* 是root且出現過就創不同hash的 */
                 if(old_bfs_history[mission['url']]!=undefined && mission['root_flag']==true){
-                    /* 是root且出現過就創不同hash的 */
                     console.log("********dup******** ", mission['url']);
                     current_node = nodeModel.create(result["name"],mission['url'],crypto.randomBytes(20).toString('hex'));
                     var old_relation = "[相同]";
@@ -87,43 +86,11 @@ const bfsController = {
                 }
                 old_bfs_history[mission['url']]=current_node;
                 nodes.push(current_node);  /* 每個節點都必須完成資料更新 */
+                //console.log(current_node);
 
                 /* 特殊規則 */
-                if(wiki_limit){
-                    if(mission['rule'].solverType != 'wikipedia_pattern' || crawlerRuleModel.get(mission['parent_url']) != 'wikipedia_pattern' ){
-                            
-                        let maxValue = 1;
-                        for(const [key, value] of Object.entries(child_limit_record)) {
-                            if(value > maxValue) {
-                                maxValue = value;
-                            }
-                        }
-                        child_limit_record[mission['url']] = maxValue;
-    
-                    }
-                    
-                    if(mission['rule'].solverType == 'wikipedia_pattern' && crawlerRuleModel.get(mission['parent_url']) != 'wikipedia_pattern' ){
-                            
-                        let maxValue = 1;
-                        /*
-                        for(const [key, value] of Object.entries(child_limit_record)) {
-                            if(value > maxValue) {
-                                maxValue = value;
-                            }
-                        }
-                        if(mission['root_flag']==true){
-                            child_limit_record[mission['url']] = maxValue;
-                        }else{
-                            child_limit_record[mission['url']] = maxValue/10;
-                        }
-                        */
-                        child_limit_record[mission['url']] = 1;
-                        mission['lifepoint'] = 0;
-                    }
-                }
-
-                if(bookstack_special_rule){
-                    let maxValue = 1;
+                if(special_rule){
+                    let maxValue = 0;
                     for(const [key, value] of Object.entries(width_limit)) {
                         if(value > maxValue) {
                             maxValue = value;
@@ -134,18 +101,22 @@ const bfsController = {
                             mission['rule'].solverType == 'bookstack_page_pattern' 
                             ||
                             mission['rule'].solverType == 'bookstack_link_pattern'
+                            //||
+                            //mission['rule'].solverType == 'cbdb_pattern'
                         )
                      ){
                         mission['lifepoint'] = mission['lifepoint'] + 1;
                         child_limit_record[mission['url']] = maxValue;
                     }
+
                     if(
                         (mission['rule'].solverType == 'wikipedia_pattern')
                         //||
                         //(mission['rule'].solverType == 'normal_pattern')
                      ){
                         if(mission['lifepoint'] >= 0){
-                            mission['lifepoint'] = -1;
+                            continue;
+                            //mission['lifepoint'] = -1;
                         }
                     }
                 }
@@ -183,53 +154,40 @@ const bfsController = {
                         }
                         /* 添加邊資料 */
                         var child_edge = edgeModel.create(current_node["obj"],child_node["obj"],relation,current_node["link"],child_node["link"]);
-                        /*
-                        parent[href] = mission['url']; 
-                        if(confirm_child_record[parent[href]]==undefined){
-                            confirm_child_record[parent[href]]=0;
-                        }
-                        */
-
-                        /* 維基百科特殊規則 */
-                        if(wiki_limit){
-                            if(mission['rule'].solverType == 'wikipedia_pattern'){
-                                return;
-                            }
-                        }
-
 
                         if(old_bfs_history[href]==undefined){
+                            //confirm_child_record[mission['url']] = confirm_child_record[mission['url']]+1;
                             if(confirm_child_record[mission['url']]!=undefined){
-                                confirm_child_record[mission['url']] = confirm_child_record[mission['url']]+1;
                                 if(confirm_child_record[mission['url']]>child_limit_record[mission['url']]){
                                     return;
                                 }
                             }
+                            /*
                             console.log("rate: ",confirm_child_record[mission['url']],"/",child_limit_record[mission['url']],"/",mission['url'],"/",new_mission['url']);
                             nodes.push(child_node);
                             edges.push(child_edge);
                             missionQueue.push(new_mission);
-                            //confirm_child_record[parent[href]] = confirm_child_record[parent[href]] + 1;
+                            */
                         }else{
-                            child_limit_record[mission['url']] = child_limit_record[mission['url']] + 1;
+                            //child_limit_record[mission['url']] = child_limit_record[mission['url']] + 1;
                             if(confirm_child_record[mission['url']]!=undefined){
-                                //confirm_child_record[mission['url']] = confirm_child_record[mission['url']]+1;
                                 if(confirm_child_record[mission['url']]>child_limit_record[mission['url']]){
                                     child_limit_record[mission['url']] = child_limit_record[mission['url']] - 1;
                                     return;
                                 }
                             }
+                            /*
                             console.log("rate: ",confirm_child_record[mission['url']],"/",child_limit_record[mission['url']],"/",mission['url']);
                             nodes.push(child_node);
                             edges.push(child_edge);
                             missionQueue.push(new_mission);
+                            */
                         }
-                        //child_limit_record[parent[href]] = width_limit[mission['lifepoint']];
-                        //console.log(confirm_child_record);
-                        /*
-                        if(confirm_child_record[parent[href]] < child_limit_record[parent[href]]){
-                        }
-                        */
+                        confirm_child_record[mission['url']] = confirm_child_record[mission['url']]+1;
+                        console.log("rate: ",confirm_child_record[mission['url']],"/",child_limit_record[mission['url']],"/",mission['url'],"/",new_mission['url']);
+                        nodes.push(child_node);
+                        edges.push(child_edge);
+                        missionQueue.push(new_mission);
                         
                     }
                 )

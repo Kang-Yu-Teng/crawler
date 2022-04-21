@@ -19,6 +19,9 @@ import fs from 'fs';
 import path from 'path';
 var __dirname = path.resolve();
 import htmlParser from 'html-parser';
+import ADODB from 'node-adodb';
+
+const connection = ADODB.open('Provider=Microsoft.Jet.OLEDB.4.0;Data Source=data/CBDB.mdb;');
 
 var xmlFile = fs.readFileSync(__dirname+'/data/20210914-DILA-PersonAuthority-DocuXml.xml', 'utf8');
 var xmlFileSmall = fs.readFileSync(__dirname+'/data/small.xml', 'utf8');
@@ -38,7 +41,7 @@ function wrapUrl(target,href,title){
 
 function wrapString(target,href,title){
     var result = {};
-    result['obj'] = target;
+    //result['obj'] = target;
     result['href'] = href;
     result['title'] = title;
     return result;
@@ -232,7 +235,6 @@ async function bookStackChapterSolver(target,rule){
     }
 }
 
-
 async function bookStackPageSolver(target,rule){
     var result = {};
     result['child'] = [];
@@ -369,9 +371,7 @@ async function normalSolver(target,rule){
             console.log("html: ",page);
             console.log("name: ",content("author").html());
             result['name'] = content("author").html();
-            /*
-            BUG: selector還是會選出一些奇怪的東西
-            */
+
             /* 年代 */
             content('*').find('time_dynasty').each(function (index, element) {
                 var item = $(element);
@@ -429,6 +429,42 @@ async function normalSolver(target,rule){
         );
         */
         return result;
+    } catch (error) {
+        console.log(error);
+        return result;
+    }    
+}
+
+async function cbdbSolver(target,rule){
+    var result = {};
+    result['child'] = [];
+    result['name'] = "unknown";
+    var target_array = target.split("cbdb:");
+    var cbdbid = null;
+    //console.log(target_array);
+    if(target_array.length == 2 && target_array[1] != ""){
+        cbdbid = Number(target_array[1]).toString();
+    }
+
+    try {
+        if(cbdbid!=null){
+            const cbdb_data = await connection.query(
+                `SELECT KIN_DATA.c_personid, BIOG_MAIN_1.c_name_chn, KIN_DATA.c_kin_code, KINSHIP_CODES.c_kinrel_chn, KIN_DATA.c_kin_id, BIOG_MAIN.c_name_chn
+                FROM (KINSHIP_CODES INNER JOIN (BIOG_MAIN INNER JOIN KIN_DATA ON BIOG_MAIN.c_personid = KIN_DATA.c_kin_id) ON KINSHIP_CODES.c_kin_code = KIN_DATA.c_kin_code) INNER JOIN BIOG_MAIN AS BIOG_MAIN_1 ON KIN_DATA.c_personid = BIOG_MAIN_1.c_personid
+                WHERE (((KIN_DATA.c_personid)=` + cbdbid +`));
+                `);
+            console.log(cbdb_data);
+            if(cbdb_data.length != 0){
+                //console.log(cbdb_data[0]['BIOG_MAIN_1.c_name_chn']);
+                result['name'] = cbdb_data[0]['BIOG_MAIN_1.c_name_chn'];
+                for(let i=0; i<cbdb_data.length; i++){
+                    var c=wrapString(null,"cbdb:"+cbdb_data[i]['c_kin_id'],cbdb_data[i]['c_kinrel_chn']);
+                    //console.log(c);
+                    result['child'].push(c);
+                }
+            }
+            return result;
+        }
     } catch (error) {
         console.log(error);
         return result;
@@ -501,19 +537,23 @@ const  crawlerControllerCore = {
                 result = await wikipediaSolver(target,rule);
                 break;
             case 'normal_pattern':
-                console.log("normal string");
+                //console.log("normal string");
                 result = await normalSolver(target,rule);
                 /* todo */
                 break;
             case 'bookstack_link_pattern':
                 result = await bookStackLinkSolver(target,rule);
                 break;
+            case 'cbdb_pattern':
+                //console.log("cbdb_pattern: " + target);
+                result = await cbdbSolver(target,rule);
+                break;
             default:
                 console.log(`unknow solverType: ${solverType} ${target}`);
                 result = await defaultSolver(target,rule);
                 break;
         }
-        //console.log(result);
+        //console.log(result['child'][0]['obj']);
         return result;
     }
 }

@@ -3,15 +3,178 @@ digraph "Missions" {
   overlap = false;
   splines = true;
   nodesep = 0.5;
+  subgraph "cluster_0" {
+    label = "任務:0";
+    "c7f08759e9779f2abb504e810d6d21f8" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:4" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x9053;</td></tr></table>>,
+    ];
+    "e74a24a472e4d1ca75d008148e46f748" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:3002" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x5143;&#x65B9;</td></tr></table>>,
+    ];
+    "93e5f6c96cea498e80f82630f16fb1fd" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:13312" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x9676;</td></tr></table>>,
+    ];
+    "25a1877ed7c54267e3a1bf9728cda89b" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:13313" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x6587;&#x5FBD;</td></tr></table>>,
+    ];
+    "3b01b473e7b38f046dca76f743f2f707" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:13314" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x62F1;&#x4E4B;</td></tr></table>>,
+    ];
+    "249d74accc5710380263c5f32020fcde" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:13315" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x6176;&#x4E4B;</td></tr></table>>,
+    ];
+    "ef6f07e15bfdf79c4d903255109aba81" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:13316" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x51B2;&#x4E4B;</td></tr></table>>,
+    ];
+    "5de81e722f455ca19a112ed5cb302445" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:13317" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x61C9;&#x8FB0;</td></tr></table>>,
+    ];
+    "3d371d85f7c34cce39780c57531cc820" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:16338" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x587E;</td></tr></table>>,
+    ];
+    "00fc5d706cbdfef7a2227a040cb712ef" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:119821" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x5FAA;&#x4E4B;</td></tr></table>>,
+    ];
+    "819b4bdf0136a1ed44b740c65d6e1572" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:13318" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x8A31;&#x570B;</td></tr></table>>,
+    ];
+    "1f984e33a8ecc015af902a194b70d720" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:10186" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5468;&#x8302;&#x5148;</td></tr></table>>,
+    ];
+    "fae8e0912f501e9d7c703cd72d7eddd4" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:5" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x7C65;</td></tr></table>>,
+    ];
+    "0c7e938dd114e1b3c537515999155151" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:480" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5468;&#x5609;&#x6B63;</td></tr></table>>,
+    ];
+    "6c527a914cf8689a38e7c35030bf84d4" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:16337" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5468;&#x6E19;</td></tr></table>>,
+    ];
+    "82778a82e4fb7c106f1d0c55d3a52bae" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:3241" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5468;&#x8FF0;</td></tr></table>>,
+    ];
+    "1b0f637a102f89fe91ddbde9b5e6175a" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:3250" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5468;&#x5F65;&#x5148;</td></tr></table>>,
+    ];
+    "c8b8dd9027bd2ce3df4adc94d246db87" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:8034" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5468;&#x9E9F;&#x4E4B;</td></tr></table>>,
+    ];
+    "ba75a57bb4dd12259d1876477cc38d83" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:3739" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x76DB;&#x4EAC;</td></tr></table>>,
+    ];
+    "87b3315b8d984304a9de4da08cfd437f" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:26625" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5468;Q</td></tr></table>>,
+    ];
+    "5f332bae40fbe8b49d6acc44ebd853c3" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:3743" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x76DB;&#x9075;&#x752B;</td></tr></table>>,
+    ];
+    "a31a599d8da1c1e5ce95a8ffda9e6d69" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:3819" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6E6F;&#x9824;&#x5E74;</td></tr></table>>,
+    ];
+    "059e47a5daac55536e02e0b1eb155ccb" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:14" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6641;&#x7AEF;&#x5F65;</td></tr></table>>,
+    ];
+    "160e0678fc85ecac2785ed9648b12ff3" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:1591" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6E6F;&#x6771;&#x91CE;</td></tr></table>>,
+    ];
+    "6c86d28bc1d035650d2d52403b5008cf" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:3822" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6E6F;&#x6DF5;</td></tr></table>>,
+    ];
+    "357e63e64356468ffac8c256b14efd04" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:13" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6641;&#x88DC;&#x4E4B;</td></tr></table>>,
+    ];
+    "49f35a233f4e2e85260cda991cad464f" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:3028" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6641;&#x8A60;&#x4E4B;</td></tr></table>>,
+    ];
+    "2017d117f9b69aa9d97e75dd5bb8b4bf" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:1588" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6E6F;&#x6C82;</td></tr></table>>,
+    ];
+    "ad5d959b45b70ae44b103bbb8d725757" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:999" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x674E;&#x7A19;</td></tr></table>>,
+    ];
+    "878a1987a48370cf2578682cdca47eb3" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:1724" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x675C;&#x7D14;</td></tr></table>>,
+    ];
+    "a6315f37f80c0041c2a290a1edcf1648" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:12" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6641;&#x516C;&#x9081;</td></tr></table>>,
+    ];
+    "f1cb30578d2245ac0fb23c2d50f0f289" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:3821" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6E6F;&#x6CF3;</td></tr></table>>,
+    ];
+    "7d1f3295a180b5541c9b5ad888179b34" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:3490" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x674E;&#x4E2D;&#x884C;</td></tr></table>>,
+    ];
+    "a6e00d663f6f7e284f772b2485790c90" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:3013" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6641;&#x4EF2;&#x53C3;</td></tr></table>>,
+    ];
+    "66de5ee7abf6d161b471ea9a2831790d" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:3027" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6641;&#x5B50;&#x8207;</td></tr></table>>,
+    ];
+    "08955008a7f4491b09e5b343b5577832" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:994" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x674E;&#x5065;</td></tr></table>>,
+    ];
+    "92ffeddb4e147e8d93d6e46ee38b8afb" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:561" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x8303;&#x7D14;&#x7CB9;</td></tr></table>>,
+    ];
+    "943019a9b4558c216a203accaba1d818" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:74" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x9673;&#x90A6;&#x5149;</td></tr></table>>,
+    ];
+    "2284a8bdfb9f701b83be22e60db0e089" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:559" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x8303;&#x7D14;&#x4EC1;</td></tr></table>>,
+    ];
+    "e36eec95cff4e3db7d13e03a36d0c3b0" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:560" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x8303;&#x7D14;&#x79AE;</td></tr></table>>,
+    ];
+    "c54bc0f37ba2b039d27ad1df5046944c" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:546" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x838A;&#x516C;&#x5CB3;</td></tr></table>>,
+    ];
+  }
   subgraph "cluster_1" {
     label = "任務:1";
-    "1ca7c2bb255a52be43239277cc893c70" [
+    "4fa5868ed865040d8fcd6b4b7b3132eb" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/432ac" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6839;</td></tr></table>>,
-    ];
-    "af76ebd719364187b7c895a663bcc95d" [
-      color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/link/2#bkmrk-page-title" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x5BE6;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/35051" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x5BE6;</td></tr></table>>,
     ];
     "ea878fe47dd411139c90e624b27ac122" [
       color = "red",
@@ -386,14 +549,317 @@ digraph "Missions" {
       label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/c20ad" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5433;&#x6C0F;</td></tr></table>>,
     ];
   }
-  subgraph {
-    "1ca7c2bb255a52be43239277cc893c70" -> "af76ebd719364187b7c895a663bcc95d" [
-      label = "根",
+  subgraph "cluster_2" {
+    label = "任務:2";
+    "fd1282e1058761da81f17cf95be05d9f" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:6" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67F4;&#x6210;&#x52D9;</td></tr></table>>,
     ];
-    "af76ebd719364187b7c895a663bcc95d" -> "ea878fe47dd411139c90e624b27ac122" [
+    "baca400ea5ec54cfbeb30088a50ed6d7" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:350" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x8D99;&#x9F4A;</td></tr></table>>,
+    ];
+    "44b80ce33f7bf1345017ffe7867c9571" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:3003" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67F4;&#x8CE1;</td></tr></table>>,
+    ];
+    "8200c2e51458c90ff7370d4f9386d565" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:7013" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5F35;&#x592A;&#x521D;</td></tr></table>>,
+    ];
+    "d658b1f5f34fc23ffab994973f0d69fe" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:13331" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67F4;&#x81EA;&#x7267;</td></tr></table>>,
+    ];
+    "2078236781ca3955877f04897d3e0497" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:22954" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67F4;&#x6709;&#x670B;</td></tr></table>>,
+    ];
+    "b60636f6450213db84d401859c6ec005" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:43275" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67F4;&#x8CBD;&#x7BC4;</td></tr></table>>,
+    ];
+    "e36eeb53fbe1a2ea41b80f4b4f19d5fe" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:13328" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67F4;A</td></tr></table>>,
+    ];
+    "874b3faf290727150e3533cce3b65daf" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:330" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x5F35;&#x96CD;</td></tr></table>>,
+    ];
+    "26c10a10b21f873cdc27fc9c7634714b" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:13330" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67F4;&#x80E4;</td></tr></table>>,
+    ];
+    "79395b05207ca5832dfe200deaa41c4b" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:7" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67F4;&#x5929;&#x56E0;</td></tr></table>>,
+    ];
+    "3d249a739783b9e7167c8da28db1586f" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:13327" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67F4;&#x6B66;</td></tr></table>>,
+    ];
+    "00024d3b6ef48fb1898c6d24a0c6edae" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:1607" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6ED5;&#x4E2D;&#x6B63;</td></tr></table>>,
+    ];
+    "bcebaebdbe7da945484c1f645476e1f5" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:13329" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67F4;&#x4E15;</td></tr></table>>,
+    ];
+    "79e31c5a6ce34e389f40f50ea2c340de" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:1612" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6ED5;&#x5143;&#x664F;</td></tr></table>>,
+    ];
+  }
+  subgraph {
+    "c7f08759e9779f2abb504e810d6d21f8" -> "e74a24a472e4d1ca75d008148e46f748" [
+      label = "父",
+    ];
+    "c7f08759e9779f2abb504e810d6d21f8" -> "93e5f6c96cea498e80f82630f16fb1fd" [
+      label = "從兄",
+    ];
+    "c7f08759e9779f2abb504e810d6d21f8" -> "25a1877ed7c54267e3a1bf9728cda89b" [
+      label = "祖父",
+    ];
+    "c7f08759e9779f2abb504e810d6d21f8" -> "3b01b473e7b38f046dca76f743f2f707" [
+      label = "從子;姪子",
+    ];
+    "c7f08759e9779f2abb504e810d6d21f8" -> "249d74accc5710380263c5f32020fcde" [
+      label = "從子;姪子",
+    ];
+    "c7f08759e9779f2abb504e810d6d21f8" -> "ef6f07e15bfdf79c4d903255109aba81" [
       label = "子",
     ];
-    "af76ebd719364187b7c895a663bcc95d" -> "6e4817d5f780f68442a23f2cb34a3f9c" [
+    "c7f08759e9779f2abb504e810d6d21f8" -> "5de81e722f455ca19a112ed5cb302445" [
+      label = "曾姪孫;從曾孫",
+    ];
+    "c7f08759e9779f2abb504e810d6d21f8" -> "3d371d85f7c34cce39780c57531cc820" [
+      label = "姪孫;從孫",
+    ];
+    "c7f08759e9779f2abb504e810d6d21f8" -> "00fc5d706cbdfef7a2227a040cb712ef" [
+      label = "子",
+    ];
+    "e74a24a472e4d1ca75d008148e46f748" -> "c7f08759e9779f2abb504e810d6d21f8" [
+      label = "子",
+    ];
+    "e74a24a472e4d1ca75d008148e46f748" -> "93e5f6c96cea498e80f82630f16fb1fd" [
+      label = "從子;姪子",
+    ];
+    "93e5f6c96cea498e80f82630f16fb1fd" -> "c7f08759e9779f2abb504e810d6d21f8" [
+      label = "從弟",
+    ];
+    "93e5f6c96cea498e80f82630f16fb1fd" -> "e74a24a472e4d1ca75d008148e46f748" [
+      label = "從父;伯叔父",
+    ];
+    "25a1877ed7c54267e3a1bf9728cda89b" -> "c7f08759e9779f2abb504e810d6d21f8" [
+      label = "孫",
+    ];
+    "25a1877ed7c54267e3a1bf9728cda89b" -> "e74a24a472e4d1ca75d008148e46f748" [
+      label = "子",
+    ];
+    "3b01b473e7b38f046dca76f743f2f707" -> "c7f08759e9779f2abb504e810d6d21f8" [
+      label = "從父;伯叔父",
+    ];
+    "3b01b473e7b38f046dca76f743f2f707" -> "93e5f6c96cea498e80f82630f16fb1fd" [
+      label = "父",
+    ];
+    "249d74accc5710380263c5f32020fcde" -> "c7f08759e9779f2abb504e810d6d21f8" [
+      label = "從父;伯叔父",
+    ];
+    "249d74accc5710380263c5f32020fcde" -> "93e5f6c96cea498e80f82630f16fb1fd" [
+      label = "父",
+    ];
+    "ef6f07e15bfdf79c4d903255109aba81" -> "c7f08759e9779f2abb504e810d6d21f8" [
+      label = "父",
+    ];
+    "5de81e722f455ca19a112ed5cb302445" -> "c7f08759e9779f2abb504e810d6d21f8" [
+      label = "曾伯叔祖;從曾祖",
+    ];
+    "5de81e722f455ca19a112ed5cb302445" -> "819b4bdf0136a1ed44b740c65d6e1572" [
+      label = "族子",
+    ];
+    "3d371d85f7c34cce39780c57531cc820" -> "c7f08759e9779f2abb504e810d6d21f8" [
+      label = "從祖;伯叔祖",
+    ];
+    "3d371d85f7c34cce39780c57531cc820" -> "1f984e33a8ecc015af902a194b70d720" [
+      label = "岳父",
+    ];
+    "00fc5d706cbdfef7a2227a040cb712ef" -> "c7f08759e9779f2abb504e810d6d21f8" [
+      label = "父",
+    ];
+    "819b4bdf0136a1ed44b740c65d6e1572" -> "fae8e0912f501e9d7c703cd72d7eddd4" [
+      label = "孫",
+    ];
+    "819b4bdf0136a1ed44b740c65d6e1572" -> "5de81e722f455ca19a112ed5cb302445" [
+      label = "族父",
+    ];
+    "1f984e33a8ecc015af902a194b70d720" -> "0c7e938dd114e1b3c537515999155151" [
+      label = "父",
+    ];
+    "1f984e33a8ecc015af902a194b70d720" -> "6c527a914cf8689a38e7c35030bf84d4" [
+      label = "獨子",
+    ];
+    "fae8e0912f501e9d7c703cd72d7eddd4" -> "819b4bdf0136a1ed44b740c65d6e1572" [
+      label = "祖父",
+    ];
+    "0c7e938dd114e1b3c537515999155151" -> "82778a82e4fb7c106f1d0c55d3a52bae" [
+      label = "父",
+    ];
+    "0c7e938dd114e1b3c537515999155151" -> "1b0f637a102f89fe91ddbde9b5e6175a" [
+      label = "次子",
+    ];
+    "6c527a914cf8689a38e7c35030bf84d4" -> "1f984e33a8ecc015af902a194b70d720" [
+      label = "父",
+    ];
+    "82778a82e4fb7c106f1d0c55d3a52bae" -> "0c7e938dd114e1b3c537515999155151" [
+      label = "次子",
+    ];
+    "82778a82e4fb7c106f1d0c55d3a52bae" -> "c8b8dd9027bd2ce3df4adc94d246db87" [
+      label = "直系後裔",
+    ];
+    "1b0f637a102f89fe91ddbde9b5e6175a" -> "0c7e938dd114e1b3c537515999155151" [
+      label = "父",
+    ];
+    "1b0f637a102f89fe91ddbde9b5e6175a" -> "ba75a57bb4dd12259d1876477cc38d83" [
+      label = "第一任妻父",
+    ];
+    "c8b8dd9027bd2ce3df4adc94d246db87" -> "82778a82e4fb7c106f1d0c55d3a52bae" [
+      label = "直系祖先",
+    ];
+    "c8b8dd9027bd2ce3df4adc94d246db87" -> "87b3315b8d984304a9de4da08cfd437f" [
+      label = "從父;伯叔父",
+    ];
+    "ba75a57bb4dd12259d1876477cc38d83" -> "1b0f637a102f89fe91ddbde9b5e6175a" [
+      label = "女婿",
+    ];
+    "ba75a57bb4dd12259d1876477cc38d83" -> "5f332bae40fbe8b49d6acc44ebd853c3" [
+      label = "子",
+    ];
+    "87b3315b8d984304a9de4da08cfd437f" -> "a31a599d8da1c1e5ce95a8ffda9e6d69" [
+      label = "女婿",
+    ];
+    "87b3315b8d984304a9de4da08cfd437f" -> "c8b8dd9027bd2ce3df4adc94d246db87" [
+      label = "從子;姪子",
+    ];
+    "5f332bae40fbe8b49d6acc44ebd853c3" -> "059e47a5daac55536e02e0b1eb155ccb" [
+      label = "孫女婿",
+    ];
+    "5f332bae40fbe8b49d6acc44ebd853c3" -> "ba75a57bb4dd12259d1876477cc38d83" [
+      label = "父",
+    ];
+    "a31a599d8da1c1e5ce95a8ffda9e6d69" -> "160e0678fc85ecac2785ed9648b12ff3" [
+      label = "從父;伯叔父",
+    ];
+    "a31a599d8da1c1e5ce95a8ffda9e6d69" -> "6c86d28bc1d035650d2d52403b5008cf" [
+      label = "子",
+    ];
+    "059e47a5daac55536e02e0b1eb155ccb" -> "357e63e64356468ffac8c256b14efd04" [
+      label = "從子;姪子",
+    ];
+    "059e47a5daac55536e02e0b1eb155ccb" -> "49f35a233f4e2e85260cda991cad464f" [
+      label = "子",
+    ];
+    "160e0678fc85ecac2785ed9648b12ff3" -> "2017d117f9b69aa9d97e75dd5bb8b4bf" [
+      label = "姪孫;從孫",
+    ];
+    "160e0678fc85ecac2785ed9648b12ff3" -> "a31a599d8da1c1e5ce95a8ffda9e6d69" [
+      label = "從子;姪子",
+    ];
+    "6c86d28bc1d035650d2d52403b5008cf" -> "2017d117f9b69aa9d97e75dd5bb8b4bf" [
+      label = "從兄弟;堂兄弟",
+    ];
+    "6c86d28bc1d035650d2d52403b5008cf" -> "160e0678fc85ecac2785ed9648b12ff3" [
+      label = "從祖;伯叔祖",
+    ];
+    "357e63e64356468ffac8c256b14efd04" -> "ad5d959b45b70ae44b103bbb8d725757" [
+      label = "女婿",
+    ];
+    "357e63e64356468ffac8c256b14efd04" -> "878a1987a48370cf2578682cdca47eb3" [
+      label = "岳父",
+    ];
+    "49f35a233f4e2e85260cda991cad464f" -> "a6315f37f80c0041c2a290a1edcf1648" [
+      label = "季子",
+    ];
+    "49f35a233f4e2e85260cda991cad464f" -> "357e63e64356468ffac8c256b14efd04" [
+      label = "兄",
+    ];
+    "2017d117f9b69aa9d97e75dd5bb8b4bf" -> "160e0678fc85ecac2785ed9648b12ff3" [
+      label = "從祖;伯叔祖",
+    ];
+    "2017d117f9b69aa9d97e75dd5bb8b4bf" -> "f1cb30578d2245ac0fb23c2d50f0f289" [
+      label = "從兄弟;堂兄弟",
+    ];
+    "ad5d959b45b70ae44b103bbb8d725757" -> "357e63e64356468ffac8c256b14efd04" [
+      label = "岳父",
+    ];
+    "ad5d959b45b70ae44b103bbb8d725757" -> "7d1f3295a180b5541c9b5ad888179b34" [
+      label = "從父;伯叔父",
+    ];
+    "878a1987a48370cf2578682cdca47eb3" -> "357e63e64356468ffac8c256b14efd04" [
+      label = "二女婿",
+    ];
+    "878a1987a48370cf2578682cdca47eb3" -> "a6e00d663f6f7e284f772b2485790c90" [
+      label = "岳父",
+    ];
+    "a6315f37f80c0041c2a290a1edcf1648" -> "66de5ee7abf6d161b471ea9a2831790d" [
+      label = "次子",
+    ];
+    "a6315f37f80c0041c2a290a1edcf1648" -> "49f35a233f4e2e85260cda991cad464f" [
+      label = "父",
+    ];
+    "f1cb30578d2245ac0fb23c2d50f0f289" -> "2017d117f9b69aa9d97e75dd5bb8b4bf" [
+      label = "從兄弟;堂兄弟",
+    ];
+    "f1cb30578d2245ac0fb23c2d50f0f289" -> "160e0678fc85ecac2785ed9648b12ff3" [
+      label = "祖父",
+    ];
+    "7d1f3295a180b5541c9b5ad888179b34" -> "08955008a7f4491b09e5b343b5577832" [
+      label = "從子;姪子",
+    ];
+    "7d1f3295a180b5541c9b5ad888179b34" -> "ad5d959b45b70ae44b103bbb8d725757" [
+      label = "從子;姪子",
+    ];
+    "a6e00d663f6f7e284f772b2485790c90" -> "92ffeddb4e147e8d93d6e46ee38b8afb" [
+      label = "女婿",
+    ];
+    "a6e00d663f6f7e284f772b2485790c90" -> "878a1987a48370cf2578682cdca47eb3" [
+      label = "女婿",
+    ];
+    "66de5ee7abf6d161b471ea9a2831790d" -> "a6315f37f80c0041c2a290a1edcf1648" [
+      label = "父",
+    ];
+    "66de5ee7abf6d161b471ea9a2831790d" -> "943019a9b4558c216a203accaba1d818" [
+      label = "岳父",
+    ];
+    "08955008a7f4491b09e5b343b5577832" -> "7d1f3295a180b5541c9b5ad888179b34" [
+      label = "從父;伯叔父",
+    ];
+    "92ffeddb4e147e8d93d6e46ee38b8afb" -> "2284a8bdfb9f701b83be22e60db0e089" [
+      label = "兄",
+    ];
+    "92ffeddb4e147e8d93d6e46ee38b8afb" -> "e36eec95cff4e3db7d13e03a36d0c3b0" [
+      label = "兄",
+    ];
+    "943019a9b4558c216a203accaba1d818" -> "66de5ee7abf6d161b471ea9a2831790d" [
+      label = "女婿",
+    ];
+    "2284a8bdfb9f701b83be22e60db0e089" -> "c54bc0f37ba2b039d27ad1df5046944c" [
+      label = "二女婿",
+    ];
+    "2284a8bdfb9f701b83be22e60db0e089" -> "e36eec95cff4e3db7d13e03a36d0c3b0" [
+      label = "弟",
+    ];
+    "e36eec95cff4e3db7d13e03a36d0c3b0" -> "2284a8bdfb9f701b83be22e60db0e089" [
+      label = "兄",
+    ];
+    "e36eec95cff4e3db7d13e03a36d0c3b0" -> "92ffeddb4e147e8d93d6e46ee38b8afb" [
+      label = "弟",
+    ];
+    "4fa5868ed865040d8fcd6b4b7b3132eb" -> "ea878fe47dd411139c90e624b27ac122" [
+      label = "子",
+    ];
+    "4fa5868ed865040d8fcd6b4b7b3132eb" -> "6e4817d5f780f68442a23f2cb34a3f9c" [
       label = "子",
     ];
     "ea878fe47dd411139c90e624b27ac122" -> "8e3db582a07ffd5a6cad0f81f7c92c73" [
@@ -708,12 +1174,107 @@ digraph "Missions" {
     "6bffe230326ee9415ff5d15609daa746" -> "95858ee51bfc7c1ebbc2c1c9c7e4ffc0" [
       label = "夫",
     ];
+    "fd1282e1058761da81f17cf95be05d9f" -> "baca400ea5ec54cfbeb30088a50ed6d7" [
+      label = "第一任妻父",
+    ];
+    "fd1282e1058761da81f17cf95be05d9f" -> "44b80ce33f7bf1345017ffe7867c9571" [
+      label = "高祖;四世祖",
+    ];
+    "fd1282e1058761da81f17cf95be05d9f" -> "8200c2e51458c90ff7370d4f9386d565" [
+      label = "女婿",
+    ];
+    "fd1282e1058761da81f17cf95be05d9f" -> "d658b1f5f34fc23ffab994973f0d69fe" [
+      label = "父",
+    ];
+    "fd1282e1058761da81f17cf95be05d9f" -> "2078236781ca3955877f04897d3e0497" [
+      label = "曾姪孫;從曾孫",
+    ];
+    "fd1282e1058761da81f17cf95be05d9f" -> "b60636f6450213db84d401859c6ec005" [
+      label = "子",
+    ];
+    "baca400ea5ec54cfbeb30088a50ed6d7" -> "fd1282e1058761da81f17cf95be05d9f" [
+      label = "女婿",
+    ];
+    "44b80ce33f7bf1345017ffe7867c9571" -> "fd1282e1058761da81f17cf95be05d9f" [
+      label = "玄孫;四世孫",
+    ];
+    "44b80ce33f7bf1345017ffe7867c9571" -> "e36eeb53fbe1a2ea41b80f4b4f19d5fe" [
+      label = "直系祖先",
+    ];
+    "8200c2e51458c90ff7370d4f9386d565" -> "fd1282e1058761da81f17cf95be05d9f" [
+      label = "岳父",
+    ];
+    "8200c2e51458c90ff7370d4f9386d565" -> "874b3faf290727150e3533cce3b65daf" [
+      label = "父",
+    ];
+    "d658b1f5f34fc23ffab994973f0d69fe" -> "fd1282e1058761da81f17cf95be05d9f" [
+      label = "子",
+    ];
+    "d658b1f5f34fc23ffab994973f0d69fe" -> "26c10a10b21f873cdc27fc9c7634714b" [
+      label = "父",
+    ];
+    "2078236781ca3955877f04897d3e0497" -> "fd1282e1058761da81f17cf95be05d9f" [
+      label = "曾伯叔祖;從曾祖",
+    ];
+    "2078236781ca3955877f04897d3e0497" -> "79395b05207ca5832dfe200deaa41c4b" [
+      label = "從子;姪子",
+    ];
+    "b60636f6450213db84d401859c6ec005" -> "fd1282e1058761da81f17cf95be05d9f" [
+      label = "父",
+    ];
+    "e36eeb53fbe1a2ea41b80f4b4f19d5fe" -> "44b80ce33f7bf1345017ffe7867c9571" [
+      label = "直系後裔",
+    ];
+    "e36eeb53fbe1a2ea41b80f4b4f19d5fe" -> "3d249a739783b9e7167c8da28db1586f" [
+      label = "直系祖先",
+    ];
+    "874b3faf290727150e3533cce3b65daf" -> "00024d3b6ef48fb1898c6d24a0c6edae" [
+      label = "岳父",
+    ];
+    "874b3faf290727150e3533cce3b65daf" -> "8200c2e51458c90ff7370d4f9386d565" [
+      label = "子",
+    ];
+    "26c10a10b21f873cdc27fc9c7634714b" -> "bcebaebdbe7da945484c1f645476e1f5" [
+      label = "父",
+    ];
+    "26c10a10b21f873cdc27fc9c7634714b" -> "d658b1f5f34fc23ffab994973f0d69fe" [
+      label = "子",
+    ];
+    "79395b05207ca5832dfe200deaa41c4b" -> "2078236781ca3955877f04897d3e0497" [
+      label = "從父;伯叔父",
+    ];
+    "3d249a739783b9e7167c8da28db1586f" -> "e36eeb53fbe1a2ea41b80f4b4f19d5fe" [
+      label = "直系後裔",
+    ];
+    "00024d3b6ef48fb1898c6d24a0c6edae" -> "874b3faf290727150e3533cce3b65daf" [
+      label = "女婿",
+    ];
+    "00024d3b6ef48fb1898c6d24a0c6edae" -> "79e31c5a6ce34e389f40f50ea2c340de" [
+      label = "子",
+    ];
+    "bcebaebdbe7da945484c1f645476e1f5" -> "44b80ce33f7bf1345017ffe7867c9571" [
+      label = "父",
+    ];
+    "bcebaebdbe7da945484c1f645476e1f5" -> "26c10a10b21f873cdc27fc9c7634714b" [
+      label = "子",
+    ];
+    "79e31c5a6ce34e389f40f50ea2c340de" -> "00024d3b6ef48fb1898c6d24a0c6edae" [
+      label = "父",
+    ];
   }
   subgraph "top" {
     rank = "same";
-    "1ca7c2bb255a52be43239277cc893c70" [
+    "c7f08759e9779f2abb504e810d6d21f8" [
       color = "red",
-      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/432ac" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x6839;</td></tr></table>>,
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:4" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x9053;</td></tr></table>>,
+    ];
+    "4fa5868ed865040d8fcd6b4b7b3132eb" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="https://digitalbookwikipedia.alwaysdata.net/books/f8c1f/page/35051" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67E5;&#x5BE6;</td></tr></table>>,
+    ];
+    "fd1282e1058761da81f17cf95be05d9f" [
+      color = "red",
+      label = <<table border="0" cellspacing="10" cellpadding="10" style="rounded"><tr><td href="cbdb:6" border="0" cellspacing="10" cellpadding="10" style="rounded">&#x67F4;&#x6210;&#x52D9;</td></tr></table>>,
     ];
   }
 }
