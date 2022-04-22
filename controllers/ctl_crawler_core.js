@@ -345,96 +345,33 @@ async function wikipediaSolver(target,rule){
 }
 
 async function normalSolver(target,rule){
+    /* 這是用來呼叫一般字串搜尋用的 TODO */
     var result = {};
     result['child'] = [];
     result['name'] = "unknown";
-    var $=xml;
-    var page=null
-    /*
-    要處理同名，不同人的問題
-    */
-    const PersonRefId_pattern = "^dila_.*";
-    try{
-        if(RegExp(PersonRefId_pattern).test(target)==true){
-            console.log("dila_id: ",target);
-            page = $('document[filename='+target+']').html();
-        }else{
-            page = $('PersonName:contains("'+target+'")').filter(function(){    
-                return $(this).text() === target;}
-                ).parent().parent().parent().html();
-        }
-    }catch(error){}
-
 
     try {
-
-        if(page != null){
-            var content=Cheerio.load(page);
-            console.log("html: ",page);
-            console.log("name: ",content("author").html());
-            result['name'] = content("author").html();
-
-            /* 年代 */
-            content('*').find('time_dynasty').each(function (index, element) {
-                var item = $(element);
-                console.log("年代： ",decodeURI(item.html()));
-                if(rule.nodeBanlist[item.text()] == undefined && item.html()!=null){
-                    result['child'].push(wrapString(item,item.text(),"年代"));
-                } 
-              });    
-
-            /* 籍貫 */
-            content('doc_content > Paragraph[Key="BasicInfo"]').find('Udef_JiGuan').each(function (index, element) {
-                var item = $(element);
-                console.log("籍貫： ",item.html());
-                if(rule.nodeBanlist[item.text()] == undefined && item.html()!=null){
-                    result['child'].push(wrapString(item,item.text(),"籍貫"));
-                } 
-              });        
-
-            /* 老師 */
-            content('doc_content > Paragraph[Key="BasicInfo"]').find('Udef_Association[RelCode*="teacher"]').each(function (index, element) {
-                var item = $(element);
-                console.log("老師： ",item.attr("personrefid"),"/",item.html());
-                if(rule.nodeBanlist[item.text()] == undefined && item.html()!=null){
-                    result['child'].push(wrapString(item,item.attr("personrefid"),"老師"));
-                } 
-              });
-
-            /* 學生 */
-            content('doc_content > Paragraph[Key="BasicInfo"]').find('Udef_Association[RelCode*="student"]').each(function (index, element) {
-                var item = $(element);
-                console.log("學生： ",item.attr("personrefid"),"/",item.html());
-                if(rule.nodeBanlist[item.text()] == undefined && item.html()!=null){
-                    result['child'].push(wrapString(item,item.attr("personrefid"),"學生"));
-                } 
-                });
-
-        }else{
-            console.log("自動搜尋: ", target);
-            //console.log("https://zh.wikipedia.org/wiki/"+target);
-            var et = encodeURI("https://zh.wikipedia.org/wiki/"+target);
-
-            //console.log(et);
-            return await wikipediaSolver(et,rule);
+        result['name'] = target;
+        const cbdb_ids = await connection.query(
+            `SELECT BIOG_MAIN.c_personid, BIOG_MAIN.c_name_chn
+            FROM BIOG_MAIN
+            WHERE BIOG_MAIN.c_name_chn="`+target+`"
+            ;
+            `);
+        //console.log(cbdb_ids);
+        for(let i=0; i < cbdb_ids.length; i++){
+            //let r = await cbdbSolver("cbdb:"+cbdb_ids[i]["c_personid"],rule);
+            let c = wrapString(null,"cbdb:"+cbdb_ids[i]["c_personid"],"cbdb:"+cbdb_ids[i]["c_personid"]);
+            result['child'].push(c);
         }
-        /*
-        page = $("time_dynasty").each(
-            function(index){
-                console.log($(this).html());
-                if(rule.nodeBanlist[$(this).text()] == undefined){
-                    var full_url = $(this).text();
-                    var full_title = "年代";
-                    result['child'].push(wrapUrl($(this),full_url,full_title));
-                }               
-            }
-        );
-        */
+
+
         return result;
     } catch (error) {
         console.log(error);
         return result;
-    }    
+    }
+    //return result;
 }
 
 async function cbdbSolver(target,rule){
@@ -455,7 +392,7 @@ async function cbdbSolver(target,rule){
                 FROM (KINSHIP_CODES INNER JOIN (BIOG_MAIN INNER JOIN KIN_DATA ON BIOG_MAIN.c_personid = KIN_DATA.c_kin_id) ON KINSHIP_CODES.c_kin_code = KIN_DATA.c_kin_code) INNER JOIN BIOG_MAIN AS BIOG_MAIN_1 ON KIN_DATA.c_personid = BIOG_MAIN_1.c_personid
                 WHERE (((KIN_DATA.c_personid)=` + cbdbid +`));
                 `);
-            console.log(cbdb_data);
+            //console.log(cbdb_data);
             if(cbdb_data.length != 0){
                 //console.log(cbdb_data[0]['BIOG_MAIN_1.c_name_chn']);
                 result['name'] = cbdb_data[0]['BIOG_MAIN_1.c_name_chn'];
@@ -618,7 +555,6 @@ const  crawlerControllerCore = {
                 result = await bookStackShelfSolver(target,rule);
                 break;
             case 'bookstack_book_pattern':
-                //result = await defaultSolver(target,rule);
                 result = await bookStackBookSolver(target,rule);
                 break;
             case 'bookstack_chapter_pattern':
@@ -628,19 +564,15 @@ const  crawlerControllerCore = {
                 result = await bookStackPageSolver(target,rule);
                 break;
             case 'wikipedia_pattern':
-                //console.log("wiki");
                 result = await wikipediaSolver(target,rule);
                 break;
             case 'normal_pattern':
-                //console.log("normal string");
                 result = await normalSolver(target,rule);
-                /* todo */
                 break;
             case 'bookstack_link_pattern':
                 result = await bookStackLinkSolver(target,rule);
                 break;
             case 'cbdb_pattern':
-                //console.log("cbdb_pattern: " + target);
                 result = await cbdbSolver(target,rule);
                 break;
             case 'dila_pattern':
@@ -651,7 +583,6 @@ const  crawlerControllerCore = {
                 result = await defaultSolver(target,rule);
                 break;
         }
-        //console.log(result['child'][0]['obj']);
         return result;
     }
 }
