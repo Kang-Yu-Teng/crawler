@@ -386,6 +386,13 @@ async function cbdbSolver(target,rule){
     }
 
     try {
+        const cbdb_name = await connection.query(`SELECT BIOG_MAIN.c_name_chn, BIOG_MAIN.c_personid
+        FROM BIOG_MAIN
+        WHERE BIOG_MAIN.c_personid=`+ cbdbid +`
+        ;
+        `);
+        console.log(cbdb_name); 
+        result['name'] = cbdb_name[0]['c_name_chn'];
         if(cbdbid!=null){
             const cbdb_data = await connection.query(
                 `SELECT KIN_DATA.c_personid, BIOG_MAIN_1.c_name_chn, KIN_DATA.c_kin_code, KINSHIP_CODES.c_kinrel_chn, KIN_DATA.c_kin_id, BIOG_MAIN.c_name_chn
@@ -395,7 +402,7 @@ async function cbdbSolver(target,rule){
             //console.log(cbdb_data);
             if(cbdb_data.length != 0){
                 //console.log(cbdb_data[0]['BIOG_MAIN_1.c_name_chn']);
-                result['name'] = cbdb_data[0]['BIOG_MAIN_1.c_name_chn'];
+                //result['name'] = cbdb_data[0]['BIOG_MAIN_1.c_name_chn'];
                 for(let i=0; i<cbdb_data.length; i++){
                     var c=wrapString(null,"cbdb:"+cbdb_data[i]['c_kin_id'],cbdb_data[i]['c_kinrel_chn']);
                     //console.log(c);
@@ -477,6 +484,7 @@ async function dilaSolver(target,rule){
             result['name'] = content("author").html();
 
             /* 年代 */
+            /*
             content('*').find('time_dynasty').each(function (index, element) {
                 var item = $(element);
                 console.log("年代： ",decodeURI(item.html()));
@@ -484,8 +492,10 @@ async function dilaSolver(target,rule){
                     result['child'].push(wrapString(item,"dila:"+item.text(),"年代"));
                 } 
               });    
+            */
 
             /* 籍貫 */
+            /*
             content('doc_content > Paragraph[Key="BasicInfo"]').find('Udef_JiGuan').each(function (index, element) {
                 var item = $(element);
                 console.log("籍貫： ",item.html());
@@ -493,7 +503,7 @@ async function dilaSolver(target,rule){
                     result['child'].push(wrapString(item,"dila:"+item.text(),"籍貫"));
                 } 
               });        
-
+              */
             /* 老師 */
             content('doc_content > Paragraph[Key="BasicInfo"]').find('Udef_Association[RelCode*="teacher"]').each(function (index, element) {
                 var item = $(element);
