@@ -55,7 +55,6 @@ const crawlerController = {
       width_dict[init_lifepoint] = 20;
       width_dict[init_lifepoint-1] = 20;
       width_dict[init_lifepoint-2] = 20;
-      width_dict[init_lifepoint-2] = 20;
 
 
       bfsController.enqueue(missionlist[key],init_lifepoint,root_flag,"");

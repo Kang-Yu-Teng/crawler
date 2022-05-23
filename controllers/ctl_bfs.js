@@ -48,6 +48,20 @@ const bfsController = {
             /* 取出任務 */
             var mission = missionQueue.shift();
 
+            /* 部分轉址 */
+            try{
+            var tmp_url = new URL(mission['url']);
+            var tmp_solverType = mission['rule'].solverType;
+            if(tmp_url.hostname === "authority.dila.edu.tw" && tmp_solverType!=='online_dila_pattern'){
+                var dila_id = tmp_url.searchParams.get("fromInner");
+                //console.log(new_target.searchParams.getAll("fromInner").length);
+                if(tmp_url.searchParams.getAll("fromInner").length == 1){
+                    mission['url'] = new URL("https://authority.dila.edu.tw/person/search.php?aid="+dila_id).toString();
+                    mission['rule'].solverType = 'online_dila_pattern';
+                    console.log(solverType,": ",target);
+                }
+            }
+            }catch(error){}
             /* 限制初始化 */
             if(child_limit_record[mission['url']]==undefined){
                 child_limit_record[mission['url']]=width_limit[mission['lifepoint']];
@@ -62,7 +76,7 @@ const bfsController = {
                 console.log("********skip******** ", mission['url']);
                 continue;
             }
-
+            
             /* 運行任務 */
             var result = await crawlerControllerCore.run(mission['url'],mission['rule'])
             var newNodeBanlist = Object.assign({},mission['rule'].nodeBanlist);
@@ -101,8 +115,8 @@ const bfsController = {
                             mission['rule'].solverType == 'bookstack_page_pattern' 
                             ||
                             mission['rule'].solverType == 'bookstack_link_pattern'
-                            //||
-                            //mission['rule'].solverType == 'cbdb_pattern'
+                            ||
+                            mission['rule'].solverType == 'cbdb_pattern'
                         )
                      ){
                         mission['lifepoint'] = mission['lifepoint'] + 1;

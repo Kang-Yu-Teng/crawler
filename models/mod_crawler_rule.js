@@ -17,6 +17,7 @@ const normal_pattern = "^((?![\.]).)*$";
 const link_pattern = ".*\/link\/.*#bkmrk-.*";
 const cbdb_pattern = "^cbdb:.*";
 const dila_pattern = "^dila:.*";
+const online_dila_pattern = ".*authority\.dila\.edu\.tw\/person\/search\.php\?.*";
 
 patterns.push(normal_pattern);
 patterns.push(shelves_pattern);
@@ -28,6 +29,8 @@ patterns.push(wikipedia_pattern);
 patterns.push(link_pattern);
 patterns.push(cbdb_pattern);
 patterns.push(dila_pattern);
+patterns.push(online_dila_pattern);
+
 
 var type_dict = {};
 type_dict[RegExp(shelves_pattern)]="bookstack_shelves_pattern";
@@ -40,6 +43,7 @@ type_dict[RegExp(normal_pattern)]="normal_pattern";
 type_dict[RegExp(link_pattern)]="bookstack_link_pattern";
 type_dict[RegExp(cbdb_pattern)]="cbdb_pattern";
 type_dict[RegExp(dila_pattern)]="dila_pattern";
+type_dict[RegExp(online_dila_pattern)]="online_dila_pattern";
 
 var pattern_dict = {};
 pattern_dict["bookstack_shelves_pattern"]=RegExp(shelves_pattern);
@@ -52,6 +56,7 @@ pattern_dict["normal_pattern"]=RegExp(normal_pattern);
 pattern_dict["bookstack_link_pattern"]=RegExp(link_pattern);
 pattern_dict["cbdb_pattern"] = RegExp(cbdb_pattern);
 pattern_dict["dila_pattern"] = RegExp(dila_pattern);
+pattern_dict["online_dila_pattern"] = RegExp(online_dila_pattern);
 /*
 url_test.forEach(
     function(target){

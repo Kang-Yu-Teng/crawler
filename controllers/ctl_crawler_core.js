@@ -352,6 +352,7 @@ async function normalSolver(target,rule){
 
     try {
         result['name'] = target;
+
         const cbdb_ids = await connection.query(
             `SELECT BIOG_MAIN.c_personid, BIOG_MAIN.c_name_chn
             FROM BIOG_MAIN
@@ -362,6 +363,27 @@ async function normalSolver(target,rule){
         for(let i=0; i < cbdb_ids.length; i++){
             //let r = await cbdbSolver("cbdb:"+cbdb_ids[i]["c_personid"],rule);
             let c = wrapString(null,"cbdb:"+cbdb_ids[i]["c_personid"],"cbdb:"+cbdb_ids[i]["c_personid"]);
+            result['child'].push(c);
+        }
+        
+        var $=xml;
+        var dila_dict = {};
+        $("document").each(
+            function(){
+                var cur_page = $(this).find('PersonName:contains("'+target+'")').filter(
+                    function(){    
+                        return $(this).text() === target;
+                    }
+                ).parent().parent().parent().html();
+                if(cur_page!=null){
+                    var cur_id = $(this).attr('filename');
+                    dila_dict[cur_id]=$(this);
+                }
+            }
+        );
+        for (const [key, value] of Object.entries(dila_dict)) {
+            console.log(key);
+            let c = wrapString(null,"dila:"+key,"dila:"+key);
             result['child'].push(c);
         }
 
@@ -465,9 +487,11 @@ async function dilaSolver(target,rule){
     const PersonRefId_pattern = "^dila_.*";
     try{
         if(RegExp(PersonRefId_pattern).test(target)==true){
+            //ID形式
             console.log("dila_id: ",target);
             page = $('document[filename='+target+']').html();
         }else{
+            //稱謂形式
             page = $('PersonName:contains("'+target+'")').filter(function(){    
                 return $(this).text() === target;}
                 ).parent().parent().parent().html();
@@ -528,7 +552,8 @@ async function dilaSolver(target,rule){
             var et = encodeURI("https://zh.wikipedia.org/wiki/"+target);
 
             //console.log(et);
-            return await wikipediaSolver(et,rule);
+            //return await wikipediaSolver(et,rule);
+            return null;
         }
         /*
         page = $("time_dynasty").each(
@@ -549,6 +574,65 @@ async function dilaSolver(target,rule){
     }    
 }
 
+async function onlineDilaSolver(target,rule){
+    var result = {};
+    result['child'] = [];
+    result['name'] = "unknown";
+
+    try {
+        const response = await axios.get(target);
+        const html = response.data;
+        const $ = Cheerio.load(html);
+        const current_url = new URL(target);
+        var name = $(`div[class="fpr_div"]`).find(`span`).first().text();
+        //console.log(name);
+        result['name'] = name;
+        /* 師生關係 */
+        var content = $(`div[class="fpr_div"]`).html().replace('[弟子]',`<div rel_type="student">[弟子]</div>`);
+        content = Cheerio.load(content);
+        content = content(`*`).html().replace('[老師]',`<div rel_type="teacher">[老師]</div>`);
+        content = Cheerio.load(content);
+        //console.log(content.html());
+        var page = content(`ol[id="relationArea"]`).each(
+            function(){
+                //var cur = Cheerio.load($(this).html());
+                if($(this).prev().attr("rel_type")==="teacher"){
+                    $(this).find(`a[href^="search"]`).each(
+                        function(){
+                            //console.log($(this).text());
+                            var link = new URL($(this).attr("href"),current_url.toString());
+                            //console.log(link);
+                            result['child'].push(wrapString(null,link.toString(),"老師"));
+                        }
+                    );
+                    //console.log($(this).find(`a`).text()," ");
+                }
+                if($(this).prev().attr("rel_type")==="student"){
+                    $(this).find(`a[href^="search"]`).each(
+                        function(){
+                            //console.log($(this).text());
+                            var link = new URL($(this).attr("href"),current_url.toString());
+                            //console.log(link);
+                            result['child'].push(wrapString(null,link.toString(),"學生"));
+                        }
+                    );
+                    //console.log($(this).find(`a`).text()," ");
+                }
+
+            }
+        );
+
+        //console.log(page);
+        return result;
+    } catch (error) {
+        console.log(error);
+        console.log(target);
+        const url = new URL(target);
+        result['name'] = decodeURI(url.pathname);
+        return result;
+    }    
+}
+
 const  crawlerControllerCore = {
     /* 負責呼叫不同網頁的solver，統一回傳下一層節點的原始物件陣列 */
     run: async (target,rule) => {
@@ -557,6 +641,21 @@ const  crawlerControllerCore = {
             solverType = rule.solverType;
         }
         var result = null;
+
+        /* dila轉址 */
+        /*
+        var new_target = new URL(target);
+        if(new_target.hostname === "authority.dila.edu.tw" && solverType!=='online_dila_pattern'){
+            var dila_id = new_target.searchParams.get("fromInner");
+            //console.log(new_target.searchParams.getAll("fromInner").length);
+            if(new_target.searchParams.getAll("fromInner").length == 1){
+                target = new URL("https://authority.dila.edu.tw/person/search.php?aid="+dila_id).toString();
+                solverType = 'online_dila_pattern';
+                console.log(solverType,": ",target);
+            }
+        }
+        */
+
         switch (solverType) {
             case 'bookstack_shelves_pattern':
                 result = await bookStackShelvesSolver(target,rule);
@@ -587,6 +686,10 @@ const  crawlerControllerCore = {
                 break;
             case 'dila_pattern':
                 result = await dilaSolver(target,rule);
+                break;
+            case 'online_dila_pattern':
+                //console.log("onlineDilaSolver");
+                result = await onlineDilaSolver(target,rule);
                 break;
             default:
                 console.log(`unknow solverType: ${solverType} ${target}`);
