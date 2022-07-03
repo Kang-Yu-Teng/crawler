@@ -112,20 +112,22 @@ const bfsController = {
                     }
                     //mission['lifepoint'] = mission['lifepoint'] + 1;
                     child_limit_record[mission['url']] = maxValue;
-                    /*
+                    
                     if(
                         (
                             mission['rule'].solverType == 'bookstack_page_pattern' 
                             ||
                             mission['rule'].solverType == 'bookstack_link_pattern'
+                            /*
                             ||
                             mission['rule'].solverType == 'cbdb_pattern'
+                            */
                         )
                      ){
                         mission['lifepoint'] = mission['lifepoint'] + 1;
                         child_limit_record[mission['url']] = maxValue;
                     }
-                    */
+                
                     if(
                         (mission['rule'].solverType == 'wikipedia_pattern')
                         //||

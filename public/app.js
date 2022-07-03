@@ -22,7 +22,11 @@ import Cheerio from 'cheerio';
 
 import Crawler from 'crawler';
 
+import fs from 'fs';
+
+
 import createError from 'http-errors';
+import { name } from 'ejs';
 //import { next } from 'cheerio/lib/api/traversing';
 //const {createError} = pkg;
 //var createError = import('http-errors');
@@ -311,9 +315,54 @@ app.use('/rule', function (req, res){
 
 //test demo
 app.use('/demo',function (req,res){
-    var demo_data = crawlerController.getDemo();
-    var demo_result = graphController.get(demo_data);
-    res.render('graphviz.ejs', { dot: demo_result }); 
+    var xmlFile_1 = fs.readFileSync(__dirname+'/data/DILA.xml', 'utf8');
+    const xml_dila_1 = Cheerio.load(xmlFile_1,{
+        xmlMode: true
+    });
+
+    var xmlFile_2 = fs.readFileSync(__dirname+'/data/Buddhist_Studies_Person_Authority.xml', 'utf8');
+    const xml_dila_2 = Cheerio.load(xmlFile_2,{
+        xmlMode: true
+    });
+    console.log("demo");
+
+    var record_1 = {};
+    var record_2 = {};
+    var $=xml_dila_1;
+    xml_dila_1(`document[filename]`).each(
+        function(){
+            var id = $(this).attr("filename");
+            var name = $(this).find(`PersonName`).first().text();
+            record_1[id] = name;
+            //console.log(id,"/",name);
+        }
+    );
+    $=xml_dila_2;
+    xml_dila_2(`person`).each(
+        function(){
+            var id = "dila_" + $(this).attr("xml:id");
+            var name = $(this).find(`persName`).first().text();
+            //console.log(id,"/",name);
+            record_2[id] = name;
+        }
+    );
+
+    for (const [key, value] of Object.entries(record_1)) {
+        //console.log(key, value);
+        var v1 = record_1[key];
+        var v2 = record_2[key];
+        if(v1 != undefined){
+            v1 = v1.trim();
+        }
+        if(v2 != undefined){
+            v2 = v2.trim();
+        }
+        if(v1 !== v2 && v1!=undefined && v2!=undefined){
+            console.log(key,v1,v2);
+        }
+    }
+
+    console.log("demo done");
 })
 
 //test missions
